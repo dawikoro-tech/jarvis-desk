@@ -689,6 +689,8 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
     { key: "dexscreener", label: "DexScreener", role: "główne" },
     { key: "pumpfun", label: "pump.fun", role: "główne" },
     { key: "pumpfun_dex", label: "PumpSwap", role: "główne" },
+    { key: "raydium", label: "Raydium", role: "główne" },
+    { key: "launchlab", label: "LaunchLab", role: "główne" },
     { key: "jupiter", label: "Jupiter", role: "dodatkowe" },
     { key: "geckoterminal", label: "GeckoTerminal", role: "w tle" },
   ];
@@ -1257,16 +1259,15 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
     const exec = data.executor || {};
     const src = data.scouted_by_source || null;
     const discovery = data.discovery || {};
-    const main = new Set(discovery.main || ["dexscreener", "pumpfun", "pumpfun_dex"]);
+    const main = new Set(discovery.main || ["dexscreener", "pumpfun", "pumpfun_dex", "raydium", "launchlab"]);
     const bg = new Set(discovery.background || ["geckoterminal"]);
 
     let srcHtml = "";
     if (src && typeof src === "object") {
       srcHtml = '<div class="sources">' + SOURCE_META.map((s) => {
-        if (!(s.key in src)) return "";
-        const v = src[s.key];
+        const v = (s.key in src) ? src[s.key] : "—";
         if (v == null) return "";
-        const role = bg.has(s.key) ? "w tle" : "";
+        const role = bg.has(s.key) ? "w tle" : (s.role === "główne" ? "główne" : (s.role === "dodatkowe" ? "dodatkowe" : ""));
         return '<div class="src"><span class="k">' + esc(s.label) +
           (role ? ' <span class="role">' + esc(role) + "</span>" : "") +
           "</span><span class=\"v\">" +
