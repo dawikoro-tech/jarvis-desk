@@ -993,7 +993,7 @@
                 <div><div class="k">Stop</div><div class="v">${px(p.stop_price)}</div></div>
                 <div><div class="k">Trailing</div><div class="v">${p.trailing_active ? (px(p.trailing_stop_price) !== "—" ? px(p.trailing_stop_price) : "aktywny") : "wyłączony"}</div></div>
                 <div><div class="k">Do stopa</div><div class="v">${distTxt}</div></div>
-                <div><div class="k">Wielkość</div><div class="v">$${money(p.notional ?? p.entry_notional_usd)}</div></div>
+                <div><div class="k">Wielkość</div><div class="v">$${money(p.notional ?? p.entry_notional_usd)}${p.partial_tp_taken ? " · reszta po TP" : ""}</div></div>
               </div>
               <div class="pos-foot">${liveTag}${liveWhen}</div>
               ${mintHtml}
@@ -1017,7 +1017,7 @@
               </div>
               <div class="kv">
                 <div><div class="k">Czas</div><div class="v">${esc(t.clock)}</div></div>
-                <div><div class="k">Powód</div><div class="v">${esc(t.reason || "—")}</div></div>
+                <div><div class="k">Powód</div><div class="v">${esc(t.reason_pl || t.reason || "—")}${t.partial ? " · 50%" : ""}</div></div>
                 <div><div class="k">Wejście</div><div class="v">${px(t.entry_price)}</div></div>
                 <div><div class="k">Wyjście</div><div class="v">${px(t.exit_price)}</div></div>
               </div>
