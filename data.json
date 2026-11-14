@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T15:30:43+01:00",
+ "generated": "2026-11-14T15:32:14+01:00",
  "mode": "live",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
- "equity_usd": 21.9463,
+ "equity_usd": 21.8124,
  "start_equity_usd": 22.3022,
  "sol": 0.295078384,
- "sol_price": 74.37448448,
- "free_usd": 21.946302691191484,
+ "sol_price": 73.92085348,
+ "free_usd": 21.81244598877918,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
  "trades": 0,
@@ -15,6 +15,76 @@
  "closed": [],
  "signals": [],
  "x_feed": [
+  {
+   "ts": "2026-11-14T15:30:55+01:00",
+   "post_id": "2121610949950165427",
+   "post_url": "https://x.com/CryptoMichNL/status/2121610949950165427",
+   "handle": "CryptoMichNL",
+   "followers": 822428,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@OrangeTaoDog @dfinity @dominic_w @const_reborn @markjeffrey I've been trying to get in touch with them, but no success so far!",
+   "created_at": "2026-11-14T14:27:22.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T15:30:55+01:00",
+   "post_id": "2121611236840206701",
+   "post_url": "https://x.com/cryptorover/status/2121611236840206701",
+   "handle": "cryptorover",
+   "followers": 1623831,
+   "verified_type": "business",
+   "listed": true,
+   "text": "BREAKING: Bitcoin falls below $66,000.\n\nConstant selling. https://t.co/SSwpIOCvhm",
+   "created_at": "2026-11-14T14:28:31.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T15:30:52+01:00",
+   "post_id": "2121611358827389268",
+   "post_url": "https://x.com/SenLummis/status/2121611358827389268",
+   "handle": "SenLummis",
+   "followers": 403295,
+   "verified_type": "government",
+   "listed": true,
+   "text": "Democrats asked us to close the loophole letting projects dress up stock-like interests as tokens. The Clarity Act covers anything economically or functionally equivalent to a security. \nDemocrats voted against closing their own loophole.",
+   "created_at": "2026-11-14T14:29:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T15:30:48+01:00",
+   "post_id": "2121611001535627382",
+   "post_url": "https://x.com/JupiterExchange/status/2121611001535627382",
+   "handle": "JupiterExchange",
+   "followers": 614521,
+   "verified_type": "business",
+   "listed": true,
+   "text": "Check out your mission control centre here \n\nhttps://t.co/aWTirRN5Xi",
+   "created_at": "2026-11-14T14:27:35.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T15:30:48+01:00",
+   "post_id": "2121611711278981147",
+   "post_url": "https://x.com/elonmusk/status/2121611711278981147",
+   "handle": "elonmusk",
+   "followers": 240920027,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Starship is currently completing 14 orbits of Earth, before initiating deorbit and attempting to land in Starbase https://t.co/VJiQBo8jAd",
+   "created_at": "2026-11-14T14:30:24.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
   {
    "ts": "2026-11-14T15:27:25+01:00",
    "post_id": "2121608361397686329",
@@ -504,76 +574,6 @@
    "mints": [],
    "claim": null,
    "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:10:35+01:00",
-   "post_id": "2121600007220469760",
-   "post_url": "https://x.com/solana/status/2121600007220469760",
-   "handle": "solana",
-   "followers": 4219504,
-   "verified_type": "business",
-   "listed": true,
-   "text": "@joinfrontier @jadoodoo @RichardPtardio @solana_sailor @idatsy @HYNSAEWOOO @galileowilson @mauritsneo @TThompson 🔥🔥🔥",
-   "created_at": "2026-11-14T13:43:53.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:10:35+01:00",
-   "post_id": "2121601329970000062",
-   "post_url": "https://x.com/blknoiz06/status/2121601329970000062",
-   "handle": "blknoiz06",
-   "followers": 1444821,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "https://t.co/Fjkodc21KR",
-   "created_at": "2026-11-14T13:49:09.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:10:35+01:00",
-   "post_id": "2121602746755289291",
-   "post_url": "https://x.com/blknoiz06/status/2121602746755289291",
-   "handle": "blknoiz06",
-   "followers": 1444821,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@degenpajeet i dont think ive ever been so wrong on a call more than that one lol",
-   "created_at": "2026-11-14T13:54:46.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:10:35+01:00",
-   "post_id": "2121602788253708721",
-   "post_url": "https://x.com/blknoiz06/status/2121602788253708721",
-   "handle": "blknoiz06",
-   "followers": 1444821,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@vividhl 20 is crazy",
-   "created_at": "2026-11-14T13:54:56.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:10:35+01:00",
-   "post_id": "2121606495708082548",
-   "post_url": "https://x.com/blknoiz06/status/2121606495708082548",
-   "handle": "blknoiz06",
-   "followers": 1444821,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@TitanicXBT tbf i was extremely bullish the market going into Q4, i genuinely thought all time highs by eoy, in that scenario its much easier for everything to do well on its own\n\nalways knew that id have to build things around it for it to be sustainable longterm &amp; still am,",
-   "created_at": "2026-11-14T14:09:40.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
   }
  ],
  "notes": [],
@@ -610,7 +610,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": "2026-11-14T15:28:41+01:00"
+    "last_poll": "2026-11-14T15:31:31+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -679,7 +679,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T15:28:43+01:00"
+    "last_poll": "2026-11-14T15:31:34+01:00"
    }
   ]
  },
@@ -688,8 +688,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 0,
-   "hb_ts": 1794666643.1364152,
+   "age_s": 1,
+   "hb_ts": 1794666733.1899405,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -698,18 +698,18 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: wszystkie 184 obserwowane konta w każdym przebiegu (bez rotacji) + wyszukiwanie otwarte",
-   "age_s": 195,
-   "hb_ts": 1794666448.0000973,
+   "age_s": 74,
+   "hb_ts": 1794666660.0000799,
    "ok": true,
-   "status": "przebiegów: 37",
+   "status": "przebiegów: 42",
    "restarts": 0
   },
   {
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 89,
-   "hb_ts": 1794666554.3008592,
+   "age_s": 2,
+   "hb_ts": 1794666732.2548552,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -736,8 +736,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 118,
-   "hb_ts": 1794666525.0004835,
+   "age_s": 39,
+   "hb_ts": 1794666695.0700955,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -746,8 +746,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 91,
-   "hb_ts": 1794666552.3522067,
+   "age_s": 1,
+   "hb_ts": 1794666733.3381262,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -756,8 +756,8 @@
    "key": "publisher",
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
-   "age_s": 140,
-   "hb_ts": 1794666503.316035,
+   "age_s": 90,
+   "hb_ts": 1794666644.3984737,
    "ok": true,
    "status": "published",
    "restarts": 3
@@ -1697,6 +1697,31 @@
  },
  "activity": [
   {
+   "ts": "2026-11-14T15:31:00+01:00",
+   "c": "xbridge",
+   "msg": "ingest open: 0 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T15:30:57+01:00",
+   "c": "xbridge",
+   "msg": "ingest A4: 0 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T15:30:55+01:00",
+   "c": "xbridge",
+   "msg": "ingest A3: 2 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T15:30:52+01:00",
+   "c": "xbridge",
+   "msg": "ingest A2: 1 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T15:30:48+01:00",
+   "c": "xbridge",
+   "msg": "ingest A1: 2 posts, 0 signals"
+  },
+  {
    "ts": "2026-11-14T15:28:21+01:00",
    "c": "watchdog",
    "msg": "started publisher",
@@ -1866,31 +1891,6 @@
    "c": "notify",
    "msg": "funded: Środki dotarły",
    "id": "477566e1d6a5"
-  },
-  {
-   "ts": "2026-11-14T14:41:01+01:00",
-   "c": "xbridge",
-   "msg": "ingest B5: 2 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T14:41:01+01:00",
-   "c": "xbridge",
-   "msg": "ingest B4: 5 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T14:41:01+01:00",
-   "c": "xbridge",
-   "msg": "ingest open: 0 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T14:41:01+01:00",
-   "c": "xbridge",
-   "msg": "ingest A3: 2 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T14:41:01+01:00",
-   "c": "xbridge",
-   "msg": "ingest A2: 0 posts, 0 signals"
   }
  ],
  "equity_history": [
@@ -1953,15 +1953,19 @@
   {
    "t": 1794666643,
    "e": 21.9463
+  },
+  {
+   "t": 1794666734,
+   "e": 21.8124
   }
  ],
  "sol_market": {
-  "price": 74.37448448,
+  "price": 73.92085348,
   "price_src": "Phantom",
-  "change_24h": -8.474081919820089,
+  "change_24h": -8.71655349814995,
   "change_src": "CoinGecko",
   "high_24h": 81.3263,
-  "low_24h": 74.3745,
+  "low_24h": 73.9209,
   "open_24h": 81.3263,
   "chart": [
    [
@@ -3105,24 +3109,32 @@
     74.9621
    ],
    [
-    1794665990,
-    75.1155
+    1794666000,
+    75.0981
    ],
    [
-    1794666099,
-    74.9946
+    1794666300,
+    74.5723
    ],
    [
-    1794666502,
-    74.4386
+    1794666600,
+    74.266
+   ],
+   [
+    1794666640,
+    74.3387
    ],
    [
     1794666643,
     74.3745
    ],
    [
-    1794666643,
-    74.3745
+    1794666734,
+    73.9209
+   ],
+   [
+    1794666734,
+    73.9209
    ]
   ],
   "chart_src": "CoinGecko + desk"
