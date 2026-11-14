@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-14T14:12:03+01:00",
+ "generated": "2026-11-14T14:13:34+01:00",
  "mode": "waiting_for_funds",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
  "equity_usd": 0.0,
  "start_equity_usd": null,
  "sol": 0.0,
- "sol_price": 75.4400013,
+ "sol_price": 75.45533536,
  "free_usd": 0.0,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
@@ -15,6 +15,258 @@
  "closed": [],
  "signals": [],
  "x_feed": [
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121587324714942747",
+   "post_url": "https://x.com/Dior100x/status/2121587324714942747",
+   "handle": "Dior100x",
+   "followers": 130044,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "This market for crypto and majors is literally hell",
+   "created_at": "2026-11-14T12:53:30.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121590185842598323",
+   "post_url": "https://x.com/orca_so/status/2121590185842598323",
+   "handle": "orca_so",
+   "followers": 192392,
+   "verified_type": "business",
+   "listed": true,
+   "text": "Catch the Formation team at @SolanaEvents Breakpoint this week. Talks, events and where to find them ↓ https://t.co/LOvhvlallr",
+   "created_at": "2026-11-14T13:04:52.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121588563850723827",
+   "post_url": "https://x.com/Polymarket/status/2121588563850723827",
+   "handle": "Polymarket",
+   "followers": 2061801,
+   "verified_type": "business",
+   "listed": true,
+   "text": "JUST IN: Bilt reveals it’s releasing an AI tool to power the $6,600,000,000,000.00 “neighborhood economy”",
+   "created_at": "2026-11-14T12:58:25.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121589017737375802",
+   "post_url": "https://x.com/DegenerateNews/status/2121589017737375802",
+   "handle": "DegenerateNews",
+   "followers": 424881,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "NEW: $KAVA IS DOWN 41% AFTER TOKENS WERE BRIDGED AND SOLD ON BSC, WITH @KAVA_CHAIN SAYING THE INCIDENT IS \"CONTAINED WITHIN KAVA LEND\" AND \"NOT AN INFINITE MINT\"\n\n@Official_Upbit, @BithumbOfficial AND @CoinoneOfficial HAVE HALTED DEPOSITS AND WITHDRAWALS https://t.co/zLGdrYR180",
+   "created_at": "2026-11-14T13:00:13.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121589141720748239",
+   "post_url": "https://x.com/Gate/status/2121589141720748239",
+   "handle": "Gate",
+   "followers": 1935041,
+   "verified_type": "business",
+   "listed": true,
+   "text": "October's crypto recovery ran out of steam as risk appetite faded and ETF outflows pressured the broader market.\n\nGate Research's latest monthly report breaks down the market pullback, the narrow pool of winning tokens, and the uneven distribution of trading activity.\nWhat held h",
+   "created_at": "2026-11-14T13:00:43.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121589556680315332",
+   "post_url": "https://x.com/MustStopMurad/status/2121589556680315332",
+   "handle": "MustStopMurad",
+   "followers": 726085,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Getting late 2022 early 2023 vibes in the Crypto right now.",
+   "created_at": "2026-11-14T13:02:22.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121590280856199220",
+   "post_url": "https://x.com/aixbt_agent/status/2121590280856199220",
+   "handle": "aixbt_agent",
+   "followers": 461255,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "btc leverage has now come down. after $1.31b of long liquidations on november 13, futures open interest fell 5.45% in 24 hours, coinglass data shows. after adjusting for btc's lower price, that is about 2.9% less exposure. a day earlier, new positions had replaced forced",
+   "created_at": "2026-11-14T13:05:14.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121590744049983807",
+   "post_url": "https://x.com/blknoiz06/status/2121590744049983807",
+   "handle": "blknoiz06",
+   "followers": 1444827,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "https://t.co/ChR40mugbE",
+   "created_at": "2026-11-14T13:07:05.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121590879911920114",
+   "post_url": "https://x.com/inversebrah/status/2121590879911920114",
+   "handle": "inversebrah",
+   "followers": 706304,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "dedication https://t.co/ej2ZFyYXEd",
+   "created_at": "2026-11-14T13:07:37.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121591073717829698",
+   "post_url": "https://x.com/Raydium/status/2121591073717829698",
+   "handle": "Raydium",
+   "followers": 463373,
+   "verified_type": "business",
+   "listed": true,
+   "text": "@superteam @SolanaEvents @solana welcome to the token supercycle",
+   "created_at": "2026-11-14T13:08:23.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121591118957592772",
+   "post_url": "https://x.com/Kalshi/status/2121591118957592772",
+   "handle": "Kalshi",
+   "followers": 513094,
+   "verified_type": "business",
+   "listed": true,
+   "text": "BREAKING: US officials confirm Trump won't raise Nvidia issue during China trip",
+   "created_at": "2026-11-14T13:08:34.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121591305772179833",
+   "post_url": "https://x.com/inversebrah/status/2121591305772179833",
+   "handle": "inversebrah",
+   "followers": 706304,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "todays snapshot\n\nBANGER LINEUP https://t.co/Q5Sr62ajxC https://t.co/LNDhp84ZmY",
+   "created_at": "2026-11-14T13:09:19.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121591328483995914",
+   "post_url": "https://x.com/Raydium/status/2121591328483995914",
+   "handle": "Raydium",
+   "followers": 463373,
+   "verified_type": "business",
+   "listed": true,
+   "text": "welcome to the Solana supercycle",
+   "created_at": "2026-11-14T13:09:24.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121591857771676073",
+   "post_url": "https://x.com/punk6529/status/2121591857771676073",
+   "handle": "punk6529",
+   "followers": 486894,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@x_snow @gratusmasculus There is one: validator status (add --watch 60 to keep it live, --verbose for everything, --json for bots). For the full page from another computer: validator open --print, then open the link through an SSH tunnel.",
+   "created_at": "2026-11-14T13:11:30.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121587703108055054",
+   "post_url": "https://x.com/MarioNawfal/status/2121587703108055054",
+   "handle": "MarioNawfal",
+   "followers": 3985006,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "🇺🇸🇮🇷 Trump is considering HOLDING OFF on further attacks against Iran, provided Tehran and the Houthis in Yemen avoid new provocations.\n\nSaudi Crown Prince MBS and Erdoğan have urged Trump not to restart the war, arguing that economic pressure on Iran is already working.\n\nBut htt",
+   "created_at": "2026-11-14T12:55:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121587830342254722",
+   "post_url": "https://x.com/cz_binance/status/2121587830342254722",
+   "handle": "cz_binance",
+   "followers": 12963205,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "👀 See you there. https://t.co/c4VCid0fQE",
+   "created_at": "2026-11-14T12:55:30.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121588970253422915",
+   "post_url": "https://x.com/MarioNawfal/status/2121588970253422915",
+   "handle": "MarioNawfal",
+   "followers": 3985006,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "This is \"India's Justin Bieber\"\n\nBeauty really is in the eye of the beholder\n\nWriter: Ian\n\n https://t.co/tkzbIc1CCo",
+   "created_at": "2026-11-14T13:00:02.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "post_id": "2121591477897756907",
+   "post_url": "https://x.com/MarioNawfal/status/2121591477897756907",
+   "handle": "MarioNawfal",
+   "followers": 3985006,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "🇺🇸 Traders are betting HEAVILY on another Federal Reserve interest rate hike in December.\n\nPrediction market Kalshi now shows an 89% chance of a 25-basis-point increase, with another 10% betting on an even larger hike.\n\nJust 3% expect the Fed to leave rates unchanged.\n\nThat puts ",
+   "created_at": "2026-11-14T13:10:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
   {
    "ts": "2026-11-14T13:55:06+01:00",
    "post_id": "2121582749861470627",
@@ -148,7 +400,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": "2026-11-14T14:11:31+01:00"
+    "last_poll": "2026-11-14T14:13:08+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -177,7 +429,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T14:11:34+01:00"
+    "last_poll": "2026-11-14T14:13:10+01:00"
    }
   ]
  },
@@ -186,8 +438,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 2,
-   "hb_ts": 1794661921.0248718,
+   "age_s": 3,
+   "hb_ts": 1794662011.0346057,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -196,18 +448,18 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min sprawdza posty 134 kont + wyszukiwanie otwarte",
-   "age_s": 625,
-   "hb_ts": 1794661298.0006192,
+   "age_s": 26,
+   "hb_ts": 1794661988.0005534,
    "ok": true,
-   "status": "przebiegów: 2",
+   "status": "przebiegów: 6",
    "restarts": 0
   },
   {
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 4,
-   "hb_ts": 1794661919.4469852,
+   "age_s": 2,
+   "hb_ts": 1794662012.4497156,
    "ok": true,
    "status": "ok",
    "restarts": 3
@@ -234,8 +486,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 28,
-   "hb_ts": 1794661895.141719,
+   "age_s": 23,
+   "hb_ts": 1794661991.644754,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -244,8 +496,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 1,
-   "hb_ts": 1794661921.9693878,
+   "age_s": 2,
+   "hb_ts": 1794662012.1646764,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -255,7 +507,7 @@
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
    "age_s": 90,
-   "hb_ts": 1794661833.0545952,
+   "hb_ts": 1794661924.2198162,
    "ok": true,
    "status": "published",
    "restarts": 3
@@ -946,6 +1198,26 @@
   ]
  },
  "activity": [
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "c": "xbridge",
+   "msg": "ingest open: 1 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "c": "xbridge",
+   "msg": "ingest listed_3: 2 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "c": "xbridge",
+   "msg": "ingest listed_2: 12 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:13:08+01:00",
+   "c": "xbridge",
+   "msg": "ingest listed_1: 4 posts, 0 signals"
+  },
   {
    "ts": "2026-11-14T14:09:01+01:00",
    "c": "trader",
