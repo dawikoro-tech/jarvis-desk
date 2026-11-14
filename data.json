@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-14T14:22:40+01:00",
+ "generated": "2026-11-14T14:24:11+01:00",
  "mode": "waiting_for_funds",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
  "equity_usd": 0.0,
  "start_equity_usd": null,
  "sol": 0.0,
- "sol_price": 75.33053651,
+ "sol_price": 75.26792815,
  "free_usd": 0.0,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
@@ -400,7 +400,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": "2026-11-14T14:21:59+01:00"
+    "last_poll": "2026-11-14T14:23:36+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -449,7 +449,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T14:22:01+01:00"
+    "last_poll": "2026-11-14T14:23:38+01:00"
    }
   ]
  },
@@ -458,8 +458,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 10,
-   "hb_ts": 1794662551.082803,
+   "age_s": 1,
+   "hb_ts": 1794662651.091143,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -468,8 +468,8 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min sprawdza posty 134 kont + wyszukiwanie otwarte",
-   "age_s": 573,
-   "hb_ts": 1794661988.0002918,
+   "age_s": 664,
+   "hb_ts": 1794661988.000335,
    "ok": true,
    "status": "przebiegów: 6",
    "restarts": 0
@@ -478,8 +478,8 @@
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 3,
-   "hb_ts": 1794662557.492052,
+   "age_s": 2,
+   "hb_ts": 1794662650.4755468,
    "ok": true,
    "status": "ok",
    "restarts": 3
@@ -506,8 +506,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 38,
-   "hb_ts": 1794662522.8759851,
+   "age_s": 33,
+   "hb_ts": 1794662619.3501472,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -516,8 +516,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 8,
-   "hb_ts": 1794662552.9895048,
+   "age_s": 9,
+   "hb_ts": 1794662643.1412537,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -527,7 +527,7 @@
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
    "age_s": 90,
-   "hb_ts": 1794662470.8783813,
+   "hb_ts": 1794662561.993103,
    "ok": true,
    "status": "published",
    "restarts": 3
