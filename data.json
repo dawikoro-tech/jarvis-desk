@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T14:42:09+01:00",
- "mode": "waiting_for_funds",
+ "generated": "2026-11-14T14:43:40+01:00",
+ "mode": "live",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
- "equity_usd": 0.0,
- "start_equity_usd": null,
- "sol": 0.0,
- "sol_price": 75.41197837,
- "free_usd": 0.0,
+ "equity_usd": 22258342844.6302,
+ "start_equity_usd": 22258342844.6302,
+ "sol": 295078384.0,
+ "sol_price": 75.43196673,
+ "free_usd": 22258342844.630165,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
  "trades": 0,
@@ -610,7 +610,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": "2026-11-14T14:41:53+01:00"
+    "last_poll": "2026-11-14T14:43:29+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -669,7 +669,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T14:41:55+01:00"
+    "last_poll": "2026-11-14T14:43:31+01:00"
    }
   ]
  },
@@ -678,8 +678,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 2,
-   "hb_ts": 1794663726.8436944,
+   "age_s": 3,
+   "hb_ts": 1794663816.8524504,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -688,8 +688,8 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: 140 kluczowych kont w każdym przebiegu, pozostałe 205 rotacyjnie (co ≤30 min) + wyszukiwanie otwarte",
-   "age_s": 68,
-   "hb_ts": 1794663661.0000558,
+   "age_s": 159,
+   "hb_ts": 1794663661.0000532,
    "ok": true,
    "status": "przebiegów: 26",
    "restarts": 0
@@ -698,8 +698,8 @@
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 2,
-   "hb_ts": 1794663727.5644512,
+   "age_s": 4,
+   "hb_ts": 1794663816.5888257,
    "ok": true,
    "status": "ok",
    "restarts": 4
@@ -726,8 +726,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 13,
-   "hb_ts": 1794663716.3501709,
+   "age_s": 8,
+   "hb_ts": 1794663812.7302794,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -736,8 +736,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 12,
-   "hb_ts": 1794663717.4430835,
+   "age_s": 13,
+   "hb_ts": 1794663807.5862582,
    "ok": true,
    "status": "ok",
    "restarts": 2
@@ -747,7 +747,7 @@
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
    "age_s": 90,
-   "hb_ts": 1794663639.1455817,
+   "hb_ts": 1794663730.234583,
    "ok": true,
    "status": "published",
    "restarts": 5
@@ -2493,6 +2493,12 @@
   ]
  },
  "activity": [
+  {
+   "ts": "2026-11-14T14:43:16+01:00",
+   "c": "notify",
+   "msg": "funded: Środki dotarły",
+   "id": "477566e1d6a5"
+  },
   {
    "ts": "2026-11-14T14:41:01+01:00",
    "c": "xbridge",
