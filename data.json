@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T16:12:43+01:00",
+ "generated": "2026-11-14T16:14:14+01:00",
  "mode": "live",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
- "equity_usd": 21.8408,
+ "equity_usd": 21.8463,
  "start_equity_usd": 22.3022,
  "sol": 0.295078384,
- "sol_price": 74.01686375,
- "free_usd": 21.840776544098183,
+ "sol_price": 74.03548109,
+ "free_usd": 21.846270118699763,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
  "trades": 0,
@@ -15,6 +15,258 @@
  "closed": [],
  "signals": [],
  "x_feed": [
+  {
+   "ts": "2026-11-14T16:13:39+01:00",
+   "post_id": "2121620078122946981",
+   "post_url": "https://x.com/Polymarket/status/2121620078122946981",
+   "handle": "Polymarket",
+   "followers": 2061988,
+   "verified_type": "business",
+   "listed": true,
+   "text": "3% chance the Cuban regime falls by end of year.\n\nhttps://t.co/xRgV47vC72",
+   "created_at": "2026-11-14T15:03:39.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:35+01:00",
+   "post_id": "2121620461331329436",
+   "post_url": "https://x.com/ShardiB2/status/2121620461331329436",
+   "handle": "ShardiB2",
+   "followers": 248634,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@StockPileT17 @cyberprince_rwo Bight at 1.80 sold at $10 \n\nGFY loser, that’s why your blocked\n\nMoms basement not treating you right?",
+   "created_at": "2026-11-14T15:05:10.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:35+01:00",
+   "post_id": "2121620551076876589",
+   "post_url": "https://x.com/ShardiB2/status/2121620551076876589",
+   "handle": "ShardiB2",
+   "followers": 248634,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@StockPileT17 @cyberprince_rwo Bought",
+   "created_at": "2026-11-14T15:05:31.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:35+01:00",
+   "post_id": "2121620719289397615",
+   "post_url": "https://x.com/CryptoBullet1/status/2121620719289397615",
+   "handle": "CryptoBullet1",
+   "followers": 182642,
+   "verified_type": "none",
+   "listed": true,
+   "text": "@Ogonek889 you are an idiot",
+   "created_at": "2026-11-14T15:06:11.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:35+01:00",
+   "post_id": "2121620937795649671",
+   "post_url": "https://x.com/CryptoBullet1/status/2121620937795649671",
+   "handle": "CryptoBullet1",
+   "followers": 182642,
+   "verified_type": "none",
+   "listed": true,
+   "text": "@WIFforLife yeah, a pre-election pump",
+   "created_at": "2026-11-14T15:07:04.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:35+01:00",
+   "post_id": "2121621600655266196",
+   "post_url": "https://x.com/wizardofsoho/status/2121621600655266196",
+   "handle": "wizardofsoho",
+   "followers": 143385,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Wizard Table : Dorian \n\nWe have a guest vlogger today .. Full episode in 3 days \n\nMasseto 2007 https://t.co/J8Y65x54Y6",
+   "created_at": "2026-11-14T15:09:42.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:35+01:00",
+   "post_id": "2121622172062122437",
+   "post_url": "https://x.com/CryptoBullet1/status/2121622172062122437",
+   "handle": "CryptoBullet1",
+   "followers": 182642,
+   "verified_type": "none",
+   "listed": true,
+   "text": "@BehemothRon yeah, turns out my Dec 1 deadline was spot on",
+   "created_at": "2026-11-14T15:11:58.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:31+01:00",
+   "post_id": "2121620109479342541",
+   "post_url": "https://x.com/inversebrah/status/2121620109479342541",
+   "handle": "inversebrah",
+   "followers": 706286,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "where else would dey go https://t.co/tSeMcNC9JR",
+   "created_at": "2026-11-14T15:03:46.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:31+01:00",
+   "post_id": "2121620151514833220",
+   "post_url": "https://x.com/inversebrah/status/2121620151514833220",
+   "handle": "inversebrah",
+   "followers": 706286,
+   "verified_type": "blue",
+   "listed": true,
+   "text": ". https://t.co/FG2ws5kQpB",
+   "created_at": "2026-11-14T15:03:56.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:31+01:00",
+   "post_id": "2121620795755844045",
+   "post_url": "https://x.com/IcedKnife/status/2121620795755844045",
+   "handle": "IcedKnife",
+   "followers": 365853,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "who's gonna save BTC from going to 0 this time",
+   "created_at": "2026-11-14T15:06:30.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:31+01:00",
+   "post_id": "2121621407759307010",
+   "post_url": "https://x.com/inversebrah/status/2121621407759307010",
+   "handle": "inversebrah",
+   "followers": 706286,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "not even schiff gloating can stop dis train watafak https://t.co/1bdO1TTTks",
+   "created_at": "2026-11-14T15:08:56.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:31+01:00",
+   "post_id": "2121621504009949532",
+   "post_url": "https://x.com/CryptoKaleo/status/2121621504009949532",
+   "handle": "CryptoKaleo",
+   "followers": 729463,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@Cryptowonderful Send it 🤝",
+   "created_at": "2026-11-14T15:09:19.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:31+01:00",
+   "post_id": "2121621543855739335",
+   "post_url": "https://x.com/CryptoKaleo/status/2121621543855739335",
+   "handle": "CryptoKaleo",
+   "followers": 729463,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@Litcigz Hmm 🤔🐈",
+   "created_at": "2026-11-14T15:09:28.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:31+01:00",
+   "post_id": "2121621713008078962",
+   "post_url": "https://x.com/inversebrah/status/2121621713008078962",
+   "handle": "inversebrah",
+   "followers": 706286,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "yes https://t.co/FWpuYSxPRe https://t.co/zEmbLPswPG",
+   "created_at": "2026-11-14T15:10:08.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:31+01:00",
+   "post_id": "2121622278597394809",
+   "post_url": "https://x.com/Jeremybtc/status/2121622278597394809",
+   "handle": "Jeremybtc",
+   "followers": 280373,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "There is only one thing that can save crypto https://t.co/OqXNqX9Sxd",
+   "created_at": "2026-11-14T15:12:23.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:27+01:00",
+   "post_id": "2121620065808490872",
+   "post_url": "https://x.com/toly/status/2121620065808490872",
+   "handle": "toly",
+   "followers": 2709187,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "✈️✈️✈️ https://t.co/sHCAPLq3kS",
+   "created_at": "2026-11-14T15:03:36.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:27+01:00",
+   "post_id": "2121621633156747313",
+   "post_url": "https://x.com/AltcoinDaily/status/2121621633156747313",
+   "handle": "AltcoinDaily",
+   "followers": 2609379,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "\"Most People Have ZERO Clue What's About To Happen with Crypto\"\n\nOur interview with Ben Cowen just hit 100k views!\n\nWatch here👇\n&gt;&gt;&gt;https://t.co/Q9ADBPbS0p https://t.co/UKoorHkV5L",
+   "created_at": "2026-11-14T15:09:49.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:13:27+01:00",
+   "post_id": "2121622199442546851",
+   "post_url": "https://x.com/scottmelker/status/2121622199442546851",
+   "handle": "scottmelker",
+   "followers": 1082582,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "PODCAST COMING SOON\n\n@CharlieShrem breaks down why quantum computers won’t take your Bitcoin but dormant coins are the real risk, and why AI and quantum will end up as mega opportunities that usher in the next epic bull market.\n\nFull episode drops tomorrow https://t.co/7OAcLZlf9C",
+   "created_at": "2026-11-14T15:12:04.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
   {
    "ts": "2026-11-14T16:02:28+01:00",
    "post_id": "2121619690854461689",
@@ -324,258 +576,6 @@
    "mints": [],
    "claim": null,
    "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:49:51+01:00",
-   "post_id": "2121616090933686392",
-   "post_url": "https://x.com/Jeremybtc/status/2121616090933686392",
-   "handle": "Jeremybtc",
-   "followers": 280380,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@TThompson @joinfrontier @yo_itsmatt @ramzyyalii @solana Good luck my brother enjoy",
-   "created_at": "2026-11-14T14:47:48.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:56+01:00",
-   "post_id": "2121611042950357269",
-   "post_url": "https://x.com/Austin_Federa/status/2121611042950357269",
-   "handle": "Austin_Federa",
-   "followers": 188294,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "This was a lot of fun - @jacobvcreech did a great job too! https://t.co/bZgDsUXLv7",
-   "created_at": "2026-11-14T14:27:44.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:56+01:00",
-   "post_id": "2121613814672113812",
-   "post_url": "https://x.com/Polymarket/status/2121613814672113812",
-   "handle": "Polymarket",
-   "followers": 2061923,
-   "verified_type": "business",
-   "listed": true,
-   "text": "BREAKING: Transportation Secretary Duffy announces U.S. flight operations are “slowly returning to normal.”",
-   "created_at": "2026-11-14T14:38:45.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:56+01:00",
-   "post_id": "2121614495923724776",
-   "post_url": "https://x.com/Polymarket/status/2121614495923724776",
-   "handle": "Polymarket",
-   "followers": 2061923,
-   "verified_type": "business",
-   "listed": true,
-   "text": "5% chance the FAA outage is attributed to a hack.\n\nhttps://t.co/kgrQieoz1O",
-   "created_at": "2026-11-14T14:41:28.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:52+01:00",
-   "post_id": "2121612687587385594",
-   "post_url": "https://x.com/CryptoBullet1/status/2121612687587385594",
-   "handle": "CryptoBullet1",
-   "followers": 182640,
-   "verified_type": "none",
-   "listed": true,
-   "text": "@Mrflow91583526 you're an idiot",
-   "created_at": "2026-11-14T14:34:17.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:52+01:00",
-   "post_id": "2121612688472281491",
-   "post_url": "https://x.com/LexaproTrader/status/2121612688472281491",
-   "handle": "LexaproTrader",
-   "followers": 97815,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@tickerBITCOINbb The alpha and the omega, the beginning and the end, the Harry and the Potter",
-   "created_at": "2026-11-14T14:34:17.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:52+01:00",
-   "post_id": "2121614268391104600",
-   "post_url": "https://x.com/Ga__ke/status/2121614268391104600",
-   "handle": "Ga__ke",
-   "followers": 186946,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@the_smart_ape @Pumpfun Lmao",
-   "created_at": "2026-11-14T14:40:33.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121611887381213394",
-   "post_url": "https://x.com/cryptogems555/status/2121611887381213394",
-   "handle": "cryptogems555",
-   "followers": 440774,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@Cointelegraph Schiff moving the target again lol. Now it's under $16,500 if $50K breaks.",
-   "created_at": "2026-11-14T14:31:06.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121611899385118772",
-   "post_url": "https://x.com/cryptogems555/status/2121611899385118772",
-   "handle": "cryptogems555",
-   "followers": 440774,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@lookonchain @ErikVoorhees Wallets linked to Voorhees bought 48,647 $ETH around $1,994 over the past 4 days, per lookonchain. Still holding a lot of stables too.",
-   "created_at": "2026-11-14T14:31:09.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121611916653297844",
-   "post_url": "https://x.com/cryptogems555/status/2121611916653297844",
-   "handle": "cryptogems555",
-   "followers": 440774,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@whale_alert Whale Alert is down on Ethereum after a hardware issue at their cloud provider. Hopefully it's back up soon.",
-   "created_at": "2026-11-14T14:31:13.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121611930272157903",
-   "post_url": "https://x.com/cryptogems555/status/2121611930272157903",
-   "handle": "cryptogems555",
-   "followers": 440774,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@KobeissiLetter 48 hours since Jensen resigned and the board still hasn't closed this. This is going to keep dragging.",
-   "created_at": "2026-11-14T14:31:16.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121611932318970013",
-   "post_url": "https://x.com/inversebrah/status/2121611932318970013",
-   "handle": "inversebrah",
-   "followers": 706286,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "todays snapshot https://t.co/rRCYVRceDJ https://t.co/Zcmw7phzpT",
-   "created_at": "2026-11-14T14:31:16.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121611941479387435",
-   "post_url": "https://x.com/cryptogems555/status/2121611941479387435",
-   "handle": "cryptogems555",
-   "followers": 440774,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@CryptoMichNL Still no high-volume liquidation candle, just this slow grind lower.",
-   "created_at": "2026-11-14T14:31:19.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121613041167192365",
-   "post_url": "https://x.com/inversebrah/status/2121613041167192365",
-   "handle": "inversebrah",
-   "followers": 706286,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "https://t.co/R74a0rv2I0 https://t.co/gpCqurlvvK",
-   "created_at": "2026-11-14T14:35:41.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121613930443481546",
-   "post_url": "https://x.com/Jeremybtc/status/2121613930443481546",
-   "handle": "Jeremybtc",
-   "followers": 280380,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "BITCOIN FALLS UNDER $66,000 https://t.co/KuTrg1Byg1",
-   "created_at": "2026-11-14T14:39:13.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121614059044745357",
-   "post_url": "https://x.com/milesdeutscher/status/2121614059044745357",
-   "handle": "milesdeutscher",
-   "followers": 681692,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "Two weeks ago, major governments began urging people to stockpile a few days' worth of food and water.\n\nIn the last 48 hours, we've seen:\n\n- A nationwide US flight ground stop (longest since 9/11)\n- Microsoft services go down globally\n- Workday (powering Walmart, Target) go down",
-   "created_at": "2026-11-14T14:39:44.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121614645173612752",
-   "post_url": "https://x.com/gainzy222/status/2121614645173612752",
-   "handle": "gainzy222",
-   "followers": 333233,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "bro lmao https://t.co/5s3izL3Te9",
-   "created_at": "2026-11-14T14:42:03.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121614927697727513",
-   "post_url": "https://x.com/inversebrah/status/2121614927697727513",
-   "handle": "inversebrah",
-   "followers": 706286,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "if we keep dunping over $2k daily\n\nwe all gon be free b4 xmas",
-   "created_at": "2026-11-14T14:43:11.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
   }
  ],
  "notes": [],
@@ -614,7 +614,7 @@
     "fixed_usd": 10.0,
     "fixed_since": 1794667115,
     "recent": [],
-    "last_poll": "2026-11-14T16:12:21+01:00"
+    "last_poll": "2026-11-14T16:13:46+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -693,7 +693,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T16:12:23+01:00"
+    "last_poll": "2026-11-14T16:13:48+01:00"
    }
   ]
  },
@@ -702,8 +702,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 9,
-   "hb_ts": 1794669154.5633404,
+   "age_s": 10,
+   "hb_ts": 1794669244.5720005,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -712,18 +712,18 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: wszystkie 181 obserwowane konta w każdym przebiegu (bez rotacji) + wyszukiwanie otwarte",
-   "age_s": 615,
-   "hb_ts": 1794668548.0001073,
+   "age_s": 30,
+   "hb_ts": 1794669224.0000346,
    "ok": true,
-   "status": "przebiegów: 57",
+   "status": "przebiegów: 62",
    "restarts": 0
   },
   {
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 3,
-   "hb_ts": 1794669159.6782832,
+   "age_s": 2,
+   "hb_ts": 1794669252.731821,
    "ok": true,
    "status": "ok",
    "restarts": 3
@@ -750,8 +750,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu co ~25 s: @unipcs aktywny ($10 na każdą nową pozycję), pozostałe 2 od $150 zysku",
-   "age_s": 18,
-   "hb_ts": 1794669144.5773456,
+   "age_s": 25,
+   "hb_ts": 1794669229.277791,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -760,8 +760,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 8,
-   "hb_ts": 1794669155.458254,
+   "age_s": 9,
+   "hb_ts": 1794669245.6346393,
    "ok": true,
    "status": "ok",
    "restarts": 2
@@ -771,7 +771,7 @@
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
    "age_s": 90,
-   "hb_ts": 1794669073.0716448,
+   "hb_ts": 1794669164.2788115,
    "ok": true,
    "status": "published",
    "restarts": 5
@@ -1695,6 +1695,31 @@
  },
  "activity": [
   {
+   "ts": "2026-11-14T16:13:44+01:00",
+   "c": "xbridge",
+   "msg": "ingest open: 3 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T16:13:39+01:00",
+   "c": "xbridge",
+   "msg": "ingest A4: 1 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T16:13:35+01:00",
+   "c": "xbridge",
+   "msg": "ingest A3: 6 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T16:13:31+01:00",
+   "c": "xbridge",
+   "msg": "ingest A2: 8 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T16:13:27+01:00",
+   "c": "xbridge",
+   "msg": "ingest A1: 3 posts, 0 signals"
+  },
+  {
    "ts": "2026-11-14T16:02:28+01:00",
    "c": "xbridge",
    "msg": "ingest open: 4 posts, 0 signals"
@@ -1864,33 +1889,6 @@
    "ts": "2026-11-14T15:38:42+01:00",
    "c": "watchdog",
    "msg": "restart trader: proces zakończony (kod -15)"
-  },
-  {
-   "ts": "2026-11-14T15:34:48+01:00",
-   "c": "copywatch",
-   "msg": "getTransaction failed: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
-  },
-  {
-   "ts": "2026-11-14T15:34:47+01:00",
-   "c": "copywatch",
-   "msg": "getTransaction failed: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
-  },
-  {
-   "ts": "2026-11-14T15:34:47+01:00",
-   "c": "trader",
-   "msg": "trader started",
-   "pid": 728606
-  },
-  {
-   "ts": "2026-11-14T15:34:47+01:00",
-   "c": "watchdog",
-   "msg": "started trader",
-   "pid": 728606
-  },
-  {
-   "ts": "2026-11-14T15:34:47+01:00",
-   "c": "watchdog",
-   "msg": "restart trader: brak heartbeatu od 122 s (zawieszony)"
   }
  ],
  "equity_history": [
@@ -2037,12 +2035,16 @@
   {
    "t": 1794669163,
    "e": 21.8408
+  },
+  {
+   "t": 1794669254,
+   "e": 21.8463
   }
  ],
  "sol_market": {
-  "price": 74.01686375,
+  "price": 74.03548109,
   "price_src": "Phantom",
-  "change_24h": -7.413569945274932,
+  "change_24h": -7.3468488978568915,
   "change_src": "CoinGecko",
   "high_24h": 80.3813,
   "low_24h": 73.8339,
@@ -3193,44 +3195,28 @@
     74.0322
    ],
    [
-    1794668520,
-    74.1766
+    1794668700,
+    74.124
    ],
    [
-    1794668525,
-    74.1894
+    1794669000,
+    74.0887
    ],
    [
-    1794668616,
-    74.1945
-   ],
-   [
-    1794668707,
-    74.1085
-   ],
-   [
-    1794668798,
-    74.0035
-   ],
-   [
-    1794668890,
-    74.0761
-   ],
-   [
-    1794668981,
-    73.9886
-   ],
-   [
-    1794669072,
-    74.0759
+    1794669160,
+    74.1402
    ],
    [
     1794669163,
     74.0169
    ],
    [
-    1794669163,
-    74.0169
+    1794669254,
+    74.0355
+   ],
+   [
+    1794669254,
+    74.0355
    ]
   ],
   "chart_src": "CoinGecko + desk"
