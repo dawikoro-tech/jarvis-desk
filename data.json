@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T15:49:20+01:00",
+ "generated": "2026-11-14T15:50:51+01:00",
  "mode": "live",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
- "equity_usd": 21.8258,
+ "equity_usd": 21.8399,
  "start_equity_usd": 22.3022,
  "sol": 0.295078384,
- "sol_price": 73.96602477,
- "free_usd": 21.825775060035575,
+ "sol_price": 74.01388812,
+ "free_usd": 21.839898500006402,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
  "trades": 0,
@@ -15,6 +15,90 @@
  "closed": [],
  "signals": [],
  "x_feed": [
+  {
+   "ts": "2026-11-14T15:50:00+01:00",
+   "post_id": "2121616311239234013",
+   "post_url": "https://x.com/LucaNetz/status/2121616311239234013",
+   "handle": "LucaNetz",
+   "followers": 226675,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Lore 🐧 https://t.co/chJGSolh4c",
+   "created_at": "2026-11-14T14:48:40.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T15:49:55+01:00",
+   "post_id": "2121616153365881339",
+   "post_url": "https://x.com/CryptoBullet1/status/2121616153365881339",
+   "handle": "CryptoBullet1",
+   "followers": 182640,
+   "verified_type": "none",
+   "listed": true,
+   "text": "Well, this looks bad 😓\n\n$BTC is losing the the 200-Week MA, and I'm not sure if that Horizontal Support will hold \n\nWaiting for the weekly close. \nClose the weekly candle below the 200-Week MA and I'm gonna put my CVDD target back on the table 👹 https://t.co/KK4HA1vwtn",
+   "created_at": "2026-11-14T14:48:03.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T15:49:55+01:00",
+   "post_id": "2121616536918004143",
+   "post_url": "https://x.com/Crypto_McKenna/status/2121616536918004143",
+   "handle": "Crypto_McKenna",
+   "followers": 106005,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@btc_charlie @Etherean007 Mage Arcane",
+   "created_at": "2026-11-14T14:49:34.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T15:49:51+01:00",
+   "post_id": "2121615637177122977",
+   "post_url": "https://x.com/CryptoMichNL/status/2121615637177122977",
+   "handle": "CryptoMichNL",
+   "followers": 822431,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "#Crypto is a ton of speculative capital.\n\nNow, as everything is being tokenized, it's very easy to swap between assets.\n\nThat's why you see all exchanges being able to trade the Anthropic IPO and capital is allocated towards that, especially speculative capital.\n\nIf you're not",
+   "created_at": "2026-11-14T14:46:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T15:49:51+01:00",
+   "post_id": "2121615860439609419",
+   "post_url": "https://x.com/CryptoKaleo/status/2121615860439609419",
+   "handle": "CryptoKaleo",
+   "followers": 729465,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "HMM is easily the best looking chart of any major on Robinhood Chain.\n\nThe last time HMM broke out was while the rest of the market was down.\n\nLooks ready to run it back.\n\nGoal is no longer just top cat on the chain, but the number one in crypto.\n\nThink bigger 🤔🐈 https://t.co/kA1",
+   "created_at": "2026-11-14T14:46:53.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T15:49:51+01:00",
+   "post_id": "2121616090933686392",
+   "post_url": "https://x.com/Jeremybtc/status/2121616090933686392",
+   "handle": "Jeremybtc",
+   "followers": 280380,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@TThompson @joinfrontier @yo_itsmatt @ramzyyalii @solana Good luck my brother enjoy",
+   "created_at": "2026-11-14T14:47:48.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
   {
    "ts": "2026-11-14T15:45:56+01:00",
    "post_id": "2121611042950357269",
@@ -490,90 +574,6 @@
    "mints": [],
    "claim": null,
    "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:27:21+01:00",
-   "post_id": "2121608088868552877",
-   "post_url": "https://x.com/cryptogems555/status/2121608088868552877",
-   "handle": "cryptogems555",
-   "followers": 440773,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "Lookonchain says https://t.co/NQ0Xz2PFhl deposited another 64,666 $SOL into Kraken.\n\n$SOL is at $75.54, down 6.2% today.\n\nWhat are they doing? https://t.co/UZpbnGvjdx",
-   "created_at": "2026-11-14T14:16:00.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:27:21+01:00",
-   "post_id": "2121608577450406200",
-   "post_url": "https://x.com/CryptoKaleo/status/2121608577450406200",
-   "handle": "CryptoKaleo",
-   "followers": 729472,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "GOOD MORNING BULLS https://t.co/WIpSOTrDG1",
-   "created_at": "2026-11-14T14:17:57.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:27:21+01:00",
-   "post_id": "2121609597173813361",
-   "post_url": "https://x.com/CryptoTony__/status/2121609597173813361",
-   "handle": "CryptoTony__",
-   "followers": 568718,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "$TAO - Update \n\nA full round trip seems likely if $BTC continues to drop on us. https://t.co/SDjy7LLczW",
-   "created_at": "2026-11-14T14:22:00.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:27:21+01:00",
-   "post_id": "2121610617849352481",
-   "post_url": "https://x.com/JamesWynnReal/status/2121610617849352481",
-   "handle": "JamesWynnReal",
-   "followers": 462525,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "These Swiss Bankers I tell ya, they don’t like the new money but they sure do take it. https://t.co/IfnQP502gX",
-   "created_at": "2026-11-14T14:26:03.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:27:17+01:00",
-   "post_id": "2121609627267715113",
-   "post_url": "https://x.com/garyvee/status/2121609627267715113",
-   "handle": "garyvee",
-   "followers": 3106023,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@JCourageFIT ❤️",
-   "created_at": "2026-11-14T14:22:07.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:27:14+01:00",
-   "post_id": "2121606753729364443",
-   "post_url": "https://x.com/blknoiz06/status/2121606753729364443",
-   "handle": "blknoiz06",
-   "followers": 1444824,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@TitanicXBT ive just been doing my best to let ppl know when i flipped bearish and where i think prices are going, but onchain can diverge from majors because market cap is much lower so floor is easier to hold, which is what i expect to happen",
-   "created_at": "2026-11-14T14:10:42.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
   }
  ],
  "notes": [],
@@ -612,7 +612,7 @@
     "fixed_usd": 10.0,
     "fixed_since": 1794667115,
     "recent": [],
-    "last_poll": "2026-11-14T15:49:04+01:00"
+    "last_poll": "2026-11-14T15:50:28+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -691,7 +691,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T15:49:06+01:00"
+    "last_poll": "2026-11-14T15:50:31+01:00"
    }
   ]
  },
@@ -700,8 +700,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 8,
-   "hb_ts": 1794667752.3653414,
+   "age_s": 9,
+   "hb_ts": 1794667842.3732324,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -710,18 +710,18 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: wszystkie 181 obserwowane konta w każdym przebiegu (bez rotacji) + wyszukiwanie otwarte",
-   "age_s": 202,
-   "hb_ts": 1794667558.00006,
+   "age_s": 49,
+   "hb_ts": 1794667802.000041,
    "ok": true,
-   "status": "przebiegów: 47",
+   "status": "przebiegów: 52",
    "restarts": 0
   },
   {
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 3,
-   "hb_ts": 1794667757.536919,
+   "age_s": 1,
+   "hb_ts": 1794667850.6593149,
    "ok": true,
    "status": "ok",
    "restarts": 3
@@ -748,8 +748,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu co ~25 s: @unipcs aktywny ($10 na każdą nową pozycję), pozostałe 2 od $150 zysku",
-   "age_s": 13,
-   "hb_ts": 1794667747.3440633,
+   "age_s": 19,
+   "hb_ts": 1794667832.0886128,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -758,8 +758,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 17,
-   "hb_ts": 1794667743.3563688,
+   "age_s": 18,
+   "hb_ts": 1794667833.4711058,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -769,7 +769,7 @@
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
    "age_s": 90,
-   "hb_ts": 1794667670.3518033,
+   "hb_ts": 1794667761.4624484,
    "ok": true,
    "status": "published",
    "restarts": 4
@@ -1693,6 +1693,31 @@
  },
  "activity": [
   {
+   "ts": "2026-11-14T15:50:02+01:00",
+   "c": "xbridge",
+   "msg": "ingest open: 0 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T15:50:00+01:00",
+   "c": "xbridge",
+   "msg": "ingest A4: 1 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T15:49:55+01:00",
+   "c": "xbridge",
+   "msg": "ingest A3: 2 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T15:49:51+01:00",
+   "c": "xbridge",
+   "msg": "ingest A2: 3 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T15:49:45+01:00",
+   "c": "xbridge",
+   "msg": "ingest A1: 0 posts, 0 signals"
+  },
+  {
    "ts": "2026-11-14T15:45:58+01:00",
    "c": "xbridge",
    "msg": "ingest open: 2 posts, 0 signals"
@@ -1878,23 +1903,6 @@
    "ts": "2026-11-14T15:27:14+01:00",
    "c": "xbridge",
    "msg": "ingest A1: 9 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T15:27:12+01:00",
-   "c": "scout",
-   "msg": "scout started",
-   "pid": 726235
-  },
-  {
-   "ts": "2026-11-14T15:27:11+01:00",
-   "c": "watchdog",
-   "msg": "started scout",
-   "pid": 726235
-  },
-  {
-   "ts": "2026-11-14T15:27:11+01:00",
-   "c": "watchdog",
-   "msg": "restart scout: brak heartbeatu od 332 s (zawieszony)"
   }
  ],
  "equity_history": [
@@ -2001,21 +2009,21 @@
   {
    "t": 1794667760,
    "e": 21.8258
+  },
+  {
+   "t": 1794667851,
+   "e": 21.8399
   }
  ],
  "sol_market": {
-  "price": 73.96602477,
+  "price": 74.01388812,
   "price_src": "Phantom",
-  "change_24h": -8.322462079239875,
+  "change_24h": -8.357486675387124,
   "change_src": "CoinGecko",
   "high_24h": 80.9005,
   "low_24h": 73.8339,
-  "open_24h": 80.8468,
+  "open_24h": 80.9005,
   "chart": [
-   [
-    1794581400,
-    80.8468
-   ],
    [
     1794581700,
     80.9005
@@ -3189,8 +3197,12 @@
     73.966
    ],
    [
-    1794667760,
-    73.966
+    1794667851,
+    74.0139
+   ],
+   [
+    1794667851,
+    74.0139
    ]
   ],
   "chart_src": "CoinGecko + desk"
