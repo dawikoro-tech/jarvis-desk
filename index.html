@@ -62,7 +62,7 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:9px 8px;
 <div class="card"><h2>📜 Aktywność</h2><div class="feed" id="act"></div></div>
 </div>
 <div class="card sec"><h2>👥 Lista obserwowanych kont</h2><div class="tags" id="accs"></div></div>
-<footer>Dane odświeżają się automatycznie co 20 s · Szacunki analityka są heurystyczne, to nie porada inwestycyjna</footer>
+<footer>Strona pobiera dane co 20 s (publikacja na GitHub co 1,5–5 min) · Szacunki analityka są heurystyczne, to nie porada inwestycyjna</footer>
 </div>
 <script>
 let D={};const $=id=>document.getElementById(id);
@@ -94,7 +94,7 @@ function render(){
  <div class="wal"><span>Konta spoza listy</span><b>MC ≤ ${mc(r.unlisted_max_mcap)} + analiza przed zakupem</b></div><div class="wal" style="border:0"><span>Max pozycji z X</span><b>${r.max_open}</b></div>`;
  $('copy').innerHTML=`<div class="sub" style="margin-bottom:8px">${c.unlocked?`Pula kopiowania: <b>${usd(c.pool_usd)}</b> (20% zysku)`:`Odblokowanie przy ${usd(c.unlock_at,0)} zysku zrealizowanego · teraz ${usd(c.realized)} (${c.progress_pct}%)`}</div>`+c.wallets.map(w=>`<div class="wal"><div><b>${esc(w.label)}</b> <span class="badge neu">${w.share_pct}%</span><div class="mono" style="color:var(--mut)"><a href="https://solscan.io/account/${w.address}" target="_blank">${w.address.slice(0,6)}…${w.address.slice(-4)}</a> · ${w.recent.length?'ostatnio: '+w.recent.slice(0,3).map(e=>(e.side==='buy'?'🟢':'🔴')+e.mint.slice(0,4)).join(' '):'brak nowych ruchów'}</div></div><div style="text-align:right">${usd(w.deployed_usd)}<div class="sub">z ${usd(w.alloc_usd)}</div></div></div>`).join('');
  $('notes').innerHTML=D.notes.length?D.notes.map(n=>`<div class="it"><div class="h"><b>$${esc(n.symbol)} · @${esc(n.handle)}</b><span class="sub">${t(n.ts)}</span></div><div class="t">${esc(n.text)}</div></div>`).join(''):'<div class="empty">Analityk pisze notatkę po każdym zakupie z X</div>';
- $('agents').innerHTML=D.agents.map(a=>`<div class="card ag"><div class="n">${esc(a.name)} <span class="badge ${a.age_s==null&&a.ok?'neu':a.ok?'ok':'bad'}">${a.ok?'działa':'problem'}</span></div><div class="d">${esc(a.desc)}</div><div class="m">${a.age_s!=null?'ostatni sygnał życia: '+ago(a.age_s):''}${a.status?' · '+esc(String(a.status)):''}${a.restarts?' · restartów: '+a.restarts:''}</div></div>`).join('');
+ $('agents').innerHTML=D.agents.map(a=>`<div class="card ag"><div class="n">${esc(a.name)} <span class="badge ${a.age_s==null&&a.ok?'neu':a.ok?'ok':'bad'}">${a.ok?'działa':'problem'}</span></div><div class="d">${esc(a.desc)}</div><div class="m">${a.hb_ts?'ostatni sygnał życia: '+ago(Math.max(0,Math.round(Date.now()/1000-a.hb_ts))):''}${a.status?' · '+esc(String(a.status)):''}${a.restarts?' · restartów: '+a.restarts:''}</div></div>`).join('');
  $('nacc').textContent=D.accounts.count+' kont';
  $('xfeed').innerHTML=D.x_feed.length?D.x_feed.map(x=>`<div class="it"><div class="h"><a href="${x.post_url}" target="_blank"><b>@${esc(x.handle)}</b></a><span class="sub">${t(x.created_at)}</span></div><div class="t">${esc(x.text)}</div><div class="sub" style="margin-top:4px">${esc(x.status)}${x.mints&&x.mints.length?' · <span class="mono">'+x.mints[0].slice(0,8)+'…</span>':''}</div></div>`).join(''):'<div class="empty">Brak postów</div>';
  $('act').innerHTML=D.activity.map(a=>`<div class="it"><div class="h"><b>${esc(a.c)}</b><span class="sub">${t(a.ts)}</span></div><div class="t">${esc(a.msg)}</div></div>`).join('');

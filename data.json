@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-14T13:57:50+01:00",
+ "generated": "2026-11-14T13:59:22+01:00",
  "mode": "waiting_for_funds",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
- "equity_usd": 0,
+ "equity_usd": 0.0,
  "start_equity_usd": null,
- "sol": 0,
- "sol_price": null,
- "free_usd": 0,
- "realized_pnl_usd": 0,
+ "sol": 0.0,
+ "sol_price": 75.56898356,
+ "free_usd": 0.0,
+ "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
  "trades": 0,
  "wins": 0,
@@ -133,7 +133,7 @@
  },
  "copy": {
   "unlocked": false,
-  "realized": 0,
+  "realized": 0.0,
   "unlock_at": 150.0,
   "progress_pct": 0,
   "pool_usd": 0.0,
@@ -145,7 +145,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": null
+    "last_poll": "2026-11-14T13:58:39+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -163,7 +163,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": null
+    "last_poll": "2026-11-14T13:58:41+01:00"
    }
   ]
  },
@@ -172,7 +172,7 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 0,
+   "age_s": 1,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -181,7 +181,7 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min sprawdza posty 134 kont + wyszukiwanie otwarte",
-   "age_s": 165,
+   "age_s": 256,
    "ok": true,
    "status": "przebiegów: 1",
    "restarts": 0
@@ -190,16 +190,16 @@
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 1794661071,
-   "ok": false,
-   "status": null,
-   "restarts": 0
+   "age_s": 2,
+   "ok": true,
+   "status": "ok",
+   "restarts": 1
   },
   {
    "key": "analyst",
    "name": "Analityk",
    "desc": "Ocena rozpoznawalności autora i docelowej kapitalizacji (po zakupie; przed zakupem dla kont spoza listy)",
-   "age_s": 1794661071,
+   "age_s": 2,
    "ok": true,
    "status": "notatek: 0",
    "restarts": 0
@@ -217,27 +217,27 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 1794661071,
-   "ok": false,
-   "status": null,
+   "age_s": 40,
+   "ok": true,
+   "status": "ok",
    "restarts": 0
   },
   {
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 1794661071,
-   "ok": false,
-   "status": null,
+   "age_s": 61,
+   "ok": true,
+   "status": "ok",
    "restarts": 0
   },
   {
    "key": "publisher",
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
-   "age_s": 1794661071,
-   "ok": false,
-   "status": null,
+   "age_s": 90,
+   "ok": true,
+   "status": "published",
    "restarts": 0
   }
  ],
@@ -926,6 +926,23 @@
   ]
  },
  "activity": [
+  {
+   "ts": "2026-11-14T13:58:30+01:00",
+   "c": "trader",
+   "msg": "trader started",
+   "pid": 680201
+  },
+  {
+   "ts": "2026-11-14T13:58:30+01:00",
+   "c": "watchdog",
+   "msg": "started trader",
+   "pid": 680201
+  },
+  {
+   "ts": "2026-11-14T13:58:30+01:00",
+   "c": "watchdog",
+   "msg": "restart trader: proces zakończony (kod -9)"
+  },
   {
    "ts": "2026-11-14T13:57:50+01:00",
    "c": "trader",
