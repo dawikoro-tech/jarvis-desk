@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T16:57:51+01:00",
+ "generated": "2026-11-14T17:01:01+01:00",
  "mode": "live",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
- "equity_usd": 21.7491,
+ "equity_usd": 21.746,
  "start_equity_usd": 22.3022,
  "sol": 0.295078384,
- "sol_price": 73.70633612,
- "free_usd": 21.749146552850434,
+ "sol_price": 73.69569863,
+ "free_usd": 21.746007659491415,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
  "trades": 0,
@@ -614,7 +614,7 @@
     "fixed_usd": 10.0,
     "fixed_since": 1794667115,
     "recent": [],
-    "last_poll": "2026-11-14T16:57:28+01:00"
+    "last_poll": "2026-11-14T16:58:24+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -695,7 +695,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T16:57:30+01:00"
+    "last_poll": "2026-11-14T16:58:26+01:00"
    }
   ]
  },
@@ -704,9 +704,9 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 1,
-   "hb_ts": 1794671870.8794065,
-   "ok": true,
+   "age_s": 131,
+   "hb_ts": 1794671930.8844428,
+   "ok": false,
    "status": "ok",
    "restarts": 0
   },
@@ -714,8 +714,8 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: wszystkie 181 obserwowane konta w każdym przebiegu (bez rotacji) + wyszukiwanie otwarte",
-   "age_s": 61,
-   "hb_ts": 1794671811.0002522,
+   "age_s": 251,
+   "hb_ts": 1794671811.0000737,
    "ok": true,
    "status": "przebiegów: 69",
    "restarts": 0
@@ -724,9 +724,9 @@
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 2,
-   "hb_ts": 1794671869.2095914,
-   "ok": true,
+   "age_s": 128,
+   "hb_ts": 1794671933.8273904,
+   "ok": false,
    "status": "ok",
    "restarts": 5
   },
@@ -752,8 +752,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu co ~25 s: @unipcs aktywny ($10 na każdą nową pozycję), pozostałe 2 od $150 zysku",
-   "age_s": 20,
-   "hb_ts": 1794671851.2339,
+   "age_s": 154,
+   "hb_ts": 1794671907.7211945,
    "ok": true,
    "status": "ok",
    "restarts": 2
@@ -762,8 +762,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 20,
-   "hb_ts": 1794671851.2039611,
+   "age_s": 151,
+   "hb_ts": 1794671911.2884946,
    "ok": true,
    "status": "ok",
    "restarts": 3
@@ -772,8 +772,8 @@
    "key": "publisher",
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
-   "age_s": 400,
-   "hb_ts": 1794671471.7690399,
+   "age_s": 189,
+   "hb_ts": 1794671872.8115826,
    "ok": true,
    "status": "published",
    "restarts": 5
@@ -1849,11 +1849,6 @@
    "ts": "2026-11-14T16:02:14+01:00",
    "c": "xbridge",
    "msg": "ingest A2: 6 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T16:02:09+01:00",
-   "c": "xbridge",
-   "msg": "ingest A1: 0 posts, 0 signals"
   }
  ],
  "equity_history": [
@@ -2096,21 +2091,21 @@
   {
    "t": 1794671872,
    "e": 21.7491
+  },
+  {
+   "t": 1794672062,
+   "e": 21.746
   }
  ],
  "sol_market": {
-  "price": 73.70633612,
+  "price": 73.69569863,
   "price_src": "Phantom",
-  "change_24h": -7.589013373197573,
+  "change_24h": -7.745916227819048,
   "change_src": "CoinGecko",
   "high_24h": 80.3813,
   "low_24h": 73.4515,
-  "open_24h": 79.9244,
+  "open_24h": 79.626,
   "chart": [
-   [
-    1794585600,
-    79.9244
-   ],
    [
     1794585900,
     79.626
@@ -3252,28 +3247,24 @@
     73.835
    ],
    [
-    1794671180,
-    73.939
+    1794671400,
+    73.834
    ],
    [
-    1794671188,
-    73.8118
+    1794671700,
+    73.7291
    ],
    [
-    1794671280,
-    74.0553
+    1794671960,
+    73.7922
    ],
    [
-    1794671470,
-    74.0553
+    1794672062,
+    73.6957
    ],
    [
-    1794671872,
-    73.7063
-   ],
-   [
-    1794671872,
-    73.7063
+    1794672062,
+    73.6957
    ]
   ],
   "chart_src": "CoinGecko + desk"
