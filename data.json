@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-14T14:28:12+01:00",
+ "generated": "2026-11-14T14:29:43+01:00",
  "mode": "waiting_for_funds",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
  "equity_usd": 0.0,
  "start_equity_usd": null,
  "sol": 0.0,
- "sol_price": 75.26059636,
+ "sol_price": 75.13994767,
  "free_usd": 0.0,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
@@ -15,6 +15,272 @@
  "closed": [],
  "signals": [],
  "x_feed": [
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121592867072438719",
+   "post_url": "https://x.com/Crypto_Jargon/status/2121592867072438719",
+   "handle": "Crypto_Jargon",
+   "followers": 75297,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "🚨 A fan spent up to $2,000 a month on Claude to build a Pokémon game. Now Claude won't help\n\nThe developer goes by Big Kid Nation, and the game is Pokémon Arena 2D. Real-time battles, classic sprites, built almost entirely with AI.\n\nHe says he works on it 10 to 14 hours a day, ht",
+   "created_at": "2026-11-14T13:15:31.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121595514131210722",
+   "post_url": "https://x.com/balajis/status/2121595514131210722",
+   "handle": "balajis",
+   "followers": 2267942,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Happy birthday, Zcash. https://t.co/M0OlI77JHk",
+   "created_at": "2026-11-14T13:26:02.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121590638596775988",
+   "post_url": "https://x.com/Jeremybtc/status/2121590638596775988",
+   "handle": "Jeremybtc",
+   "followers": 280380,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "$NVDA SLIPS ANOTHER 2.01% WITH EARNINGS 3 DAYS AWAY\n\nNVIDIA closed down 2.01% at $162.85, then dropped another 1.13% to $161.01 after hours\n\nEarnings land November 17\n\nShareholders are hoping the next surprise comes from the companies actual numbers instead of Jensen's love life ",
+   "created_at": "2026-11-14T13:06:40.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121590830758764684",
+   "post_url": "https://x.com/LexaproTrader/status/2121590830758764684",
+   "handle": "LexaproTrader",
+   "followers": 97815,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "How do we think humanity ends?",
+   "created_at": "2026-11-14T13:07:25.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121594296466121190",
+   "post_url": "https://x.com/LexaproTrader/status/2121594296466121190",
+   "handle": "LexaproTrader",
+   "followers": 97815,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@BoccaBITCOIN incredible man- haha wtf so good",
+   "created_at": "2026-11-14T13:21:12.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121590727473815924",
+   "post_url": "https://x.com/cryptocom/status/2121590727473815924",
+   "handle": "cryptocom",
+   "followers": 3016720,
+   "verified_type": "business",
+   "listed": true,
+   "text": "Me: \"I'm not checking charts this weekend.\"\n\nAlso me: 📱 👀 https://t.co/3SJL24LJ0g",
+   "created_at": "2026-11-14T13:07:01.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121593994337731017",
+   "post_url": "https://x.com/MarioNawfal/status/2121593994337731017",
+   "handle": "MarioNawfal",
+   "followers": 3985046,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Something tells me she's not cut out for that job 😂\n\nWriter: Ian\n\n https://t.co/pAi8dzMvzr",
+   "created_at": "2026-11-14T13:20:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121593994354516259",
+   "post_url": "https://x.com/birdeye_so/status/2121593994354516259",
+   "handle": "birdeye_so",
+   "followers": 79760,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Which altcoin could lead the next MASSIVE rally? 🔥",
+   "created_at": "2026-11-14T13:20:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121595252821623078",
+   "post_url": "https://x.com/MarioNawfal/status/2121595252821623078",
+   "handle": "MarioNawfal",
+   "followers": 3985046,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "🇮🇳 Dude says you should pay no attention to videos that expose shocking dysfunction in India because, get this, misleading AI videos have surfaced here or there. \n\nApparently, any video that doesn't sugarcoat humanitarian issues in India is an \"anti-Indian racist video.\"\n\nFor",
+   "created_at": "2026-11-14T13:25:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121590807379521662",
+   "post_url": "https://x.com/cryptojack/status/2121590807379521662",
+   "handle": "cryptojack",
+   "followers": 490254,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "BREAKING: Stablecoin supply drops $17 BILLION in one month, marking its steepest decline since 2022! \n\nLiquidity is leaving crypto, weakening buying power for $BTC and altcoins. https://t.co/wIm6qR18un",
+   "created_at": "2026-11-14T13:07:20.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121591737122431302",
+   "post_url": "https://x.com/cryptogems555/status/2121591737122431302",
+   "handle": "cryptogems555",
+   "followers": 440773,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@Standard21btc Important date 👍🏻👍🏻",
+   "created_at": "2026-11-14T13:11:02.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121592347368821024",
+   "post_url": "https://x.com/CryptoTony__/status/2121592347368821024",
+   "handle": "CryptoTony__",
+   "followers": 568718,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "The more anger I see over the next few days the better 😭😭",
+   "created_at": "2026-11-14T13:13:27.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121592987792572811",
+   "post_url": "https://x.com/CryptoTony__/status/2121592987792572811",
+   "handle": "CryptoTony__",
+   "followers": 568718,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "There is no room for big error on these dumps.\n\nTiming is everything.",
+   "created_at": "2026-11-14T13:16:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121594056476340511",
+   "post_url": "https://x.com/rektcapital/status/2121594056476340511",
+   "handle": "rektcapital",
+   "followers": 562405,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Current #BTC prices were considered a bargain only a few weeks ago\n\nBut price on its own is only descriptive\n\nAn undervalued price for Bitcoin is where seller exhaustion and overselling takes place\n\nAnd we haven’t seen that sell-side capitulation just yet\n\n$BTC #Bitcoin https://t",
+   "created_at": "2026-11-14T13:20:15.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121594641598366152",
+   "post_url": "https://x.com/cryptojack/status/2121594641598366152",
+   "handle": "cryptojack",
+   "followers": 490254,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "$BTC is showing no reaction to the $66,666 level. There’s no significant buying volume or sign of a bounce.\n\nBe prepared for a drop toward $62K-$60K, or potentially even lower.\n\nStay cautious! https://t.co/6YXFsXFDgg",
+   "created_at": "2026-11-14T13:22:34.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "post_id": "2121595698344853600",
+   "post_url": "https://x.com/JamesWynnReal/status/2121595698344853600",
+   "handle": "JamesWynnReal",
+   "followers": 462546,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Thats what all my friends told me. Now they are still doing the same dead end jobs. Thankfully I got into $Shitcoin’s like $PEPE which is a shit coin btw. https://t.co/hyEZwJ9EaC",
+   "created_at": "2026-11-14T13:26:46.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:13+01:00",
+   "post_id": "2121592402234548448",
+   "post_url": "https://x.com/blknoiz06/status/2121592402234548448",
+   "handle": "blknoiz06",
+   "followers": 1444828,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "a recap of my bearish BTC + ETH calls, Micron + NASDAQ setups, Zcash + SOL targets, and how the prices actually performed following my analysis\n\n0:00 - BTC, ETH and Micron bearish calls\n1:38 - ETH targets and NASDAQ downside\n3:04 - ZEC, Micron and BTC outlook\n5:07 - BTC and SOL h",
+   "created_at": "2026-11-14T13:13:40.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:13+01:00",
+   "post_id": "2121595780314353736",
+   "post_url": "https://x.com/cryptorover/status/2121595780314353736",
+   "handle": "cryptorover",
+   "followers": 1623798,
+   "verified_type": "business",
+   "listed": true,
+   "text": "🚨 Peter Schiff thinks Bitcoin will crash below $16.5K this year once it breaks $50K... https://t.co/qyjNVxnLnL",
+   "created_at": "2026-11-14T13:27:06.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:28:13+01:00",
+   "post_id": "2121595595945038335",
+   "post_url": "https://x.com/50cent/status/2121595595945038335",
+   "handle": "50cent",
+   "followers": 12478164,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "23 years ago, G-UNIT changed hip-hop forever with their debut album ‘Beg For Mercy’ 🔥 Celebrate the legacy with our BEG FOR MERCY HOODIES. Grab yours now before you miss out • https://t.co/BAt5A61uZv https://t.co/wBgkYsuXiT",
+   "created_at": "2026-11-14T13:26:22.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
   {
    "ts": "2026-11-14T14:13:08+01:00",
    "post_id": "2121587324714942747",
@@ -308,62 +574,6 @@
    "mints": [],
    "claim": null,
    "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T13:55:06+01:00",
-   "post_id": "2121585612926988724",
-   "post_url": "https://x.com/solana/status/2121585612926988724",
-   "handle": "solana",
-   "followers": 4219541,
-   "verified_type": "business",
-   "listed": true,
-   "text": "@jadoodoo @joinfrontier 💪 💪",
-   "created_at": "2026-11-14T12:46:41.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T13:55:06+01:00",
-   "post_id": "2121585663191491015",
-   "post_url": "https://x.com/solana/status/2121585663191491015",
-   "handle": "solana",
-   "followers": 4219541,
-   "verified_type": "business",
-   "listed": true,
-   "text": "Mert, CEO of Helius, on why Helius built Solana Privacy Rings\n\n“What we're building is very simple. We're building the final frontier of scaling tech for Solana”\n\n“People don't think of privacy as scaling. When you say the word scaling, you'll usually think of TPS or latency or h",
-   "created_at": "2026-11-14T12:46:53.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T13:55:06+01:00",
-   "post_id": "2121586444770922892",
-   "post_url": "https://x.com/MarioNawfal/status/2121586444770922892",
-   "handle": "MarioNawfal",
-   "followers": 3985000,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "🇺🇸 This is how far woke madness has gone in America. \n\nForget cracking down on out-of-control street crime; checking off items on a DEI checklist is now the number 1 priority for Chicago police.  \n\n$10 says we'll see one being pushed in a wheelchair in uniform before the decade's",
-   "created_at": "2026-11-14T12:50:00.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T13:55:06+01:00",
-   "post_id": "2121586677391257648",
-   "post_url": "https://x.com/toly/status/2121586677391257648",
-   "handle": "toly",
-   "followers": 2709269,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@RichardHanania You can’t prevent any individual from doing business on their own property with whoever they want.  But you can’t also force them to do business with anyone.  \n\nThe nativist chuds can form their own incorporated community live as they please.  So it doesn’t matter",
-   "created_at": "2026-11-14T12:50:55.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
   }
  ],
  "notes": [],
@@ -400,7 +610,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": "2026-11-14T14:27:37+01:00"
+    "last_poll": "2026-11-14T14:29:14+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -449,7 +659,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T14:27:39+01:00"
+    "last_poll": "2026-11-14T14:29:16+01:00"
    }
   ]
  },
@@ -458,8 +668,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 1,
-   "hb_ts": 1794662891.1134508,
+   "age_s": 2,
+   "hb_ts": 1794662981.120578,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -468,18 +678,18 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: 140 kluczowych kont w każdym przebiegu, pozostałe 205 rotacyjnie (co ≤30 min) + wyszukiwanie otwarte",
-   "age_s": 904,
-   "hb_ts": 1794661988.0000315,
+   "age_s": 89,
+   "hb_ts": 1794662894.0000527,
    "ok": true,
-   "status": "przebiegów: 6",
+   "status": "przebiegów: 14",
    "restarts": 0
   },
   {
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 4,
-   "hb_ts": 1794662888.0481737,
+   "age_s": 2,
+   "hb_ts": 1794662981.0740082,
    "ok": true,
    "status": "ok",
    "restarts": 3
@@ -506,8 +716,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 32,
-   "hb_ts": 1794662860.7158344,
+   "age_s": 26,
+   "hb_ts": 1794662957.2276235,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -516,8 +726,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 9,
-   "hb_ts": 1794662883.5477595,
+   "age_s": 10,
+   "hb_ts": 1794662973.72967,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -527,7 +737,7 @@
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
    "age_s": 90,
-   "hb_ts": 1794662802.3107018,
+   "hb_ts": 1794662893.4180093,
    "ok": true,
    "status": "published",
    "restarts": 4
@@ -2274,6 +2484,46 @@
  },
  "activity": [
   {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "c": "xbridge",
+   "msg": "ingest B2: 3 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "c": "xbridge",
+   "msg": "ingest B1: 3 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "c": "xbridge",
+   "msg": "ingest B4: 5 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "c": "xbridge",
+   "msg": "ingest B3: 3 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "c": "xbridge",
+   "msg": "ingest open: 3 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:28:14+01:00",
+   "c": "xbridge",
+   "msg": "ingest A3: 9 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:28:13+01:00",
+   "c": "xbridge",
+   "msg": "ingest A2: 3 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:28:13+01:00",
+   "c": "xbridge",
+   "msg": "ingest A1: 1 posts, 0 signals"
+  },
+  {
    "ts": "2026-11-14T14:26:41+01:00",
    "c": "watchdog",
    "msg": "started publisher",
@@ -2421,48 +2671,6 @@
    "ts": "2026-11-14T13:58:30+01:00",
    "c": "watchdog",
    "msg": "restart trader: proces zakończony (kod -9)"
-  },
-  {
-   "ts": "2026-11-14T13:57:50+01:00",
-   "c": "trader",
-   "msg": "trader started",
-   "pid": 679793
-  },
-  {
-   "ts": "2026-11-14T13:57:50+01:00",
-   "c": "copywatch",
-   "msg": "copywatch started",
-   "pid": 679794
-  },
-  {
-   "ts": "2026-11-14T13:57:50+01:00",
-   "c": "scout",
-   "msg": "scout started",
-   "pid": 679795
-  },
-  {
-   "ts": "2026-11-14T13:57:50+01:00",
-   "c": "watchdog",
-   "msg": "started publisher",
-   "pid": 679796
-  },
-  {
-   "ts": "2026-11-14T13:57:50+01:00",
-   "c": "watchdog",
-   "msg": "started scout",
-   "pid": 679795
-  },
-  {
-   "ts": "2026-11-14T13:57:50+01:00",
-   "c": "watchdog",
-   "msg": "started copywatch",
-   "pid": 679794
-  },
-  {
-   "ts": "2026-11-14T13:57:50+01:00",
-   "c": "watchdog",
-   "msg": "started trader",
-   "pid": 679793
   }
  ]
 }
