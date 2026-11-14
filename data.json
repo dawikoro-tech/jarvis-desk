@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T14:43:40+01:00",
- "mode": "live",
+ "generated": "2026-11-14T14:52:11+01:00",
+ "mode": "paused",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
- "equity_usd": 22258342844.6302,
- "start_equity_usd": 22258342844.6302,
- "sol": 295078384.0,
- "sol_price": 75.43196673,
- "free_usd": 22258342844.630165,
+ "equity_usd": 22.3022,
+ "start_equity_usd": 22.3022,
+ "sol": 0.295078384,
+ "sol_price": 75.5807594,
+ "free_usd": 22.3022,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
  "trades": 0,
@@ -678,9 +678,9 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 3,
+   "age_s": 515,
    "hb_ts": 1794663816.8524504,
-   "ok": true,
+   "ok": false,
    "status": "ok",
    "restarts": 0
   },
@@ -688,8 +688,8 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: 140 kluczowych kont w każdym przebiegu, pozostałe 205 rotacyjnie (co ≤30 min) + wyszukiwanie otwarte",
-   "age_s": 159,
-   "hb_ts": 1794663661.0000532,
+   "age_s": 670,
+   "hb_ts": 1794663661.0000312,
    "ok": true,
    "status": "przebiegów: 26",
    "restarts": 0
@@ -698,9 +698,9 @@
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 4,
-   "hb_ts": 1794663816.5888257,
-   "ok": true,
+   "age_s": 507,
+   "hb_ts": 1794663824.5909312,
+   "ok": false,
    "status": "ok",
    "restarts": 4
   },
@@ -726,9 +726,9 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 8,
+   "age_s": 519,
    "hb_ts": 1794663812.7302794,
-   "ok": true,
+   "ok": false,
    "status": "ok",
    "restarts": 1
   },
@@ -736,9 +736,9 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 13,
+   "age_s": 524,
    "hb_ts": 1794663807.5862582,
-   "ok": true,
+   "ok": false,
    "status": "ok",
    "restarts": 2
   },
@@ -746,9 +746,9 @@
    "key": "publisher",
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
-   "age_s": 90,
-   "hb_ts": 1794663730.234583,
-   "ok": true,
+   "age_s": 510,
+   "hb_ts": 1794663821.3121371,
+   "ok": false,
    "status": "published",
    "restarts": 5
   }
@@ -2493,6 +2493,12 @@
   ]
  },
  "activity": [
+  {
+   "ts": "2026-11-14T14:52:11+01:00",
+   "c": "notify",
+   "msg": "funded: Środki dotarły",
+   "id": "69674d094621"
+  },
   {
    "ts": "2026-11-14T14:43:16+01:00",
    "c": "notify",

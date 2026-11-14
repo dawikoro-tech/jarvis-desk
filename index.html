@@ -77,7 +77,7 @@ const esc=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"
 const SRC={x:'𝕏 lista',x_unlisted:'𝕏 spoza listy',copy:'kopia'};
 const ST={bought:['ok','kupiono'],sold:['ok','sprzedano'],skipped:['neu','pominięto'],rejected:['bad','odrzucono'],error:['bad','błąd'],ignored:['neu','zignorowano']};
 function render(){
- const m=D.mode, mm={live:['live','LIVE · handel aktywny'],waiting_for_funds:['wait','Czekam na środki'],halted:['halt','Stop: limit straty']}[m]||['wait',m];
+ const m=D.mode, mm={live:['live','LIVE · handel aktywny'],waiting_for_funds:['wait','Czekam na środki'],halted:['halt','Stop: limit straty'],halted_sanity:['halt','Stop bezpieczeństwa'],paused:['wait','Wstrzymany (logowanie Phantom)']}[m]||['wait',m];
  $('mode').className='pill '+mm[0];$('mode').children[1].textContent=mm[1];$('upd').textContent='Aktualizacja '+t(D.generated);
  $('eq').textContent=usd(D.equity_usd);$('eqs').textContent=D.start_equity_usd?('start '+usd(D.start_equity_usd)+' · '+((D.equity_usd/D.start_equity_usd-1)*100).toFixed(1)+'%'):'brak wpłaty';
  $('rp').textContent=sg(D.realized_pnl_usd);$('rp').className='v '+cls(D.realized_pnl_usd);$('rps').textContent=D.trades+' transakcji · '+D.wins+' zyskownych';
