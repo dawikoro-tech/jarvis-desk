@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T15:34:47+01:00",
+ "generated": "2026-11-14T15:36:33+01:00",
  "mode": "live",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
- "equity_usd": 21.8881,
+ "equity_usd": 21.7882,
  "start_equity_usd": 22.3022,
  "sol": 0.295078384,
- "sol_price": 74.17711662,
- "free_usd": 21.888063702009145,
+ "sol_price": 73.8385232,
+ "free_usd": 21.78815210280251,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
  "trades": 0,
@@ -610,7 +610,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": "2026-11-14T15:32:20+01:00"
+    "last_poll": "2026-11-14T15:35:51+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -679,7 +679,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T15:32:22+01:00"
+    "last_poll": "2026-11-14T15:35:53+01:00"
    }
   ]
  },
@@ -688,9 +688,9 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 124,
-   "hb_ts": 1794666763.1927,
-   "ok": false,
+   "age_s": 1,
+   "hb_ts": 1794666992.2862513,
+   "ok": true,
    "status": "ok",
    "restarts": 0
   },
@@ -698,8 +698,8 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: wszystkie 184 obserwowane konta w każdym przebiegu (bez rotacji) + wyszukiwanie otwarte",
-   "age_s": 227,
-   "hb_ts": 1794666660.0001085,
+   "age_s": 333,
+   "hb_ts": 1794666660.0001328,
    "ok": true,
    "status": "przebiegów: 42",
    "restarts": 0
@@ -708,11 +708,11 @@
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 123,
-   "hb_ts": 1794666764.7291164,
-   "ok": false,
+   "age_s": 3,
+   "hb_ts": 1794666990.4453228,
+   "ok": true,
    "status": "ok",
-   "restarts": 0
+   "restarts": 1
   },
   {
    "key": "analyst",
@@ -736,8 +736,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 144,
-   "hb_ts": 1794666743.3101869,
+   "age_s": 39,
+   "hb_ts": 1794666954.7572756,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -746,8 +746,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 124,
-   "hb_ts": 1794666763.3693671,
+   "age_s": 1,
+   "hb_ts": 1794666992.407633,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -756,8 +756,8 @@
    "key": "publisher",
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
-   "age_s": 151,
-   "hb_ts": 1794666735.9866998,
+   "age_s": 105,
+   "hb_ts": 1794666888.6695056,
    "ok": true,
    "status": "published",
    "restarts": 3
@@ -1697,6 +1697,33 @@
  },
  "activity": [
   {
+   "ts": "2026-11-14T15:34:48+01:00",
+   "c": "copywatch",
+   "msg": "getTransaction failed: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
+  },
+  {
+   "ts": "2026-11-14T15:34:47+01:00",
+   "c": "copywatch",
+   "msg": "getTransaction failed: {'code': -32015, 'message': 'Transaction version (1) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 1'}"
+  },
+  {
+   "ts": "2026-11-14T15:34:47+01:00",
+   "c": "trader",
+   "msg": "trader started",
+   "pid": 728606
+  },
+  {
+   "ts": "2026-11-14T15:34:47+01:00",
+   "c": "watchdog",
+   "msg": "started trader",
+   "pid": 728606
+  },
+  {
+   "ts": "2026-11-14T15:34:47+01:00",
+   "c": "watchdog",
+   "msg": "restart trader: brak heartbeatu od 122 s (zawieszony)"
+  },
+  {
    "ts": "2026-11-14T15:31:00+01:00",
    "c": "xbridge",
    "msg": "ingest open: 0 posts, 0 signals"
@@ -1855,36 +1882,6 @@
    "c": "watchdog",
    "msg": "started publisher",
    "pid": 710495
-  },
-  {
-   "ts": "2026-11-14T14:58:02+01:00",
-   "c": "watchdog",
-   "msg": "started scout",
-   "pid": 710494
-  },
-  {
-   "ts": "2026-11-14T14:58:02+01:00",
-   "c": "watchdog",
-   "msg": "started copywatch",
-   "pid": 710493
-  },
-  {
-   "ts": "2026-11-14T14:58:02+01:00",
-   "c": "watchdog",
-   "msg": "started trader",
-   "pid": 710492
-  },
-  {
-   "ts": "2026-11-14T14:58:02+01:00",
-   "c": "watchdog",
-   "msg": "watchdog started",
-   "pid": 710490
-  },
-  {
-   "ts": "2026-11-14T14:52:11+01:00",
-   "c": "notify",
-   "msg": "funded: Środki dotarły",
-   "id": "69674d094621"
   }
  ],
  "equity_history": [
@@ -1955,21 +1952,21 @@
   {
    "t": 1794666887,
    "e": 21.8881
+  },
+  {
+   "t": 1794666993,
+   "e": 21.7882
   }
  ],
  "sol_market": {
-  "price": 74.17711662,
+  "price": 73.8385232,
   "price_src": "Phantom",
-  "change_24h": -8.927789267073283,
+  "change_24h": -8.918177250569153,
   "change_src": "CoinGecko",
-  "high_24h": 81.3263,
-  "low_24h": 73.9209,
-  "open_24h": 81.3263,
+  "high_24h": 81.1932,
+  "low_24h": 73.8385,
+  "open_24h": 81.1603,
   "chart": [
-   [
-    1794580500,
-    81.3263
-   ],
    [
     1794580800,
     81.1603
@@ -3135,8 +3132,12 @@
     74.1771
    ],
    [
-    1794666887,
-    74.1771
+    1794666993,
+    73.8385
+   ],
+   [
+    1794666993,
+    73.8385
    ]
   ],
   "chart_src": "CoinGecko + desk"
