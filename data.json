@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T16:02:04+01:00",
+ "generated": "2026-11-14T16:03:35+01:00",
  "mode": "live",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
- "equity_usd": 21.8917,
+ "equity_usd": 21.8932,
  "start_equity_usd": 22.3022,
  "sol": 0.295078384,
- "sol_price": 74.18938326,
- "free_usd": 21.891683322317455,
+ "sol_price": 74.19452823,
+ "free_usd": 21.893201491750784,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
  "trades": 0,
@@ -15,6 +15,246 @@
  "closed": [],
  "signals": [],
  "x_feed": [
+  {
+   "ts": "2026-11-14T16:02:28+01:00",
+   "post_id": "2121619690854461689",
+   "post_url": "https://x.com/samtrading0/status/2121619690854461689",
+   "handle": "samtrading0",
+   "followers": 9,
+   "verified_type": "none",
+   "listed": false,
+   "text": "#BULLHARIS  is not backing down, more buying.\n@Crypto__Haris  community is still showing up, building momentum, and keeping the energy alive.  Today 50% of the supply burn is coming which will push it to millions.\n Official CA:  6mwuYnY3fHdxed9GnrdY5BkXhJwMi1uz39MPsYUcpump https:",
+   "created_at": "2026-11-14T15:02:06.000Z",
+   "mints": [
+    "6mwuYnY3fHdxed9GnrdY5BkXhJwMi1uz39MPsYUcpump"
+   ],
+   "claim": "created",
+   "status": "odrzucony: konto spoza listy bez weryfikacji / za mało obserwujących"
+  },
+  {
+   "ts": "2026-11-14T16:02:23+01:00",
+   "post_id": "2121617331474326013",
+   "post_url": "https://x.com/Polymarket/status/2121617331474326013",
+   "handle": "Polymarket",
+   "followers": 2061957,
+   "verified_type": "business",
+   "listed": true,
+   "text": "66% chance Jensen publicly testifies before Congress this year.\n\nhttps://t.co/zAkyHMyHib",
+   "created_at": "2026-11-14T14:52:44.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:23+01:00",
+   "post_id": "2121618247128945059",
+   "post_url": "https://x.com/Polymarket/status/2121618247128945059",
+   "handle": "Polymarket",
+   "followers": 2061957,
+   "verified_type": "business",
+   "listed": true,
+   "text": "BREAKING: Cuba’s president reveals the country is preparing for an imminent U.S. military intervention.",
+   "created_at": "2026-11-14T14:56:22.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:23+01:00",
+   "post_id": "2121618323850858619",
+   "post_url": "https://x.com/APompliano/status/2121618323850858619",
+   "handle": "APompliano",
+   "followers": 2438729,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "This week @jvisserlabs breaks down Jensen Huang’s sudden exit from Nvidia and what it means for the AI trade. \n\nWe also discuss why bitcoin sold off to $69K, rising rates and inflation, Strategy’s index removal, CZ’s take on the Binance hack, and how AI and crypto are converging.",
+   "created_at": "2026-11-14T14:56:40.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:19+01:00",
+   "post_id": "2121617043904422018",
+   "post_url": "https://x.com/AltcoinSherpa/status/2121617043904422018",
+   "handle": "AltcoinSherpa",
+   "followers": 263585,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "I'm taking Gane tonight for UF 334. He's much bigger, stronger, and has a significant advantage in the stand up game. I think the only path I can see Hokit has is wrestle fucking Gane for 5 rounds but I find this an unlikely possibility. Gane by decision https://t.co/NlMlhu0V4S",
+   "created_at": "2026-11-14T14:51:35.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:19+01:00",
+   "post_id": "2121617139643625937",
+   "post_url": "https://x.com/DefiIgnas/status/2121617139643625937",
+   "handle": "DefiIgnas",
+   "followers": 163895,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@Picolas_Caged Its over",
+   "created_at": "2026-11-14T14:51:58.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:19+01:00",
+   "post_id": "2121617321001382263",
+   "post_url": "https://x.com/CryptoBullet1/status/2121617321001382263",
+   "handle": "CryptoBullet1",
+   "followers": 182640,
+   "verified_type": "none",
+   "listed": true,
+   "text": "@denzxl_m above 68k",
+   "created_at": "2026-11-14T14:52:41.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:19+01:00",
+   "post_id": "2121618185422270882",
+   "post_url": "https://x.com/DefiIgnas/status/2121618185422270882",
+   "handle": "DefiIgnas",
+   "followers": 163895,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "ok I need PRICE TO GO UP. I cant take this anymore. every day I am checking price and its dipping. every day, check price, bad price. I cant take this anymore, I have over invested, by a lot. it is what it is. but I need price to GO UP ALREADY. can devs DO SOMETHING https://t.co/",
+   "created_at": "2026-11-14T14:56:07.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:19+01:00",
+   "post_id": "2121618715913728066",
+   "post_url": "https://x.com/Crypto_Chase/status/2121618715913728066",
+   "handle": "Crypto_Chase",
+   "followers": 203025,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "From October 29th\n\n$BTC https://t.co/iOxSa9hwo9",
+   "created_at": "2026-11-14T14:58:14.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:19+01:00",
+   "post_id": "2121619451657568373",
+   "post_url": "https://x.com/Crypto_Chase/status/2121619451657568373",
+   "handle": "Crypto_Chase",
+   "followers": 203025,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@AdamHODL 🤝",
+   "created_at": "2026-11-14T15:01:09.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:19+01:00",
+   "post_id": "2121619569639116946",
+   "post_url": "https://x.com/Crypto_McKenna/status/2121619569639116946",
+   "handle": "Crypto_McKenna",
+   "followers": 106005,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@btc_charlie @Etherean007 Yep it’s lit",
+   "created_at": "2026-11-14T15:01:37.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:14+01:00",
+   "post_id": "2121617310746394692",
+   "post_url": "https://x.com/inversebrah/status/2121617310746394692",
+   "handle": "inversebrah",
+   "followers": 706285,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "https://t.co/Hstf0oSqsc https://t.co/ke1drUd5H4",
+   "created_at": "2026-11-14T14:52:39.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:14+01:00",
+   "post_id": "2121617624782061598",
+   "post_url": "https://x.com/cryptojack/status/2121617624782061598",
+   "handle": "cryptojack",
+   "followers": 490267,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "$BTC keeps falling without any significant bounce.\n\nWe've also lost the key $67K-$66K support zone, and BTC is now trading below $66K.\n\nCould we see Bitcoin at $40K-$50K next week? 👀 https://t.co/NCuduapkF6",
+   "created_at": "2026-11-14T14:53:54.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:14+01:00",
+   "post_id": "2121617662463586586",
+   "post_url": "https://x.com/CryptoMichNL/status/2121617662463586586",
+   "handle": "CryptoMichNL",
+   "followers": 822434,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@BitcoinJesusETH @NYSE @Uniswap This is the exact reason why I’ve bought a lot of $UNI.",
+   "created_at": "2026-11-14T14:54:03.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:14+01:00",
+   "post_id": "2121618501840323014",
+   "post_url": "https://x.com/gainzy222/status/2121618501840323014",
+   "handle": "gainzy222",
+   "followers": 333233,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@hoodtoshi Yea im long pearl",
+   "created_at": "2026-11-14T14:57:23.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:14+01:00",
+   "post_id": "2121618656853651741",
+   "post_url": "https://x.com/CryptoTony__/status/2121618656853651741",
+   "handle": "CryptoTony__",
+   "followers": 568716,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "I am sure the bulls will come out of hibernation soon.\n\nIt will be magical. Who is with me ?",
+   "created_at": "2026-11-14T14:58:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T16:02:14+01:00",
+   "post_id": "2121619168503980083",
+   "post_url": "https://x.com/JakeGagain/status/2121619168503980083",
+   "handle": "JakeGagain",
+   "followers": 411829,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Jurassic World Velocicoaster 🦖🎢 https://t.co/E3aWpsHZQr",
+   "created_at": "2026-11-14T15:00:02.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
   {
    "ts": "2026-11-14T15:50:00+01:00",
    "post_id": "2121616311239234013",
@@ -336,244 +576,6 @@
    "mints": [],
    "claim": null,
    "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:47+01:00",
-   "post_id": "2121615193038033312",
-   "post_url": "https://x.com/inversebrah/status/2121615193038033312",
-   "handle": "inversebrah",
-   "followers": 706286,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@chubbicorn190 pipl been very... animated ^-^",
-   "created_at": "2026-11-14T14:44:14.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:44+01:00",
-   "post_id": "2121612467784851675",
-   "post_url": "https://x.com/blknoiz06/status/2121612467784851675",
-   "handle": "blknoiz06",
-   "followers": 1444837,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@IrieBreezeX i like this idea",
-   "created_at": "2026-11-14T14:33:24.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:44+01:00",
-   "post_id": "2121612707732537408",
-   "post_url": "https://x.com/AshCrypto/status/2121612707732537408",
-   "handle": "AshCrypto",
-   "followers": 2153076,
-   "verified_type": "business",
-   "listed": true,
-   "text": "Bitcoin crashed below $66,000.\n\n$180 Million longs liquidated in just 15 minutes. https://t.co/YyFP2tmBbl",
-   "created_at": "2026-11-14T14:34:21.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:44+01:00",
-   "post_id": "2121612770835628044",
-   "post_url": "https://x.com/blknoiz06/status/2121612770835628044",
-   "handle": "blknoiz06",
-   "followers": 1444837,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "why is nvda nuking",
-   "created_at": "2026-11-14T14:34:36.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:44+01:00",
-   "post_id": "2121613859664642540",
-   "post_url": "https://x.com/blknoiz06/status/2121613859664642540",
-   "handle": "blknoiz06",
-   "followers": 1444837,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@IrieBreezeX i do too!",
-   "created_at": "2026-11-14T14:38:56.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:44+01:00",
-   "post_id": "2121615148695887937",
-   "post_url": "https://x.com/scottmelker/status/2121615148695887937",
-   "handle": "scottmelker",
-   "followers": 1082589,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "Is AI heading for a collapse of its own making?\n\nMark Yusko compares AI training on AI-made data to a genetic mutation, warning hallucinations could compound until there's no real record left\n\n\"There was a paper written on this recently about this recursive problem. It's like a h",
-   "created_at": "2026-11-14T14:44:03.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:44+01:00",
-   "post_id": "2121615152047079560",
-   "post_url": "https://x.com/scottmelker/status/2121615152047079560",
-   "handle": "scottmelker",
-   "followers": 1082589,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "FT @MarkYusko \n\nThis clip is brought to you by @hodlwithLedn",
-   "created_at": "2026-11-14T14:44:04.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:45:44+01:00",
-   "post_id": "2121615361753883046",
-   "post_url": "https://x.com/cryptorover/status/2121615361753883046",
-   "handle": "cryptorover",
-   "followers": 1623841,
-   "verified_type": "business",
-   "listed": true,
-   "text": "3 days of gains got reversed with 3 months of pain... https://t.co/96Gl4i6xdM",
-   "created_at": "2026-11-14T14:44:54.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:30:55+01:00",
-   "post_id": "2121610949950165427",
-   "post_url": "https://x.com/CryptoMichNL/status/2121610949950165427",
-   "handle": "CryptoMichNL",
-   "followers": 822428,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@OrangeTaoDog @dfinity @dominic_w @const_reborn @markjeffrey I've been trying to get in touch with them, but no success so far!",
-   "created_at": "2026-11-14T14:27:22.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:30:55+01:00",
-   "post_id": "2121611236840206701",
-   "post_url": "https://x.com/cryptorover/status/2121611236840206701",
-   "handle": "cryptorover",
-   "followers": 1623831,
-   "verified_type": "business",
-   "listed": true,
-   "text": "BREAKING: Bitcoin falls below $66,000.\n\nConstant selling. https://t.co/SSwpIOCvhm",
-   "created_at": "2026-11-14T14:28:31.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:30:52+01:00",
-   "post_id": "2121611358827389268",
-   "post_url": "https://x.com/SenLummis/status/2121611358827389268",
-   "handle": "SenLummis",
-   "followers": 403295,
-   "verified_type": "government",
-   "listed": true,
-   "text": "Democrats asked us to close the loophole letting projects dress up stock-like interests as tokens. The Clarity Act covers anything economically or functionally equivalent to a security. \nDemocrats voted against closing their own loophole.",
-   "created_at": "2026-11-14T14:29:00.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:30:48+01:00",
-   "post_id": "2121611001535627382",
-   "post_url": "https://x.com/JupiterExchange/status/2121611001535627382",
-   "handle": "JupiterExchange",
-   "followers": 614521,
-   "verified_type": "business",
-   "listed": true,
-   "text": "Check out your mission control centre here \n\nhttps://t.co/aWTirRN5Xi",
-   "created_at": "2026-11-14T14:27:35.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:30:48+01:00",
-   "post_id": "2121611711278981147",
-   "post_url": "https://x.com/elonmusk/status/2121611711278981147",
-   "handle": "elonmusk",
-   "followers": 240920027,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "Starship is currently completing 14 orbits of Earth, before initiating deorbit and attempting to land in Starbase https://t.co/VJiQBo8jAd",
-   "created_at": "2026-11-14T14:30:24.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:27:25+01:00",
-   "post_id": "2121608361397686329",
-   "post_url": "https://x.com/DustyBC/status/2121608361397686329",
-   "handle": "DustyBC",
-   "followers": 204577,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "🚨𝗨𝗣𝗗𝗔𝗧𝗘: Web3Auth confirms that funds affected by its recent wallet security breach have been secured. A recovery process will be announced in the coming days, while Keplr and Torus users are warned to avoid fraudulent recovery messages. https://t.co/R9lmwpEGMG",
-   "created_at": "2026-11-14T14:17:05.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:27:25+01:00",
-   "post_id": "2121609546997346662",
-   "post_url": "https://x.com/cozypront/status/2121609546997346662",
-   "handle": "cozypront",
-   "followers": 208344,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "Days like this are just hard to believe \n\nThey really fooled us with these small daily drops and now you see coins are already down 50/60% some even making new lows\n\nTruly feels coordinated or feels like something we don’t understand or know about yet is happening\n\nSad times…",
-   "created_at": "2026-11-14T14:21:48.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:27:21+01:00",
-   "post_id": "2121607456703074360",
-   "post_url": "https://x.com/inversebrah/status/2121607456703074360",
-   "handle": "inversebrah",
-   "followers": 706287,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "https://t.co/EfUe6RqgdY",
-   "created_at": "2026-11-14T14:13:29.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T15:27:21+01:00",
-   "post_id": "2121607959801172179",
-   "post_url": "https://x.com/scottmelker/status/2121607959801172179",
-   "handle": "scottmelker",
-   "followers": 1082587,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "UPDATE: KAVA kava:native SAYS THE AXELAR BRIDGE IS PAUSED AND THE INCIDENT IS ISOLATED TO KAVA LEND, NOT AN INFINITE MINT https://t.co/95PexItx6G https://t.co/mmrxtD2f1y",
-   "created_at": "2026-11-14T14:15:29.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
   }
  ],
  "notes": [],
@@ -612,7 +614,7 @@
     "fixed_usd": 10.0,
     "fixed_since": 1794667115,
     "recent": [],
-    "last_poll": "2026-11-14T15:53:25+01:00"
+    "last_poll": "2026-11-14T16:03:24+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -691,7 +693,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T16:02:01+01:00"
+    "last_poll": "2026-11-14T16:03:26+01:00"
    }
   ]
  },
@@ -700,8 +702,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 0,
-   "hb_ts": 1794668524.4939282,
+   "age_s": 1,
+   "hb_ts": 1794668614.5050132,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -710,18 +712,18 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: wszystkie 181 obserwowane konta w każdym przebiegu (bez rotacji) + wyszukiwanie otwarte",
-   "age_s": 723,
-   "hb_ts": 1794667802.0000443,
+   "age_s": 68,
+   "hb_ts": 1794668548.0000694,
    "ok": true,
-   "status": "przebiegów: 52",
+   "status": "przebiegów: 57",
    "restarts": 0
   },
   {
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 2,
-   "hb_ts": 1794668522.1798818,
+   "age_s": 1,
+   "hb_ts": 1794668614.8868887,
    "ok": true,
    "status": "ok",
    "restarts": 3
@@ -748,8 +750,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu co ~25 s: @unipcs aktywny ($10 na każdą nową pozycję), pozostałe 2 od $150 zysku",
-   "age_s": 2,
-   "hb_ts": 1794668522.6778073,
+   "age_s": 9,
+   "hb_ts": 1794668607.4076607,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -758,9 +760,9 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 519,
-   "hb_ts": 1794668005.230894,
-   "ok": false,
+   "age_s": 1,
+   "hb_ts": 1794668614.6623158,
+   "ok": true,
    "status": "ok",
    "restarts": 2
   },
@@ -768,9 +770,9 @@
    "key": "publisher",
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
-   "age_s": 518,
-   "hb_ts": 1794668006.323765,
-   "ok": false,
+   "age_s": 90,
+   "hb_ts": 1794668525.9662914,
+   "ok": true,
    "status": "published",
    "restarts": 5
   }
@@ -1693,6 +1695,31 @@
  },
  "activity": [
   {
+   "ts": "2026-11-14T16:02:28+01:00",
+   "c": "xbridge",
+   "msg": "ingest open: 4 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T16:02:23+01:00",
+   "c": "xbridge",
+   "msg": "ingest A4: 3 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T16:02:19+01:00",
+   "c": "xbridge",
+   "msg": "ingest A3: 7 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T16:02:14+01:00",
+   "c": "xbridge",
+   "msg": "ingest A2: 6 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T16:02:09+01:00",
+   "c": "xbridge",
+   "msg": "ingest A1: 0 posts, 0 signals"
+  },
+  {
    "ts": "2026-11-14T16:02:04+01:00",
    "c": "scout",
    "msg": "scout started",
@@ -1879,33 +1906,6 @@
    "ts": "2026-11-14T15:30:55+01:00",
    "c": "xbridge",
    "msg": "ingest A3: 2 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T15:30:52+01:00",
-   "c": "xbridge",
-   "msg": "ingest A2: 1 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T15:30:48+01:00",
-   "c": "xbridge",
-   "msg": "ingest A1: 2 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T15:28:21+01:00",
-   "c": "watchdog",
-   "msg": "started publisher",
-   "pid": 726857
-  },
-  {
-   "ts": "2026-11-14T15:28:21+01:00",
-   "c": "notify",
-   "msg": "watchdog: Watchdog: publisher restartowany 3×",
-   "id": "ea52a165b72a"
-  },
-  {
-   "ts": "2026-11-14T15:28:21+01:00",
-   "c": "watchdog",
-   "msg": "restart publisher: brak heartbeatu od 401 s (zawieszony)"
   }
  ],
  "equity_history": [
@@ -2024,12 +2024,16 @@
   {
    "t": 1794668525,
    "e": 21.8917
+  },
+  {
+   "t": 1794668616,
+   "e": 21.8932
   }
  ],
  "sol_market": {
-  "price": 74.18938326,
+  "price": 74.19452823,
   "price_src": "Phantom",
-  "change_24h": -7.940908788598809,
+  "change_24h": -7.673936637939746,
   "change_src": "CoinGecko",
   "high_24h": 80.3813,
   "low_24h": 73.8339,
@@ -3180,20 +3184,28 @@
     74.0758
    ],
    [
-    1794667900,
-    73.8934
+    1794668100,
+    74.1104
    ],
    [
-    1794668005,
-    73.894
+    1794668400,
+    74.0322
+   ],
+   [
+    1794668520,
+    74.1766
    ],
    [
     1794668525,
     74.1894
    ],
    [
-    1794668525,
-    74.1894
+    1794668616,
+    74.1945
+   ],
+   [
+    1794668616,
+    74.1945
    ]
   ],
   "chart_src": "CoinGecko + desk"
