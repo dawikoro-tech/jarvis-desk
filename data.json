@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T14:52:11+01:00",
+ "generated": "2026-11-14T14:58:02+01:00",
  "mode": "paused",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
  "equity_usd": 22.3022,
@@ -678,9 +678,9 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 515,
-   "hb_ts": 1794663816.8524504,
-   "ok": false,
+   "age_s": 0,
+   "hb_ts": 1794664682.4933271,
+   "ok": true,
    "status": "ok",
    "restarts": 0
   },
@@ -688,8 +688,8 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: 140 kluczowych kont w każdym przebiegu, pozostałe 205 rotacyjnie (co ≤30 min) + wyszukiwanie otwarte",
-   "age_s": 670,
-   "hb_ts": 1794663661.0000312,
+   "age_s": 1022,
+   "hb_ts": 1794663661.0000253,
    "ok": true,
    "status": "przebiegów: 26",
    "restarts": 0
@@ -698,11 +698,11 @@
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 507,
+   "age_s": 858,
    "hb_ts": 1794663824.5909312,
    "ok": false,
    "status": "ok",
-   "restarts": 4
+   "restarts": 0
   },
   {
    "key": "analyst",
@@ -726,31 +726,31 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 519,
+   "age_s": 870,
    "hb_ts": 1794663812.7302794,
    "ok": false,
    "status": "ok",
-   "restarts": 1
+   "restarts": 0
   },
   {
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 524,
+   "age_s": 875,
    "hb_ts": 1794663807.5862582,
    "ok": false,
    "status": "ok",
-   "restarts": 2
+   "restarts": 0
   },
   {
    "key": "publisher",
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
-   "age_s": 510,
+   "age_s": 861,
    "hb_ts": 1794663821.3121371,
    "ok": false,
    "status": "published",
-   "restarts": 5
+   "restarts": 0
   }
  ],
  "accounts": {
@@ -2494,6 +2494,42 @@
  },
  "activity": [
   {
+   "ts": "2026-11-14T14:58:02+01:00",
+   "c": "scout",
+   "msg": "scout started",
+   "pid": 710494
+  },
+  {
+   "ts": "2026-11-14T14:58:02+01:00",
+   "c": "watchdog",
+   "msg": "started publisher",
+   "pid": 710495
+  },
+  {
+   "ts": "2026-11-14T14:58:02+01:00",
+   "c": "watchdog",
+   "msg": "started scout",
+   "pid": 710494
+  },
+  {
+   "ts": "2026-11-14T14:58:02+01:00",
+   "c": "watchdog",
+   "msg": "started copywatch",
+   "pid": 710493
+  },
+  {
+   "ts": "2026-11-14T14:58:02+01:00",
+   "c": "watchdog",
+   "msg": "started trader",
+   "pid": 710492
+  },
+  {
+   "ts": "2026-11-14T14:58:02+01:00",
+   "c": "watchdog",
+   "msg": "watchdog started",
+   "pid": 710490
+  },
+  {
    "ts": "2026-11-14T14:52:11+01:00",
    "c": "notify",
    "msg": "funded: Środki dotarły",
@@ -2672,31 +2708,6 @@
    "c": "watchdog",
    "msg": "started publisher",
    "pid": 694671
-  },
-  {
-   "ts": "2026-11-14T14:26:41+01:00",
-   "c": "watchdog",
-   "msg": "restart publisher: proces zakończony (kod -15)"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "c": "xbridge",
-   "msg": "ingest open: 1 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "c": "xbridge",
-   "msg": "ingest listed_3: 2 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "c": "xbridge",
-   "msg": "ingest listed_2: 12 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "c": "xbridge",
-   "msg": "ingest listed_1: 4 posts, 0 signals"
   }
  ]
 }
