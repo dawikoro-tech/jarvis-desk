@@ -1,1 +1,983 @@
-{"paper":true,"built_at":"2026-11-14 12:33:18 CET","cycle_id":"","ts_warsaw":"2026-11-14 12:27:52 CET","clock":"12:27:52","cycles_count":0,"equity":100.0,"starting_budget":100.0,"cash":100.0,"pnl":0.0,"pnl_pct":0.0,"realized_pnl":0.0,"unrealized_pnl":0.0,"open_mtm":0.0,"equity_series":[],"open_positions":[],"closed_trades":[],"activity":[],"schema":"jarvis-desk.site.v1","slippage_and_fees":0.01,"no_reentry":false,"exported_at":"2026-11-14 12:33:18 CET","positions_updated_at":"2026-11-14T11:27:52Z","positions_updated_at_warsaw":"2026-11-14 12:27:52 CET","wallet":{"address":"Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34","chain":"solana","label":"portfel (prawdziwy)","solscan":"https://solscan.io/account/Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34","rpc":"https://solana-rpc.publicnode.com","note":"Saldo SOL jest odczytywane na żywo w przeglądarce (tylko odczyt, getBalance)."},"equity_ticks":[],"cycle_interval_sec":25}
+{
+ "generated": "2026-11-14T13:57:50+01:00",
+ "mode": "waiting_for_funds",
+ "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
+ "equity_usd": 0,
+ "start_equity_usd": null,
+ "sol": 0,
+ "sol_price": null,
+ "free_usd": 0,
+ "realized_pnl_usd": 0,
+ "unrealized_pnl_usd": 0,
+ "trades": 0,
+ "wins": 0,
+ "positions": [],
+ "closed": [],
+ "signals": [],
+ "x_feed": [
+  {
+   "ts": "2026-11-14T13:55:06+01:00",
+   "post_id": "2121582749861470627",
+   "post_url": "https://x.com/MarioNawfal/status/2121582749861470627",
+   "handle": "MarioNawfal",
+   "followers": 3985000,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "🇩🇪 German Chancellor Merz preaching about protecting Germany's democracy:\n\n\"Our democracy is no longer unchallenged; it is confronted by opponents, indeed, by outright enemies of democracy.\n\nThis threat does not come only from outside. \n\nIt also comes from within. And we can see",
+   "created_at": "2026-11-14T12:35:19.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T13:55:06+01:00",
+   "post_id": "2121583928226041887",
+   "post_url": "https://x.com/MarioNawfal/status/2121583928226041887",
+   "handle": "MarioNawfal",
+   "followers": 3985000,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "🇵🇰 Pakistani PM Shehbaz Sharif on his vision of Pakistan redefining itself as a global industrial powerhouse:\n\n\"Pakistan has one of the youngest populations, educated, resilient, brave, and ready to convert our natural wealth into national progress and prosperity.\n\nVery soon our",
+   "created_at": "2026-11-14T12:40:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T13:55:06+01:00",
+   "post_id": "2121585187288993961",
+   "post_url": "https://x.com/MarioNawfal/status/2121585187288993961",
+   "handle": "MarioNawfal",
+   "followers": 3985000,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "🇷🇺 Russia wants NATO to basically rewind the clock to 1997.\n\nAccording to a NY Times report, Moscow has circulated a new proposal in Ukraine talks demanding NATO pull its troops and bases back to their pre-expansion positions.\n\nAnd that's not all.\n\nRussia also wants NATO https://",
+   "created_at": "2026-11-14T12:45:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T13:55:06+01:00",
+   "post_id": "2121585612926988724",
+   "post_url": "https://x.com/solana/status/2121585612926988724",
+   "handle": "solana",
+   "followers": 4219541,
+   "verified_type": "business",
+   "listed": true,
+   "text": "@jadoodoo @joinfrontier 💪 💪",
+   "created_at": "2026-11-14T12:46:41.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T13:55:06+01:00",
+   "post_id": "2121585663191491015",
+   "post_url": "https://x.com/solana/status/2121585663191491015",
+   "handle": "solana",
+   "followers": 4219541,
+   "verified_type": "business",
+   "listed": true,
+   "text": "Mert, CEO of Helius, on why Helius built Solana Privacy Rings\n\n“What we're building is very simple. We're building the final frontier of scaling tech for Solana”\n\n“People don't think of privacy as scaling. When you say the word scaling, you'll usually think of TPS or latency or h",
+   "created_at": "2026-11-14T12:46:53.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T13:55:06+01:00",
+   "post_id": "2121586444770922892",
+   "post_url": "https://x.com/MarioNawfal/status/2121586444770922892",
+   "handle": "MarioNawfal",
+   "followers": 3985000,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "🇺🇸 This is how far woke madness has gone in America. \n\nForget cracking down on out-of-control street crime; checking off items on a DEI checklist is now the number 1 priority for Chicago police.  \n\n$10 says we'll see one being pushed in a wheelchair in uniform before the decade's",
+   "created_at": "2026-11-14T12:50:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T13:55:06+01:00",
+   "post_id": "2121586677391257648",
+   "post_url": "https://x.com/toly/status/2121586677391257648",
+   "handle": "toly",
+   "followers": 2709269,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@RichardHanania You can’t prevent any individual from doing business on their own property with whoever they want.  But you can’t also force them to do business with anyone.  \n\nThe nativist chuds can form their own incorporated community live as they please.  So it doesn’t matter",
+   "created_at": "2026-11-14T12:50:55.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  }
+ ],
+ "notes": [],
+ "risk": {
+  "phase": "start",
+  "x_stop_loss_pct": -60.0,
+  "loss_floor": {
+   "enabled": true,
+   "equity_usd": 10.0
+  },
+  "bucket_pct": 80,
+  "trade_pct": [
+   20,
+   50
+  ],
+  "max_open": 4,
+  "unlisted_max_mcap": 5000000,
+  "fee_reserve_sol": 0.015
+ },
+ "copy": {
+  "unlocked": false,
+  "realized": 0,
+  "unlock_at": 150.0,
+  "progress_pct": 0,
+  "pool_usd": 0.0,
+  "wallets": [
+   {
+    "address": "2heJbC32Tpfcb3nbUb5ER61K11FGZVfVGtVnDm6LDogF",
+    "label": "@unipcs",
+    "share_pct": 50,
+    "alloc_usd": 0.0,
+    "deployed_usd": 0,
+    "recent": [],
+    "last_poll": null
+   },
+   {
+    "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
+    "label": "bez nazwy (nAWy…8qNc)",
+    "share_pct": 25,
+    "alloc_usd": 0.0,
+    "deployed_usd": 0,
+    "recent": [],
+    "last_poll": null
+   },
+   {
+    "address": "3SW1va94ZdQGyRVW7hUFj9Mt3BX3KvqCPo42zZDSApFC",
+    "label": "@SOL589",
+    "share_pct": 25,
+    "alloc_usd": 0.0,
+    "deployed_usd": 0,
+    "recent": [],
+    "last_poll": null
+   }
+  ]
+ },
+ "agents": [
+  {
+   "key": "watchdog",
+   "name": "Watchdog",
+   "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
+   "age_s": 0,
+   "ok": true,
+   "status": "ok",
+   "restarts": 0
+  },
+  {
+   "key": "xwatch",
+   "name": "Obserwator X",
+   "desc": "Co ~10 min sprawdza posty 134 kont + wyszukiwanie otwarte",
+   "age_s": 165,
+   "ok": true,
+   "status": "przebiegów: 1",
+   "restarts": 0
+  },
+  {
+   "key": "trader",
+   "name": "Egzekutor",
+   "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
+   "age_s": 1794661071,
+   "ok": false,
+   "status": null,
+   "restarts": 0
+  },
+  {
+   "key": "analyst",
+   "name": "Analityk",
+   "desc": "Ocena rozpoznawalności autora i docelowej kapitalizacji (po zakupie; przed zakupem dla kont spoza listy)",
+   "age_s": 1794661071,
+   "ok": true,
+   "status": "notatek: 0",
+   "restarts": 0
+  },
+  {
+   "key": "risk",
+   "name": "Risk Manager",
+   "desc": "Rozmiar pozycji, limit straty, odblokowanie kopiowania",
+   "age_s": null,
+   "ok": true,
+   "status": "faza startowa (100%)",
+   "restarts": 0
+  },
+  {
+   "key": "copywatch",
+   "name": "Copy-Watcher",
+   "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
+   "age_s": 1794661071,
+   "ok": false,
+   "status": null,
+   "restarts": 0
+  },
+  {
+   "key": "scout",
+   "name": "Scout",
+   "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
+   "age_s": 1794661071,
+   "ok": false,
+   "status": null,
+   "restarts": 0
+  },
+  {
+   "key": "publisher",
+   "name": "Publisher",
+   "desc": "Aktualizuje tę stronę",
+   "age_s": 1794661071,
+   "ok": false,
+   "status": null,
+   "restarts": 0
+  }
+ ],
+ "accounts": {
+  "count": 134,
+  "by_category": {
+   "celebrity": 27,
+   "politician": 7,
+   "exchange": 9,
+   "founder": 18,
+   "news": 13,
+   "platform": 29,
+   "kol": 31
+  },
+  "top": [
+   {
+    "h": "elonmusk",
+    "f": 240918479,
+    "c": "celebrity"
+   },
+   {
+    "h": "realDonaldTrump",
+    "f": 111867806,
+    "c": "politician"
+   },
+   {
+    "h": "MrBeast",
+    "f": 35004929,
+    "c": "celebrity"
+   },
+   {
+    "h": "Drake",
+    "f": 33831942,
+    "c": "celebrity"
+   },
+   {
+    "h": "kanyewest",
+    "f": 30862896,
+    "c": "celebrity"
+   },
+   {
+    "h": "ConanOBrien",
+    "f": 23625879,
+    "c": "celebrity"
+   },
+   {
+    "h": "SnoopDogg",
+    "f": 18850885,
+    "c": "celebrity"
+   },
+   {
+    "h": "davido",
+    "f": 17378326,
+    "c": "celebrity"
+   },
+   {
+    "h": "DonaldJTrumpJr",
+    "f": 16153037,
+    "c": "politician"
+   },
+   {
+    "h": "binance",
+    "f": 16112556,
+    "c": "exchange"
+   },
+   {
+    "h": "ParisHilton",
+    "f": 13769647,
+    "c": "celebrity"
+   },
+   {
+    "h": "cz_binance",
+    "f": 12963158,
+    "c": "founder"
+   },
+   {
+    "h": "Cobratate",
+    "f": 10688235,
+    "c": "celebrity"
+   },
+   {
+    "h": "nayibbukele",
+    "f": 8655247,
+    "c": "politician"
+   },
+   {
+    "h": "KSI",
+    "f": 8136470,
+    "c": "celebrity"
+   },
+   {
+    "h": "VitalikButerin",
+    "f": 7916012,
+    "c": "founder"
+   },
+   {
+    "h": "coinbase",
+    "f": 7180552,
+    "c": "exchange"
+   },
+   {
+    "h": "steveaoki",
+    "f": 7149821,
+    "c": "celebrity"
+   },
+   {
+    "h": "IGGYAZALEA",
+    "f": 6814599,
+    "c": "celebrity"
+   },
+   {
+    "h": "FloydMayweather",
+    "f": 6771400,
+    "c": "celebrity"
+   },
+   {
+    "h": "Ninja",
+    "f": 6674097,
+    "c": "celebrity"
+   },
+   {
+    "h": "LoganPaul",
+    "f": 6323875,
+    "c": "celebrity"
+   },
+   {
+    "h": "EricTrump",
+    "f": 6010033,
+    "c": "politician"
+   },
+   {
+    "h": "MikeTyson",
+    "f": 5852052,
+    "c": "celebrity"
+   },
+   {
+    "h": "okx",
+    "f": 5556754,
+    "c": "exchange"
+   },
+   {
+    "h": "unusual_whales",
+    "f": 5378799,
+    "c": "news"
+   },
+   {
+    "h": "saylor",
+    "f": 5219912,
+    "c": "founder"
+   },
+   {
+    "h": "WatcherGuru",
+    "f": 4922839,
+    "c": "news"
+   },
+   {
+    "h": "Bybit_Official",
+    "f": 4856886,
+    "c": "exchange"
+   },
+   {
+    "h": "souljaboy",
+    "f": 4850361,
+    "c": "celebrity"
+   },
+   {
+    "h": "JMilei",
+    "f": 4717758,
+    "c": "politician"
+   },
+   {
+    "h": "jakepaul",
+    "f": 4447205,
+    "c": "celebrity"
+   },
+   {
+    "h": "bitget",
+    "f": 4291812,
+    "c": "platform"
+   },
+   {
+    "h": "solana",
+    "f": 4219541,
+    "c": "platform"
+   },
+   {
+    "h": "MarioNawfal",
+    "f": 3985000,
+    "c": "news"
+   },
+   {
+    "h": "MELANIATRUMP",
+    "f": 3963147,
+    "c": "politician"
+   },
+   {
+    "h": "brian_armstrong",
+    "f": 3952833,
+    "c": "founder"
+   },
+   {
+    "h": "Tyga",
+    "f": 3772835,
+    "c": "celebrity"
+   },
+   {
+    "h": "VivekGRamaswamy",
+    "f": 3500136,
+    "c": "politician"
+   },
+   {
+    "h": "kucoincom",
+    "f": 3473876,
+    "c": "exchange"
+   },
+   {
+    "h": "Caitlyn_Jenner",
+    "f": 3179373,
+    "c": "celebrity"
+   },
+   {
+    "h": "jasonderulo",
+    "f": 3068791,
+    "c": "celebrity"
+   },
+   {
+    "h": "whale_alert",
+    "f": 2842556,
+    "c": "news"
+   },
+   {
+    "h": "BinanceWallet",
+    "f": 2830173,
+    "c": "exchange"
+   },
+   {
+    "h": "KobeissiLetter",
+    "f": 2744964,
+    "c": "news"
+   },
+   {
+    "h": "toly",
+    "f": 2709269,
+    "c": "founder"
+   },
+   {
+    "h": "adinross",
+    "f": 2526414,
+    "c": "celebrity"
+   },
+   {
+    "h": "rajgokal",
+    "f": 2350691,
+    "c": "founder"
+   },
+   {
+    "h": "richthekid",
+    "f": 2268389,
+    "c": "celebrity"
+   },
+   {
+    "h": "Polymarket",
+    "f": 2061768,
+    "c": "platform"
+   },
+   {
+    "h": "Gate",
+    "f": 1935041,
+    "c": "exchange"
+   },
+   {
+    "h": "krakenfx",
+    "f": 1745771,
+    "c": "exchange"
+   },
+   {
+    "h": "TheRoaringKitty",
+    "f": 1607186,
+    "c": "celebrity"
+   },
+   {
+    "h": "base",
+    "f": 1540663,
+    "c": "platform"
+   },
+   {
+    "h": "Grimezsz",
+    "f": 1487314,
+    "c": "celebrity"
+   },
+   {
+    "h": "blknoiz06",
+    "f": 1444817,
+    "c": "kol"
+   },
+   {
+    "h": "ZssBecker",
+    "f": 1324910,
+    "c": "kol"
+   },
+   {
+    "h": "cobie",
+    "f": 1247893,
+    "c": "kol"
+   },
+   {
+    "h": "beeple",
+    "f": 1148307,
+    "c": "celebrity"
+   },
+   {
+    "h": "zachxbt",
+    "f": 1118002,
+    "c": "news"
+   },
+   {
+    "h": "tier10k",
+    "f": 1095369,
+    "c": "news"
+   },
+   {
+    "h": "phantom",
+    "f": 953600,
+    "c": "platform"
+   },
+   {
+    "h": "Pentosh1",
+    "f": 942255,
+    "c": "kol"
+   },
+   {
+    "h": "CryptoGodJohn",
+    "f": 941209,
+    "c": "kol"
+   },
+   {
+    "h": "lilpump",
+    "f": 935558,
+    "c": "celebrity"
+   },
+   {
+    "h": "elliotrades",
+    "f": 925475,
+    "c": "kol"
+   },
+   {
+    "h": "CryptoHayes",
+    "f": 821952,
+    "c": "founder"
+   },
+   {
+    "h": "Cented7",
+    "f": 821116,
+    "c": "kol"
+   },
+   {
+    "h": "CryptoWizardd",
+    "f": 809852,
+    "c": "kol"
+   },
+   {
+    "h": "Pumpfun",
+    "f": 750225,
+    "c": "platform"
+   },
+   {
+    "h": "CryptoKaleo",
+    "f": 728378,
+    "c": "kol"
+   },
+   {
+    "h": "MustStopMurad",
+    "f": 726081,
+    "c": "kol"
+   },
+   {
+    "h": "weremeow",
+    "f": 711538,
+    "c": "founder"
+   },
+   {
+    "h": "lookonchain",
+    "f": 711482,
+    "c": "news"
+   },
+   {
+    "h": "inversebrah",
+    "f": 706305,
+    "c": "kol"
+   },
+   {
+    "h": "heyibinance",
+    "f": 680340,
+    "c": "founder"
+   },
+   {
+    "h": "pudgypenguins",
+    "f": 679839,
+    "c": "platform"
+   },
+   {
+    "h": "JupiterExchange",
+    "f": 614522,
+    "c": "platform"
+   },
+   {
+    "h": "zhusu",
+    "f": 612827,
+    "c": "founder"
+   },
+   {
+    "h": "HsakaTrades",
+    "f": 599891,
+    "c": "kol"
+   },
+   {
+    "h": "rektcapital",
+    "f": 562403,
+    "c": "kol"
+   },
+   {
+    "h": "frankdegods",
+    "f": 541617,
+    "c": "kol"
+   },
+   {
+    "h": "MacnBTC",
+    "f": 516104,
+    "c": "kol"
+   },
+   {
+    "h": "Kalshi",
+    "f": 513074,
+    "c": "platform"
+   },
+   {
+    "h": "punk6529",
+    "f": 486893,
+    "c": "founder"
+   },
+   {
+    "h": "CryptoWendyO",
+    "f": 467151,
+    "c": "kol"
+   },
+   {
+    "h": "Raydium",
+    "f": 463370,
+    "c": "platform"
+   },
+   {
+    "h": "aixbt_agent",
+    "f": 461255,
+    "c": "platform"
+   },
+   {
+    "h": "bonk_inu",
+    "f": 448323,
+    "c": "platform"
+   },
+   {
+    "h": "orangie",
+    "f": 440879,
+    "c": "kol"
+   },
+   {
+    "h": "yugalabs",
+    "f": 439209,
+    "c": "platform"
+   },
+   {
+    "h": "a1lon9",
+    "f": 433917,
+    "c": "founder"
+   },
+   {
+    "h": "CoinbaseWallet",
+    "f": 433607,
+    "c": "platform"
+   },
+   {
+    "h": "DegenerateNews",
+    "f": 424881,
+    "c": "news"
+   },
+   {
+    "h": "Rewkang",
+    "f": 422230,
+    "c": "kol"
+   },
+   {
+    "h": "notthreadguy",
+    "f": 412766,
+    "c": "kol"
+   },
+   {
+    "h": "solanamobile",
+    "f": 395549,
+    "c": "platform"
+   },
+   {
+    "h": "jessepollak",
+    "f": 355053,
+    "c": "founder"
+   },
+   {
+    "h": "ColdBloodShill",
+    "f": 351500,
+    "c": "kol"
+   },
+   {
+    "h": "theunipcs",
+    "f": 340204,
+    "c": "kol"
+   },
+   {
+    "h": "gainzy222",
+    "f": 333232,
+    "c": "kol"
+   },
+   {
+    "h": "bubblemaps",
+    "f": 293489,
+    "c": "news"
+   },
+   {
+    "h": "virtuals_io",
+    "f": 291086,
+    "c": "platform"
+   },
+   {
+    "h": "DegenSpartan",
+    "f": 269960,
+    "c": "kol"
+   },
+   {
+    "h": "CoinbaseAssets",
+    "f": 269863,
+    "c": "exchange"
+   },
+   {
+    "h": "zora",
+    "f": 269004,
+    "c": "platform"
+   },
+   {
+    "h": "GiganticRebirth",
+    "f": 253609,
+    "c": "kol"
+   },
+   {
+    "h": "dingalingts",
+    "f": 250588,
+    "c": "kol"
+   },
+   {
+    "h": "Tree_of_Alpha",
+    "f": 248678,
+    "c": "news"
+   },
+   {
+    "h": "KyleSamani",
+    "f": 245006,
+    "c": "founder"
+   },
+   {
+    "h": "truth_terminal",
+    "f": 241520,
+    "c": "platform"
+   },
+   {
+    "h": "Cupseyy",
+    "f": 239246,
+    "c": "kol"
+   },
+   {
+    "h": "dexscreener",
+    "f": 239108,
+    "c": "platform"
+   },
+   {
+    "h": "LucaNetz",
+    "f": 226678,
+    "c": "founder"
+   },
+   {
+    "h": "MeteoraAG",
+    "f": 216868,
+    "c": "platform"
+   },
+   {
+    "h": "LilMoonLambo",
+    "f": 214042,
+    "c": "kol"
+   },
+   {
+    "h": "moonshot",
+    "f": 202901,
+    "c": "platform"
+   },
+   {
+    "h": "orca_so",
+    "f": 192391,
+    "c": "platform"
+   },
+   {
+    "h": "Ga__ke",
+    "f": 186948,
+    "c": "kol"
+   },
+   {
+    "h": "KookCapitalLLC",
+    "f": 184854,
+    "c": "kol"
+   },
+   {
+    "h": "shawmakesmagic",
+    "f": 166022,
+    "c": "founder"
+   },
+   {
+    "h": "EmberCN",
+    "f": 151951,
+    "c": "news"
+   },
+   {
+    "h": "gmgnai",
+    "f": 144761,
+    "c": "platform"
+   },
+   {
+    "h": "dogwifcoin",
+    "f": 143670,
+    "c": "platform"
+   },
+   {
+    "h": "SolanaFloor",
+    "f": 135251,
+    "c": "news"
+   },
+   {
+    "h": "Dior100x",
+    "f": 130042,
+    "c": "kol"
+   },
+   {
+    "h": "AndyAyrey",
+    "f": 110450,
+    "c": "founder"
+   },
+   {
+    "h": "bonkfun",
+    "f": 104383,
+    "c": "platform"
+   },
+   {
+    "h": "spx6900",
+    "f": 82265,
+    "c": "platform"
+   },
+   {
+    "h": "birdeye_so",
+    "f": 79759,
+    "c": "platform"
+   },
+   {
+    "h": "believeapp",
+    "f": 79203,
+    "c": "platform"
+   },
+   {
+    "h": "pasternak",
+    "f": 76198,
+    "c": "founder"
+   },
+   {
+    "h": "boopdotfun",
+    "f": 44544,
+    "c": "platform"
+   },
+   {
+    "h": "Loopierr",
+    "f": 36831,
+    "c": "kol"
+   }
+  ]
+ },
+ "activity": [
+  {
+   "ts": "2026-11-14T13:57:50+01:00",
+   "c": "trader",
+   "msg": "trader started",
+   "pid": 679793
+  },
+  {
+   "ts": "2026-11-14T13:57:50+01:00",
+   "c": "copywatch",
+   "msg": "copywatch started",
+   "pid": 679794
+  },
+  {
+   "ts": "2026-11-14T13:57:50+01:00",
+   "c": "scout",
+   "msg": "scout started",
+   "pid": 679795
+  },
+  {
+   "ts": "2026-11-14T13:57:50+01:00",
+   "c": "watchdog",
+   "msg": "started publisher",
+   "pid": 679796
+  },
+  {
+   "ts": "2026-11-14T13:57:50+01:00",
+   "c": "watchdog",
+   "msg": "started scout",
+   "pid": 679795
+  },
+  {
+   "ts": "2026-11-14T13:57:50+01:00",
+   "c": "watchdog",
+   "msg": "started copywatch",
+   "pid": 679794
+  },
+  {
+   "ts": "2026-11-14T13:57:50+01:00",
+   "c": "watchdog",
+   "msg": "started trader",
+   "pid": 679793
+  },
+  {
+   "ts": "2026-11-14T13:57:50+01:00",
+   "c": "watchdog",
+   "msg": "watchdog started",
+   "pid": 679791
+  },
+  {
+   "ts": "2026-11-14T13:55:06+01:00",
+   "c": "xbridge",
+   "msg": "ingest listed_1: 7 posts, 0 signals"
+  }
+ ]
+}
