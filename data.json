@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-14T14:35:32+01:00",
+ "generated": "2026-11-14T14:37:03+01:00",
  "mode": "waiting_for_funds",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
  "equity_usd": 0.0,
  "start_equity_usd": null,
  "sol": 0.0,
- "sol_price": 75.322245,
+ "sol_price": 75.3580755,
  "free_usd": 0.0,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
@@ -15,6 +15,90 @@
  "closed": [],
  "signals": [],
  "x_feed": [
+  {
+   "ts": "2026-11-14T14:36:07+01:00",
+   "post_id": "2121596515399479468",
+   "post_url": "https://x.com/Kalshi/status/2121596515399479468",
+   "handle": "Kalshi",
+   "followers": 513115,
+   "verified_type": "business",
+   "listed": true,
+   "text": "JUST IN: Loveable CEO says AI is dropping the barriers that hinder startups",
+   "created_at": "2026-11-14T13:30:01.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:36:06+01:00",
+   "post_id": "2121596003765927944",
+   "post_url": "https://x.com/balajis/status/2121596003765927944",
+   "handle": "balajis",
+   "followers": 2267942,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Last month, we celebrated ten years of Zcash at Network School. It launched on Oct 28, 2016. https://t.co/vIGEhjIpJp",
+   "created_at": "2026-11-14T13:27:59.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:36:06+01:00",
+   "post_id": "2121596306582093904",
+   "post_url": "https://x.com/LexaproTrader/status/2121596306582093904",
+   "handle": "LexaproTrader",
+   "followers": 97815,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@undacappn @hoppycat i agree - and that will start soon- the truth is this group has had so much control over this arena that there hasn't been much room to do things - i needed to make clear what was going on",
+   "created_at": "2026-11-14T13:29:11.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:36:06+01:00",
+   "post_id": "2121596409296351499",
+   "post_url": "https://x.com/Crypto_Jargon/status/2121596409296351499",
+   "handle": "Crypto_Jargon",
+   "followers": 75297,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "kava:native lost almost half its value in 2 hours after 48 million tokens hit BNB Chain\n\nFor two months KAVA barely moved. It sat around $0.068 like a stablecoin\n\nToday at about 3:40pm IST that ended\n\nRoughly 48.36 million KAVA, worth about $3.3 million at the time, was moved htt",
+   "created_at": "2026-11-14T13:29:35.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:36:06+01:00",
+   "post_id": "2121596762897223879",
+   "post_url": "https://x.com/CryptoMichNL/status/2121596762897223879",
+   "handle": "CryptoMichNL",
+   "followers": 822426,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "I've started making content on Instagram too. \n\nSimple explanations on trades, the markets, my view on the markets and providing content on the #Altcoin portfolio.\n\nMake sure to follow me here:\nhttps://t.co/GBCCVSkwR0",
+   "created_at": "2026-11-14T13:31:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:36:06+01:00",
+   "post_id": "2121597354318970891",
+   "post_url": "https://x.com/JamesWynnReal/status/2121597354318970891",
+   "handle": "JamesWynnReal",
+   "followers": 462543,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "People actually realizing it’s a $shitcoin and are selling off…  what  did  you  think  it  was? 😉 https://t.co/nzN7bDYQjT",
+   "created_at": "2026-11-14T13:33:21.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
   {
    "ts": "2026-11-14T14:28:14+01:00",
    "post_id": "2121592867072438719",
@@ -490,90 +574,6 @@
    "mints": [],
    "claim": null,
    "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121587830342254722",
-   "post_url": "https://x.com/cz_binance/status/2121587830342254722",
-   "handle": "cz_binance",
-   "followers": 12963205,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "👀 See you there. https://t.co/c4VCid0fQE",
-   "created_at": "2026-11-14T12:55:30.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121588970253422915",
-   "post_url": "https://x.com/MarioNawfal/status/2121588970253422915",
-   "handle": "MarioNawfal",
-   "followers": 3985006,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "This is \"India's Justin Bieber\"\n\nBeauty really is in the eye of the beholder\n\nWriter: Ian\n\n https://t.co/tkzbIc1CCo",
-   "created_at": "2026-11-14T13:00:02.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121591477897756907",
-   "post_url": "https://x.com/MarioNawfal/status/2121591477897756907",
-   "handle": "MarioNawfal",
-   "followers": 3985006,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "🇺🇸 Traders are betting HEAVILY on another Federal Reserve interest rate hike in December.\n\nPrediction market Kalshi now shows an 89% chance of a 25-basis-point increase, with another 10% betting on an even larger hike.\n\nJust 3% expect the Fed to leave rates unchanged.\n\nThat puts ",
-   "created_at": "2026-11-14T13:10:00.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T13:55:06+01:00",
-   "post_id": "2121582749861470627",
-   "post_url": "https://x.com/MarioNawfal/status/2121582749861470627",
-   "handle": "MarioNawfal",
-   "followers": 3985000,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "🇩🇪 German Chancellor Merz preaching about protecting Germany's democracy:\n\n\"Our democracy is no longer unchallenged; it is confronted by opponents, indeed, by outright enemies of democracy.\n\nThis threat does not come only from outside. \n\nIt also comes from within. And we can see",
-   "created_at": "2026-11-14T12:35:19.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T13:55:06+01:00",
-   "post_id": "2121583928226041887",
-   "post_url": "https://x.com/MarioNawfal/status/2121583928226041887",
-   "handle": "MarioNawfal",
-   "followers": 3985000,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "🇵🇰 Pakistani PM Shehbaz Sharif on his vision of Pakistan redefining itself as a global industrial powerhouse:\n\n\"Pakistan has one of the youngest populations, educated, resilient, brave, and ready to convert our natural wealth into national progress and prosperity.\n\nVery soon our",
-   "created_at": "2026-11-14T12:40:00.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T13:55:06+01:00",
-   "post_id": "2121585187288993961",
-   "post_url": "https://x.com/MarioNawfal/status/2121585187288993961",
-   "handle": "MarioNawfal",
-   "followers": 3985000,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "🇷🇺 Russia wants NATO to basically rewind the clock to 1997.\n\nAccording to a NY Times report, Moscow has circulated a new proposal in Ukraine talks demanding NATO pull its troops and bases back to their pre-expansion positions.\n\nAnd that's not all.\n\nRussia also wants NATO https://",
-   "created_at": "2026-11-14T12:45:00.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
   }
  ],
  "notes": [],
@@ -610,7 +610,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": "2026-11-14T14:35:08+01:00"
+    "last_poll": "2026-11-14T14:36:45+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -669,7 +669,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T14:35:11+01:00"
+    "last_poll": "2026-11-14T14:36:47+01:00"
    }
   ]
  },
@@ -678,8 +678,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 3,
-   "hb_ts": 1794663328.5941076,
+   "age_s": 5,
+   "hb_ts": 1794663418.6078508,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -688,18 +688,18 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: 140 kluczowych kont w każdym przebiegu, pozostałe 205 rotacyjnie (co ≤30 min) + wyszukiwanie otwarte",
-   "age_s": 438,
-   "hb_ts": 1794662894.0001605,
+   "age_s": 56,
+   "hb_ts": 1794663367.0000947,
    "ok": true,
-   "status": "przebiegów: 14",
+   "status": "przebiegów: 20",
    "restarts": 0
   },
   {
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 2,
-   "hb_ts": 1794663329.8071628,
+   "age_s": 1,
+   "hb_ts": 1794663422.3806107,
    "ok": true,
    "status": "ok",
    "restarts": 4
@@ -726,8 +726,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 20,
-   "hb_ts": 1794663312.259187,
+   "age_s": 14,
+   "hb_ts": 1794663408.7738347,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -736,8 +736,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 23,
-   "hb_ts": 1794663308.7419121,
+   "age_s": 24,
+   "hb_ts": 1794663398.8453622,
    "ok": true,
    "status": "ok",
    "restarts": 2
@@ -746,8 +746,8 @@
    "key": "publisher",
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
-   "age_s": 347,
-   "hb_ts": 1794662984.5728304,
+   "age_s": 90,
+   "hb_ts": 1794663333.1061985,
    "ok": true,
    "status": "published",
    "restarts": 4
@@ -2494,6 +2494,36 @@
  },
  "activity": [
   {
+   "ts": "2026-11-14T14:36:07+01:00",
+   "c": "xbridge",
+   "msg": "ingest B3: 2 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:36:06+01:00",
+   "c": "xbridge",
+   "msg": "ingest B2: 3 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:36:06+01:00",
+   "c": "xbridge",
+   "msg": "ingest open: 1 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:36:06+01:00",
+   "c": "xbridge",
+   "msg": "ingest A3: 3 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:36:05+01:00",
+   "c": "xbridge",
+   "msg": "ingest A2: 0 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:36:05+01:00",
+   "c": "xbridge",
+   "msg": "ingest A1: 0 posts, 0 signals"
+  },
+  {
    "ts": "2026-11-14T14:35:08+01:00",
    "c": "trader",
    "msg": "trader started",
@@ -2660,39 +2690,6 @@
    "c": "trader",
    "msg": "trader started",
    "pid": 682622
-  },
-  {
-   "ts": "2026-11-14T14:02:00+01:00",
-   "c": "watchdog",
-   "msg": "started publisher",
-   "pid": 682623
-  },
-  {
-   "ts": "2026-11-14T14:02:00+01:00",
-   "c": "watchdog",
-   "msg": "restart publisher: proces zakończony (kod -15)"
-  },
-  {
-   "ts": "2026-11-14T14:02:00+01:00",
-   "c": "watchdog",
-   "msg": "started trader",
-   "pid": 682622
-  },
-  {
-   "ts": "2026-11-14T14:02:00+01:00",
-   "c": "watchdog",
-   "msg": "restart trader: proces zakończony (kod -15)"
-  },
-  {
-   "ts": "2026-11-14T14:01:38+01:00",
-   "c": "xbridge",
-   "msg": "ingest open: 0 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T14:01:00+01:00",
-   "c": "scout",
-   "msg": "scout started",
-   "pid": 682088
   }
  ]
 }
