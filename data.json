@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-14T14:25:43+01:00",
+ "generated": "2026-11-14T14:26:41+01:00",
  "mode": "waiting_for_funds",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
  "equity_usd": 0.0,
  "start_equity_usd": null,
  "sol": 0.0,
- "sol_price": 75.21046673,
+ "sol_price": 75.22987485,
  "free_usd": 0.0,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
@@ -400,7 +400,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": "2026-11-14T14:25:12+01:00"
+    "last_poll": "2026-11-14T14:26:00+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -449,7 +449,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T14:25:14+01:00"
+    "last_poll": "2026-11-14T14:26:03+01:00"
    }
   ]
  },
@@ -458,8 +458,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 2,
-   "hb_ts": 1794662741.0997722,
+   "age_s": 0,
+   "hb_ts": 1794662801.1060417,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -467,9 +467,9 @@
   {
    "key": "xwatch",
    "name": "Obserwator X",
-   "desc": "Co ~10 min sprawdza posty 134 kont + wyszukiwanie otwarte",
-   "age_s": 755,
-   "hb_ts": 1794661988.0002842,
+   "desc": "Co ~10 min: 138 kluczowych kont w każdym przebiegu, pozostałe 207 rotacyjnie (co ≤30 min) + wyszukiwanie otwarte",
+   "age_s": 813,
+   "hb_ts": 1794661988.000023,
    "ok": true,
    "status": "przebiegów: 6",
    "restarts": 0
@@ -478,8 +478,8 @@
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 0,
-   "hb_ts": 1794662742.9670405,
+   "age_s": 2,
+   "hb_ts": 1794662799.4384987,
    "ok": true,
    "status": "ok",
    "restarts": 3
@@ -506,8 +506,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 27,
-   "hb_ts": 1794662715.8738172,
+   "age_s": 37,
+   "hb_ts": 1794662764.1508074,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -516,8 +516,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 10,
-   "hb_ts": 1794662733.2878115,
+   "age_s": 8,
+   "hb_ts": 1794662793.397509,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -526,23 +526,23 @@
    "key": "publisher",
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
-   "age_s": 90,
-   "hb_ts": 1794662653.088727,
+   "age_s": 57,
+   "hb_ts": 1794662744.2154195,
    "ok": true,
    "status": "published",
-   "restarts": 3
+   "restarts": 4
   }
  ],
  "accounts": {
-  "count": 134,
+  "count": 345,
   "by_category": {
-   "celebrity": 27,
-   "politician": 7,
-   "exchange": 9,
-   "founder": 18,
-   "news": 13,
-   "platform": 29,
-   "kol": 31
+   "celebrity": 67,
+   "politician": 14,
+   "exchange": 21,
+   "founder": 40,
+   "news": 28,
+   "platform": 55,
+   "kol": 120
   },
   "top": [
    {
@@ -551,9 +551,49 @@
     "c": "celebrity"
    },
    {
+    "h": "BarackObama",
+    "f": 118750908,
+    "c": "politician"
+   },
+   {
+    "h": "Cristiano",
+    "f": 114465691,
+    "c": "celebrity"
+   },
+   {
     "h": "realDonaldTrump",
     "f": 111867806,
     "c": "politician"
+   },
+   {
+    "h": "justinbieber",
+    "f": 91788087,
+    "c": "celebrity"
+   },
+   {
+    "h": "KimKardashian",
+    "f": 70838643,
+    "c": "celebrity"
+   },
+   {
+    "h": "neymarjr",
+    "f": 66382097,
+    "c": "celebrity"
+   },
+   {
+    "h": "KingJames",
+    "f": 55315432,
+    "c": "celebrity"
+   },
+   {
+    "h": "jimmyfallon",
+    "f": 42879093,
+    "c": "celebrity"
+   },
+   {
+    "h": "KylieJenner",
+    "f": 39741569,
+    "c": "celebrity"
    },
    {
     "h": "MrBeast",
@@ -566,8 +606,23 @@
     "c": "celebrity"
    },
    {
+    "h": "KevinHart4real",
+    "f": 31333857,
+    "c": "celebrity"
+   },
+   {
     "h": "kanyewest",
     "f": 30862896,
+    "c": "celebrity"
+   },
+   {
+    "h": "LilTunechi",
+    "f": 29619556,
+    "c": "celebrity"
+   },
+   {
+    "h": "StephenCurry30",
+    "f": 24652269,
     "c": "celebrity"
    },
    {
@@ -576,8 +631,18 @@
     "c": "celebrity"
    },
    {
+    "h": "Eminem",
+    "f": 19820272,
+    "c": "celebrity"
+   },
+   {
     "h": "SnoopDogg",
     "f": 18850885,
+    "c": "celebrity"
+   },
+   {
+    "h": "10Ronaldinho",
+    "f": 18302875,
     "c": "celebrity"
    },
    {
@@ -596,6 +661,16 @@
     "c": "exchange"
    },
    {
+    "h": "SHAQ",
+    "f": 14591024,
+    "c": "celebrity"
+   },
+   {
+    "h": "aguerosergiokun",
+    "f": 14037959,
+    "c": "celebrity"
+   },
+   {
     "h": "ParisHilton",
     "f": 13769647,
     "c": "celebrity"
@@ -606,6 +681,26 @@
     "c": "founder"
    },
    {
+    "h": "trvisXX",
+    "f": 12694752,
+    "c": "celebrity"
+   },
+   {
+    "h": "50cent",
+    "f": 12478164,
+    "c": "celebrity"
+   },
+   {
+    "h": "TheNotoriousMMA",
+    "f": 11012383,
+    "c": "celebrity"
+   },
+   {
+    "h": "TomBrady",
+    "f": 10883079,
+    "c": "celebrity"
+   },
+   {
     "h": "Cobratate",
     "f": 10688235,
     "c": "celebrity"
@@ -614,6 +709,21 @@
     "h": "nayibbukele",
     "f": 8655247,
     "c": "politician"
+   },
+   {
+    "h": "charliesheen",
+    "f": 8604544,
+    "c": "celebrity"
+   },
+   {
+    "h": "mcuban",
+    "f": 8577661,
+    "c": "celebrity"
+   },
+   {
+    "h": "DwyaneWade",
+    "f": 8438844,
+    "c": "celebrity"
    },
    {
     "h": "KSI",
@@ -636,6 +746,11 @@
     "c": "celebrity"
    },
    {
+    "h": "CoinMarketCap",
+    "f": 7088277,
+    "c": "news"
+   },
+   {
     "h": "IGGYAZALEA",
     "f": 6814599,
     "c": "celebrity"
@@ -648,6 +763,11 @@
    {
     "h": "Ninja",
     "f": 6674097,
+    "c": "celebrity"
+   },
+   {
+    "h": "lindsaylohan",
+    "f": 6472180,
     "c": "celebrity"
    },
    {
@@ -666,9 +786,19 @@
     "c": "celebrity"
    },
    {
+    "h": "RobertKennedyJr",
+    "f": 5773520,
+    "c": "politician"
+   },
+   {
     "h": "okx",
     "f": 5556754,
     "c": "exchange"
+   },
+   {
+    "h": "21savage",
+    "f": 5435555,
+    "c": "celebrity"
    },
    {
     "h": "unusual_whales",
@@ -676,14 +806,29 @@
     "c": "news"
    },
    {
+    "h": "RealJamesWoods",
+    "f": 5320118,
+    "c": "celebrity"
+   },
+   {
     "h": "saylor",
     "f": 5219912,
     "c": "founder"
    },
    {
+    "h": "djkhaled",
+    "f": 5079745,
+    "c": "celebrity"
+   },
+   {
     "h": "WatcherGuru",
     "f": 4922839,
     "c": "news"
+   },
+   {
+    "h": "lilyachty",
+    "f": 4874866,
+    "c": "celebrity"
    },
    {
     "h": "Bybit_Official",
@@ -701,9 +846,24 @@
     "c": "politician"
    },
    {
+    "h": "BitcoinMagazine",
+    "f": 4497111,
+    "c": "news"
+   },
+   {
+    "h": "Akon",
+    "f": 4470934,
+    "c": "celebrity"
+   },
+   {
     "h": "jakepaul",
     "f": 4447205,
     "c": "celebrity"
+   },
+   {
+    "h": "justinsuntron",
+    "f": 4311038,
+    "c": "founder"
    },
    {
     "h": "bitget",
@@ -714,6 +874,16 @@
     "h": "solana",
     "f": 4219541,
     "c": "platform"
+   },
+   {
+    "h": "naval",
+    "f": 4163304,
+    "c": "founder"
+   },
+   {
+    "h": "CoinDesk",
+    "f": 4077103,
+    "c": "news"
    },
    {
     "h": "MarioNawfal",
@@ -731,8 +901,23 @@
     "c": "founder"
    },
    {
+    "h": "tonyhawk",
+    "f": 3874298,
+    "c": "celebrity"
+   },
+   {
+    "h": "stoolpresidente",
+    "f": 3857997,
+    "c": "celebrity"
+   },
+   {
     "h": "Tyga",
     "f": 3772835,
+    "c": "celebrity"
+   },
+   {
+    "h": "playboicarti",
+    "f": 3609618,
     "c": "celebrity"
    },
    {
@@ -751,9 +936,34 @@
     "c": "celebrity"
    },
    {
+    "h": "KaiCenat",
+    "f": 3128724,
+    "c": "celebrity"
+   },
+   {
+    "h": "garyvee",
+    "f": 3105987,
+    "c": "celebrity"
+   },
+   {
     "h": "jasonderulo",
     "f": 3068791,
     "c": "celebrity"
+   },
+   {
+    "h": "cryptocom",
+    "f": 3016720,
+    "c": "exchange"
+   },
+   {
+    "h": "CathieDWood",
+    "f": 3011354,
+    "c": "founder"
+   },
+   {
+    "h": "Cointelegraph",
+    "f": 2928813,
+    "c": "news"
    },
    {
     "h": "whale_alert",
@@ -776,8 +986,38 @@
     "c": "founder"
    },
    {
+    "h": "AltcoinDaily",
+    "f": 2609405,
+    "c": "kol"
+   },
+   {
     "h": "adinross",
     "f": 2526414,
+    "c": "celebrity"
+   },
+   {
+    "h": "chamath",
+    "f": 2496028,
+    "c": "founder"
+   },
+   {
+    "h": "APompliano",
+    "f": 2438710,
+    "c": "founder"
+   },
+   {
+    "h": "coingecko",
+    "f": 2421678,
+    "c": "news"
+   },
+   {
+    "h": "AB84",
+    "f": 2373557,
+    "c": "celebrity"
+   },
+   {
+    "h": "trippieredd",
+    "f": 2354706,
     "c": "celebrity"
    },
    {
@@ -786,9 +1026,29 @@
     "c": "founder"
    },
    {
+    "h": "haydenzadams",
+    "f": 2336336,
+    "c": "founder"
+   },
+   {
     "h": "richthekid",
     "f": 2268389,
     "c": "celebrity"
+   },
+   {
+    "h": "balajis",
+    "f": 2267937,
+    "c": "founder"
+   },
+   {
+    "h": "RiceGum",
+    "f": 2185143,
+    "c": "celebrity"
+   },
+   {
+    "h": "AshCrypto",
+    "f": 2153077,
+    "c": "kol"
    },
    {
     "h": "Polymarket",
@@ -801,9 +1061,39 @@
     "c": "exchange"
    },
    {
+    "h": "DavidSacks",
+    "f": 1774116,
+    "c": "politician"
+   },
+   {
+    "h": "MMCrypto",
+    "f": 1761384,
+    "c": "kol"
+   },
+   {
     "h": "krakenfx",
     "f": 1745771,
     "c": "exchange"
+   },
+   {
+    "h": "HTX_Global",
+    "f": 1722517,
+    "c": "exchange"
+   },
+   {
+    "h": "cryptorover",
+    "f": 1623800,
+    "c": "kol"
+   },
+   {
+    "h": "machinegunkelly",
+    "f": 1614851,
+    "c": "celebrity"
+   },
+   {
+    "h": "xQc",
+    "f": 1610433,
+    "c": "celebrity"
    },
    {
     "h": "TheRoaringKitty",
@@ -811,9 +1101,19 @@
     "c": "celebrity"
    },
    {
+    "h": "MEXC",
+    "f": 1580300,
+    "c": "exchange"
+   },
+   {
     "h": "base",
     "f": 1540663,
     "c": "platform"
+   },
+   {
+    "h": "RaoulGMI",
+    "f": 1514121,
+    "c": "founder"
    },
    {
     "h": "Grimezsz",
@@ -821,9 +1121,29 @@
     "c": "celebrity"
    },
    {
+    "h": "arkham",
+    "f": 1478495,
+    "c": "news"
+   },
+   {
     "h": "blknoiz06",
     "f": 1444817,
     "c": "kol"
+   },
+   {
+    "h": "RobinhoodApp",
+    "f": 1394553,
+    "c": "exchange"
+   },
+   {
+    "h": "Timbaland",
+    "f": 1353503,
+    "c": "celebrity"
+   },
+   {
+    "h": "danheld",
+    "f": 1336894,
+    "c": "founder"
    },
    {
     "h": "ZssBecker",
@@ -851,6 +1171,31 @@
     "c": "news"
    },
    {
+    "h": "scottmelker",
+    "f": 1082587,
+    "c": "kol"
+   },
+   {
+    "h": "sneako",
+    "f": 1031969,
+    "c": "celebrity"
+   },
+   {
+    "h": "ErikVoorhees",
+    "f": 996473,
+    "c": "founder"
+   },
+   {
+    "h": "CryptoCapo_",
+    "f": 985629,
+    "c": "kol"
+   },
+   {
+    "h": "cdixon",
+    "f": 955312,
+    "c": "founder"
+   },
+   {
     "h": "phantom",
     "f": 953600,
     "c": "platform"
@@ -876,6 +1221,26 @@
     "c": "kol"
    },
    {
+    "h": "bitfinex",
+    "f": 917067,
+    "c": "exchange"
+   },
+   {
+    "h": "TheCryptoDog",
+    "f": 844192,
+    "c": "kol"
+   },
+   {
+    "h": "CryptoCred",
+    "f": 833694,
+    "c": "kol"
+   },
+   {
+    "h": "CryptoMichNL",
+    "f": 822428,
+    "c": "kol"
+   },
+   {
     "h": "CryptoHayes",
     "f": 821952,
     "c": "founder"
@@ -891,14 +1256,39 @@
     "c": "kol"
    },
    {
+    "h": "aantonop",
+    "f": 790930,
+    "c": "founder"
+   },
+   {
+    "h": "MagicEden",
+    "f": 774960,
+    "c": "platform"
+   },
+   {
+    "h": "worldlibertyfi",
+    "f": 753379,
+    "c": "politician"
+   },
+   {
     "h": "Pumpfun",
     "f": 750225,
     "c": "platform"
    },
    {
+    "h": "IncomeSharks",
+    "f": 743745,
+    "c": "kol"
+   },
+   {
     "h": "CryptoKaleo",
     "f": 728378,
     "c": "kol"
+   },
+   {
+    "h": "BingXOfficial",
+    "f": 727011,
+    "c": "exchange"
    },
    {
     "h": "MustStopMurad",
@@ -921,6 +1311,11 @@
     "c": "kol"
    },
    {
+    "h": "milesdeutscher",
+    "f": 681691,
+    "c": "kol"
+   },
+   {
     "h": "heyibinance",
     "f": 680340,
     "c": "founder"
@@ -929,6 +1324,16 @@
     "h": "pudgypenguins",
     "f": 679839,
     "c": "platform"
+   },
+   {
+    "h": "LBank_Exchange",
+    "f": 661993,
+    "c": "exchange"
+   },
+   {
+    "h": "Gemini",
+    "f": 635858,
+    "c": "exchange"
    },
    {
     "h": "JupiterExchange",
@@ -941,8 +1346,18 @@
     "c": "founder"
    },
    {
+    "h": "glassnode",
+    "f": 610252,
+    "c": "news"
+   },
+   {
     "h": "HsakaTrades",
     "f": 599891,
+    "c": "kol"
+   },
+   {
+    "h": "CryptoTony__",
+    "f": 568718,
     "c": "kol"
    },
    {
@@ -951,9 +1366,34 @@
     "c": "kol"
    },
    {
+    "h": "WuBlockchain",
+    "f": 559386,
+    "c": "news"
+   },
+   {
+    "h": "BinanceUS",
+    "f": 553563,
+    "c": "exchange"
+   },
+   {
+    "h": "Trader_XO",
+    "f": 552740,
+    "c": "kol"
+   },
+   {
     "h": "frankdegods",
     "f": 541617,
     "c": "kol"
+   },
+   {
+    "h": "nobrainflip",
+    "f": 538082,
+    "c": "kol"
+   },
+   {
+    "h": "lopp",
+    "f": 532122,
+    "c": "founder"
    },
    {
     "h": "MacnBTC",
@@ -966,9 +1406,29 @@
     "c": "platform"
    },
    {
+    "h": "RookieXBT",
+    "f": 498209,
+    "c": "kol"
+   },
+   {
+    "h": "cryptojack",
+    "f": 490254,
+    "c": "kol"
+   },
+   {
+    "h": "novogratz",
+    "f": 489641,
+    "c": "founder"
+   },
+   {
     "h": "punk6529",
     "f": 486893,
     "c": "founder"
+   },
+   {
+    "h": "CredibleCrypto",
+    "f": 481465,
+    "c": "kol"
    },
    {
     "h": "CryptoWendyO",
@@ -981,9 +1441,19 @@
     "c": "platform"
    },
    {
+    "h": "JamesWynnReal",
+    "f": 462546,
+    "c": "kol"
+   },
+   {
     "h": "aixbt_agent",
     "f": 461255,
     "c": "platform"
+   },
+   {
+    "h": "Phemex_official",
+    "f": 461044,
+    "c": "exchange"
    },
    {
     "h": "bonk_inu",
@@ -996,9 +1466,24 @@
     "c": "kol"
    },
    {
+    "h": "cryptogems555",
+    "f": 440773,
+    "c": "kol"
+   },
+   {
+    "h": "HyperliquidX",
+    "f": 440492,
+    "c": "exchange"
+   },
+   {
     "h": "yugalabs",
     "f": 439209,
     "c": "platform"
+   },
+   {
+    "h": "EmperorBTC",
+    "f": 436137,
+    "c": "kol"
    },
    {
     "h": "a1lon9",
@@ -1021,14 +1506,59 @@
     "c": "kol"
    },
    {
+    "h": "moonpay",
+    "f": 417421,
+    "c": "platform"
+   },
+   {
     "h": "notthreadguy",
     "f": 412766,
+    "c": "kol"
+   },
+   {
+    "h": "JakeGagain",
+    "f": 411839,
+    "c": "kol"
+   },
+   {
+    "h": "SenLummis",
+    "f": 403305,
+    "c": "politician"
+   },
+   {
+    "h": "CryptoNobler",
+    "f": 401650,
     "c": "kol"
    },
    {
     "h": "solanamobile",
     "f": 395549,
     "c": "platform"
+   },
+   {
+    "h": "Zeneca",
+    "f": 394132,
+    "c": "kol"
+   },
+   {
+    "h": "GCRClassic",
+    "f": 390646,
+    "c": "kol"
+   },
+   {
+    "h": "DefiLlama",
+    "f": 371058,
+    "c": "news"
+   },
+   {
+    "h": "IcedKnife",
+    "f": 365855,
+    "c": "kol"
+   },
+   {
+    "h": "nansen_ai",
+    "f": 355453,
+    "c": "news"
    },
    {
     "h": "jessepollak",
@@ -1038,6 +1568,11 @@
    {
     "h": "ColdBloodShill",
     "f": 351500,
+    "c": "kol"
+   },
+   {
+    "h": "Bluntz_Capital",
+    "f": 341419,
     "c": "kol"
    },
    {
@@ -1051,6 +1586,66 @@
     "c": "kol"
    },
    {
+    "h": "Backpack",
+    "f": 325163,
+    "c": "platform"
+   },
+   {
+    "h": "loomdart",
+    "f": 320997,
+    "c": "kol"
+   },
+   {
+    "h": "LomahCrypto",
+    "f": 317624,
+    "c": "kol"
+   },
+   {
+    "h": "nyhrox",
+    "f": 309028,
+    "c": "kol"
+   },
+   {
+    "h": "SOLBigBrain",
+    "f": 308651,
+    "c": "kol"
+   },
+   {
+    "h": "StaniKulechov",
+    "f": 304848,
+    "c": "founder"
+   },
+   {
+    "h": "MoonOverlord",
+    "f": 300466,
+    "c": "kol"
+   },
+   {
+    "h": "CryptosR_Us",
+    "f": 299755,
+    "c": "kol"
+   },
+   {
+    "h": "thedefiedge",
+    "f": 297731,
+    "c": "kol"
+   },
+   {
+    "h": "sassal0x",
+    "f": 296465,
+    "c": "founder"
+   },
+   {
+    "h": "WhalePanda",
+    "f": 295881,
+    "c": "kol"
+   },
+   {
+    "h": "Route2FI",
+    "f": 295208,
+    "c": "kol"
+   },
+   {
     "h": "bubblemaps",
     "f": 293489,
     "c": "news"
@@ -1059,6 +1654,31 @@
     "h": "virtuals_io",
     "f": 291086,
     "c": "platform"
+   },
+   {
+    "h": "cryptoquant_com",
+    "f": 290757,
+    "c": "news"
+   },
+   {
+    "h": "TheFlowHorse",
+    "f": 286342,
+    "c": "kol"
+   },
+   {
+    "h": "Jeremybtc",
+    "f": 280381,
+    "c": "kol"
+   },
+   {
+    "h": "WhiteBit",
+    "f": 274957,
+    "c": "exchange"
+   },
+   {
+    "h": "EricCryptoman",
+    "f": 271097,
+    "c": "kol"
    },
    {
     "h": "DegenSpartan",
@@ -1076,6 +1696,16 @@
     "c": "platform"
    },
    {
+    "h": "AltcoinSherpa",
+    "f": 263594,
+    "c": "kol"
+   },
+   {
+    "h": "SolanaSensei",
+    "f": 255778,
+    "c": "kol"
+   },
+   {
     "h": "GiganticRebirth",
     "f": 253609,
     "c": "kol"
@@ -1089,6 +1719,11 @@
     "h": "Tree_of_Alpha",
     "f": 248678,
     "c": "news"
+   },
+   {
+    "h": "ShardiB2",
+    "f": 248634,
+    "c": "kol"
    },
    {
     "h": "KyleSamani",
@@ -1111,9 +1746,29 @@
     "c": "platform"
    },
    {
+    "h": "SatoshiFlipper",
+    "f": 238507,
+    "c": "kol"
+   },
+   {
+    "h": "DecryptMedia",
+    "f": 229669,
+    "c": "news"
+   },
+   {
     "h": "LucaNetz",
     "f": 226678,
     "c": "founder"
+   },
+   {
+    "h": "machibigbrother",
+    "f": 226463,
+    "c": "kol"
+   },
+   {
+    "h": "SolJakey",
+    "f": 217231,
+    "c": "kol"
    },
    {
     "h": "MeteoraAG",
@@ -1121,8 +1776,33 @@
     "c": "platform"
    },
    {
+    "h": "traderpow",
+    "f": 215455,
+    "c": "kol"
+   },
+   {
     "h": "LilMoonLambo",
     "f": 214042,
+    "c": "kol"
+   },
+   {
+    "h": "SolanaLegend",
+    "f": 211994,
+    "c": "kol"
+   },
+   {
+    "h": "cozypront",
+    "f": 208345,
+    "c": "kol"
+   },
+   {
+    "h": "DustyBC",
+    "f": 204577,
+    "c": "kol"
+   },
+   {
+    "h": "Crypto_Chase",
+    "f": 203026,
     "c": "kol"
    },
    {
@@ -1131,9 +1811,39 @@
     "c": "platform"
    },
    {
+    "h": "notEezzy",
+    "f": 197606,
+    "c": "kol"
+   },
+   {
+    "h": "SolanaFndn",
+    "f": 196494,
+    "c": "platform"
+   },
+   {
     "h": "orca_so",
     "f": 192391,
     "c": "platform"
+   },
+   {
+    "h": "DeGodsNFT",
+    "f": 190410,
+    "c": "platform"
+   },
+   {
+    "h": "Cryptopathic",
+    "f": 188449,
+    "c": "kol"
+   },
+   {
+    "h": "Austin_Federa",
+    "f": 188285,
+    "c": "founder"
+   },
+   {
+    "h": "DannyDuncan69",
+    "f": 188194,
+    "c": "celebrity"
    },
    {
     "h": "Ga__ke",
@@ -1146,14 +1856,94 @@
     "c": "kol"
    },
    {
+    "h": "CryptoBullet1",
+    "f": 182642,
+    "c": "kol"
+   },
+   {
+    "h": "0xfoobar",
+    "f": 179373,
+    "c": "kol"
+   },
+   {
+    "h": "DEXToolsApp",
+    "f": 177800,
+    "c": "platform"
+   },
+   {
+    "h": "Darkfarms1",
+    "f": 176696,
+    "c": "founder"
+   },
+   {
+    "h": "armaniferrante",
+    "f": 170913,
+    "c": "founder"
+   },
+   {
+    "h": "ercwl",
+    "f": 166266,
+    "c": "kol"
+   },
+   {
     "h": "shawmakesmagic",
     "f": 166022,
     "c": "founder"
    },
    {
+    "h": "DefiIgnas",
+    "f": 163894,
+    "c": "kol"
+   },
+   {
+    "h": "Crypto_Ed_NL",
+    "f": 162326,
+    "c": "kol"
+   },
+   {
+    "h": "solana_daily",
+    "f": 158155,
+    "c": "news"
+   },
+   {
+    "h": "GetTrumpMemes",
+    "f": 155354,
+    "c": "politician"
+   },
+   {
+    "h": "Slerfsol",
+    "f": 153775,
+    "c": "platform"
+   },
+   {
+    "h": "BagsApp",
+    "f": 152206,
+    "c": "platform"
+   },
+   {
     "h": "EmberCN",
     "f": 151951,
     "c": "news"
+   },
+   {
+    "h": "MarcellxMarcell",
+    "f": 150749,
+    "c": "kol"
+   },
+   {
+    "h": "hosseeb",
+    "f": 150384,
+    "c": "founder"
+   },
+   {
+    "h": "TrojanOnSolana",
+    "f": 148329,
+    "c": "platform"
+   },
+   {
+    "h": "tensor_hq",
+    "f": 146584,
+    "c": "platform"
    },
    {
     "h": "gmgnai",
@@ -1166,13 +1956,78 @@
     "c": "platform"
    },
    {
+    "h": "wizardofsoho",
+    "f": 143385,
+    "c": "kol"
+   },
+   {
+    "h": "CookerFlips",
+    "f": 138815,
+    "c": "kol"
+   },
+   {
+    "h": "elizaOS",
+    "f": 137600,
+    "c": "platform"
+   },
+   {
+    "h": "SolanaStatus",
+    "f": 137391,
+    "c": "platform"
+   },
+   {
     "h": "SolanaFloor",
     "f": 135251,
     "c": "news"
    },
    {
+    "h": "bullx_io",
+    "f": 133338,
+    "c": "platform"
+   },
+   {
     "h": "Dior100x",
     "f": 130042,
+    "c": "kol"
+   },
+   {
+    "h": "JasonYanowitz",
+    "f": 129471,
+    "c": "kol"
+   },
+   {
+    "h": "Yennii56",
+    "f": 127531,
+    "c": "kol"
+   },
+   {
+    "h": "slingoorio",
+    "f": 122072,
+    "c": "kol"
+   },
+   {
+    "h": "y00tsNFT",
+    "f": 118025,
+    "c": "platform"
+   },
+   {
+    "h": "AxiomExchange",
+    "f": 115979,
+    "c": "platform"
+   },
+   {
+    "h": "iambroots",
+    "f": 115573,
+    "c": "kol"
+   },
+   {
+    "h": "Crypto__Goku",
+    "f": 114464,
+    "c": "kol"
+   },
+   {
+    "h": "CryptoFaibik",
+    "f": 111569,
     "c": "kol"
    },
    {
@@ -1181,9 +2036,44 @@
     "c": "founder"
    },
    {
+    "h": "IamCryptoWolf",
+    "f": 110185,
+    "c": "kol"
+   },
+   {
+    "h": "Cryptoyieldinfo",
+    "f": 109334,
+    "c": "kol"
+   },
+   {
+    "h": "tradewithPhoton",
+    "f": 107726,
+    "c": "platform"
+   },
+   {
+    "h": "Crypto_McKenna",
+    "f": 106005,
+    "c": "kol"
+   },
+   {
     "h": "bonkfun",
     "f": 104383,
     "c": "platform"
+   },
+   {
+    "h": "LexaproTrader",
+    "f": 97816,
+    "c": "kol"
+   },
+   {
+    "h": "PeckShieldAlert",
+    "f": 95596,
+    "c": "news"
+   },
+   {
+    "h": "MikybullCrypto",
+    "f": 92246,
+    "c": "kol"
    },
    {
     "h": "spx6900",
@@ -1206,18 +2096,194 @@
     "c": "founder"
    },
    {
+    "h": "bonkbot_io",
+    "f": 75469,
+    "c": "platform"
+   },
+   {
+    "h": "Crypto_Jargon",
+    "f": 75297,
+    "c": "kol"
+   },
+   {
+    "h": "ShockedJS",
+    "f": 72019,
+    "c": "kol"
+   },
+   {
+    "h": "CertiKAlert",
+    "f": 67766,
+    "c": "news"
+   },
+   {
+    "h": "insentos",
+    "f": 65463,
+    "c": "kol"
+   },
+   {
+    "h": "catwifhatsolana",
+    "f": 62959,
+    "c": "platform"
+   },
+   {
+    "h": "ImNotTheWolf",
+    "f": 62345,
+    "c": "kol"
+   },
+   {
+    "h": "blockgraze",
+    "f": 60649,
+    "c": "kol"
+   },
+   {
+    "h": "solscanofficial",
+    "f": 58143,
+    "c": "platform"
+   },
+   {
+    "h": "gr3gor14n",
+    "f": 56564,
+    "c": "kol"
+   },
+   {
+    "h": "thecryptoskanda",
+    "f": 55093,
+    "c": "kol"
+   },
+   {
+    "h": "daosdotfun",
+    "f": 55054,
+    "c": "platform"
+   },
+   {
+    "h": "kashdhanda",
+    "f": 52525,
+    "c": "founder"
+   },
+   {
+    "h": "ratwizardx",
+    "f": 48096,
+    "c": "kol"
+   },
+   {
+    "h": "0xWangarian",
+    "f": 47386,
+    "c": "kol"
+   },
+   {
+    "h": "FA_Touadera",
+    "f": 47135,
+    "c": "politician"
+   },
+   {
     "h": "boopdotfun",
     "f": 44544,
     "c": "platform"
    },
    {
+    "h": "Rugcheckxyz",
+    "f": 43145,
+    "c": "platform"
+   },
+   {
+    "h": "AguilaTrades",
+    "f": 40626,
+    "c": "kol"
+   },
+   {
+    "h": "clukz",
+    "f": 38886,
+    "c": "kol"
+   },
+   {
+    "h": "igndex",
+    "f": 38104,
+    "c": "kol"
+   },
+   {
+    "h": "TheBigWhale_",
+    "f": 37366,
+    "c": "kol"
+   },
+   {
     "h": "Loopierr",
     "f": 36831,
+    "c": "kol"
+   },
+   {
+    "h": "clanker_world",
+    "f": 36428,
+    "c": "platform"
+   },
+   {
+    "h": "waddles_eth",
+    "f": 35132,
+    "c": "kol"
+   },
+   {
+    "h": "Latuche95",
+    "f": 34485,
+    "c": "kol"
+   },
+   {
+    "h": "jijo_exe",
+    "f": 31948,
+    "c": "kol"
+   },
+   {
+    "h": "jito_labs",
+    "f": 31172,
+    "c": "platform"
+   },
+   {
+    "h": "heavendex",
+    "f": 29215,
+    "c": "platform"
+   },
+   {
+    "h": "sapijiju",
+    "f": 24188,
+    "c": "founder"
+   },
+   {
+    "h": "bandeez",
+    "f": 21660,
+    "c": "kol"
+   },
+   {
+    "h": "jidn_w",
+    "f": 20177,
+    "c": "kol"
+   },
+   {
+    "h": "mtndao",
+    "f": 18347,
+    "c": "platform"
+   },
+   {
+    "h": "solanapay",
+    "f": 17707,
+    "c": "platform"
+   },
+   {
+    "h": "daumeneth",
+    "f": 12670,
     "c": "kol"
    }
   ]
  },
  "activity": [
+  {
+   "ts": "2026-11-14T14:26:41+01:00",
+   "c": "watchdog",
+   "msg": "started publisher",
+   "pid": 694671
+  },
+  {
+   "ts": "2026-11-14T14:26:41+01:00",
+   "c": "watchdog",
+   "msg": "restart publisher: proces zakończony (kod -15)"
+  },
   {
    "ts": "2026-11-14T14:13:08+01:00",
    "c": "xbridge",
@@ -1403,11 +2469,6 @@
    "c": "watchdog",
    "msg": "watchdog started",
    "pid": 679791
-  },
-  {
-   "ts": "2026-11-14T13:55:06+01:00",
-   "c": "xbridge",
-   "msg": "ingest listed_1: 7 posts, 0 signals"
   }
  ]
 }
