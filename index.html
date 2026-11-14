@@ -99,7 +99,6 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
 .banner-slot { order: 1; }
 .hero { order: 2; }
 .chart-block { order: 3; }
-.sec-agents { order: 4; }
 .sec-pos { order: 5; }
 .sec-act { order: 6; }
 #foot { order: 7; }
@@ -274,14 +273,6 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
 .sec-h .right { font-size: 13px; font-weight: 650; color: var(--muted); }
 .sec-h .right.ok { color: var(--green); }
 
-.scroller {
-  display: flex; gap: 12px;
-  overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding: 0 22px;
-  padding: 2px 22px 8px;
-  scrollbar-width: none; -webkit-overflow-scrolling: touch;
-}
-.scroller::-webkit-scrollbar { display: none; }
-
 .glass {
   background: linear-gradient(180deg, var(--glass-hi), transparent 40%), var(--glass);
   border: 1px solid var(--glass-edge);
@@ -290,63 +281,7 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
   -webkit-backdrop-filter: blur(22px) saturate(140%);
 }
 
-.acard {
-  flex: 0 0 292px; scroll-snap-align: start;
-  border-radius: var(--radius);
-  padding: 16px 16px 15px;
-  min-height: 214px;
-  display: flex; flex-direction: column;
-  position: relative; overflow: hidden;
-}
-.acard::before {
-  content: ""; position: absolute; top: -40px; right: -30px;
-  width: 120px; height: 120px; border-radius: 50%;
-  background: radial-gradient(circle, var(--accent, rgba(45,255,154,.16)), transparent 70%);
-  pointer-events: none;
-}
-.acard .hd { display: flex; align-items: center; gap: 8px; margin-bottom: 2px; }
-.acard .hd .markdot {
-  width: 8px; height: 8px; border-radius: 50%;
-  background: var(--accent, var(--green));
-  box-shadow: 0 0 10px var(--accent, var(--green));
-  flex-shrink: 0;
-}
-.acard .hd h3 { font-size: 16.5px; font-weight: 750; letter-spacing: -.03em; }
-.acard .en {
-  margin-left: auto; font-size: 10.5px; font-weight: 720;
-  letter-spacing: .07em; text-transform: uppercase; color: var(--dim);
-}
-.acard .sub { font-size: 12.5px; color: var(--muted); font-weight: 550; margin-bottom: 12px; }
-.acard .sub b { color: var(--text); font-weight: 700; }
-.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 12px; }
-.stat .n { font-size: 26px; font-weight: 800; letter-spacing: -.04em; line-height: 1; font-variant-numeric: tabular-nums; }
-.stat .l { margin-top: 4px; font-size: 11.5px; color: var(--muted); font-weight: 550; }
-.sources { display: flex; flex-direction: column; gap: 6px; margin-top: 2px; }
-.src { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 12.5px; }
-.src .k { color: var(--muted); font-weight: 550; display: flex; align-items: center; gap: 6px; min-width: 0; }
-.src .k .role { font-size: 10px; color: var(--dim); font-weight: 650; letter-spacing: .04em; text-transform: uppercase; }
-.src .v { font-weight: 750; font-variant-numeric: tabular-nums; }
-.tokrow {
-  display: flex; justify-content: space-between; align-items: baseline;
-  gap: 8px; font-size: 13px; margin-top: 7px;
-}
-.tokrow .ts { font-weight: 700; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.tokrow .sc { font-weight: 780; color: var(--yellow); font-variant-numeric: tabular-nums; }
-.tokrow .sc.pass { color: var(--green); }
-.risk { display: flex; flex-direction: column; gap: 9px; flex: 1; }
-.risk .r { display: flex; justify-content: space-between; align-items: baseline; font-size: 13px; }
-.risk .r .k { color: var(--muted); font-weight: 550; }
-.risk .r .v { font-weight: 740; letter-spacing: -.01em; }
-.bar { height: 6px; border-radius: 99px; background: rgba(255,255,255,.07); overflow: hidden; margin-top: -3px; }
-.bar > i { display: block; height: 100%; border-radius: 99px; background: var(--green); width: 0; }
-.bar.warn > i { background: var(--yellow); }
-.bar.hot > i { background: var(--red); }
-.rules { margin-top: 2px; font-size: 12px; color: var(--muted); font-weight: 550; line-height: 1.5; }
-.rules b { color: var(--text); font-weight: 700; }
 .muted-empty { color: var(--dim); font-size: 13.5px; font-weight: 550; padding: 6px 0 2px; }
-.dots { display: flex; justify-content: center; gap: 6px; padding: 10px 0 0; }
-.dots i { width: 6px; height: 6px; border-radius: 50%; background: #2c2c32; display: block; transition: width .2s, background .2s; }
-.dots i.on { background: #fff; width: 16px; border-radius: 99px; }
 
 /* positions */
 .pos-grid { display: flex; flex-direction: column; gap: 12px; padding: 0 22px; }
@@ -416,8 +351,6 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
 .av.sell, .av.out { background: rgba(255,255,255,.07); color: #e8e8ed; }
 .av.stop, .av.time_stop { background: var(--red-dim); color: var(--red); }
 .av.partial_tp { background: rgba(245,197,66,.16); color: var(--yellow); }
-.av.score { background: rgba(139,124,255,.16); color: var(--violet); }
-.av.cycle { background: #14151c; color: #8b8f9c; }
 .abody { flex: 1; min-width: 0; }
 .abody .t { font-size: 15px; font-weight: 720; letter-spacing: -.02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .abody .s { font-size: 12px; color: var(--muted); margin-top: 2px; font-weight: 550; }
@@ -525,20 +458,10 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
   .meta-row { padding: 10px 0 0; }
   .chart-block { padding: 2px 0 4px; order: unset; }
   .ranges { padding: 10px 0 0; }
-  .sec-agents { padding-top: 4px; order: unset; }
   .sec-pos { padding-top: 12px; order: unset; }
   .sec-act { padding-top: 10px; min-height: 0; order: unset; }
   .sec-act .feed { max-height: 270px; overflow: auto; padding: 0; scrollbar-width: thin; }
   .sec-h { padding: 0 0 10px; }
-  .scroller {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    overflow: visible; padding: 0; gap: 10px;
-    scroll-snap-type: none;
-  }
-  .acard { flex: auto; min-height: 0; width: auto; padding: 12px 13px 11px; }
-  .acard.span2 { grid-column: 1 / -1; }
-  .dots { display: none; }
   .pos-grid { padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
   .pos-grid.one { grid-template-columns: 1fr; }
   .pos-card { padding: 12px 14px; }
@@ -547,13 +470,11 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
   .chart-wrap { height: 154px; }
   .sheet { left: 50%; right: auto; transform: translate(-50%, 110%); width: min(560px, 100%); border-radius: 28px 28px 0 0; }
   .sheet.on { transform: translate(-50%, 0); }
-  .stat .n { font-size: 22px; }
   #foot { padding: 16px 0 0; grid-area: foot; order: unset; }
 }
 @media (min-width: 960px) and (max-height: 860px) {
   .chart-wrap { height: 152px; }
   .equity { font-size: 60px; }
-  .acard { padding: 11px 12px 10px; }
   .sec { padding-top: 14px; }
   .pos-spark { height: 34px; margin: 4px 0 2px; }
   .sec-act .feed { max-height: 340px; }
@@ -642,15 +563,6 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
 
     </div>
     <div class="col-side">
-    <section class="sec sec-agents" id="secAgents">
-      <div class="sec-h">
-        <h2>Agenci</h2>
-        <span class="right" id="agentsRight"></span>
-      </div>
-      <div class="scroller" id="agentScroll"></div>
-      <div class="dots" id="agentDots"></div>
-    </section>
-
     <section class="sec sec-act" id="secAct">
       <div class="sec-h">
         <h2>Aktywność</h2>
@@ -685,16 +597,6 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
   const LIVE_MS = 15 * 60 * 1000;
   const HOUR_MS = 60 * 60 * 1000;
 
-  const SOURCE_META = [
-    { key: "dexscreener", label: "DexScreener", role: "główne" },
-    { key: "pumpfun", label: "pump.fun", role: "główne" },
-    { key: "pumpfun_dex", label: "PumpSwap", role: "główne" },
-    { key: "raydium", label: "Raydium", role: "główne" },
-    { key: "launchlab", label: "LaunchLab", role: "główne" },
-    { key: "jupiter", label: "Jupiter", role: "dodatkowe" },
-    { key: "geckoterminal", label: "GeckoTerminal", role: "w tle" },
-  ];
-
   let DATA = null;
   let dataError = null;
   let livePrices = {};
@@ -712,7 +614,6 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
   let animRaf = null;
   let lastPosFp = "";
   let lastActFp = "";
-  let lastAgentFp = "";
   let chartPts = [];
 
   const $ = (id) => document.getElementById(id);
@@ -1205,10 +1106,8 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
       txt.textContent = DATA ? "z cyklu" : "oczekiwanie";
     }
     $("cashVal").textContent = live.cash != null ? "$" + money(live.cash) : "—";
-    const risk = (DATA && DATA.risk) || {};
     const n = live.opens.length;
-    const max = risk.max_positions;
-    $("posCount").textContent = max != null ? n + " / " + max : String(n);
+    $("posCount").textContent = String(n);
     const realized = live.realized;
     const unrl = live.unreal;
     // don't add extra invented rows
@@ -1245,151 +1144,6 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
     slot.innerHTML = "";
   }
 
-  function winRate(data) {
-    const closed = (data.closed_trades || []).filter((t) => !t.partial && t.reason !== "partial_tp");
-    if (!closed.length) return null;
-    const wins = closed.filter((t) => Number(t.pnl_usd) > 0).length;
-    return { wins, n: closed.length, pct: (wins / closed.length) * 100 };
-  }
-
-  function agentCards(data, live) {
-    const last = data.last || {};
-    const sess = data.session || {};
-    const risk = data.risk || {};
-    const exec = data.executor || {};
-    const src = data.scouted_by_source || null;
-    const discovery = data.discovery || {};
-    const main = new Set(discovery.main || ["dexscreener", "pumpfun", "pumpfun_dex", "raydium", "launchlab"]);
-    const bg = new Set(discovery.background || ["geckoterminal"]);
-
-    let srcHtml = "";
-    if (src && typeof src === "object") {
-      srcHtml = '<div class="sources">' + SOURCE_META.map((s) => {
-        const v = (s.key in src) ? src[s.key] : "—";
-        if (v == null) return "";
-        const role = bg.has(s.key) ? "w tle" : (s.role === "główne" ? "główne" : (s.role === "dodatkowe" ? "dodatkowe" : ""));
-        return '<div class="src"><span class="k">' + esc(s.label) +
-          (role ? ' <span class="role">' + esc(role) + "</span>" : "") +
-          "</span><span class=\"v\">" +
-          esc(String(v)) + "</span></div>";
-      }).join("") + "</div>";
-    }
-
-    const scores = (data.last_scored && data.last_scored.length)
-      ? { list: data.last_scored, label: "Ostatni cykl" }
-      : ((data.top_session && data.top_session.length)
-        ? { list: data.top_session, label: "Najlepsze w sesji" }
-        : { list: [], label: "Oceny" });
-    const passScore = Number(data.pass_score != null ? data.pass_score : 65);
-    const scoreRows = scores.list.slice(0, 4).map((t) => {
-      const pass = t.passed != null ? t.passed : (t.score != null && Number(t.score) >= passScore);
-      return '<div class="tokrow"><span class="ts">' + esc(t.symbol || shortMint(t.mint)) +
-        "</span><span class=\"sc" + (pass ? " pass" : "") + "\">" +
-        (t.score != null ? Number(t.score).toFixed(2) : "—") + "</span></div>";
-    }).join("");
-
-    const wr = winRate(data);
-    const wrTxt = wr ? (wr.pct.toFixed(0) + "% · " + wr.wins + "/" + wr.n) : "—";
-    const wrSub = wr ? wr.n + (wr.n === 1 ? " zamknięcie" : " zamknięć") : "brak zamknięć";
-
-    const posN = live.opens.length;
-    const posMax = risk.max_positions ?? 15;
-    const posPct = posMax ? Math.max(0, Math.min(100, (posN / posMax) * 100)) : 0;
-    const shownLoss = risk.loss_used != null ? Number(risk.loss_used) : 0;
-    const lossLim = risk.loss_limit != null ? Number(risk.loss_limit) : 0;
-    const lossPct = lossLim ? Math.max(0, Math.min(100, (shownLoss / lossLim) * 100)) : 0;
-    const posBar = posPct >= 90 ? "hot" : (posPct >= 70 ? "warn" : "");
-    const lossBar = lossPct >= 80 ? "hot" : (lossPct >= 50 ? "warn" : "");
-    const tp = risk.partial_tp_pct;
-    const frac = risk.partial_tp_fraction;
-    const half = frac != null ? (Math.abs(frac - 0.5) < 1e-9 ? "połowa" : (Math.round(frac * 100) + "%")) : "połowa";
-    const tighten = (risk.trail_tighten_at_pct != null && risk.trail_tighten_pct != null)
-      ? " Powyżej +" + risk.trail_tighten_at_pct + "% zacieśnia do " + risk.trail_tighten_pct + "%."
-      : "";
-    const tstop = risk.time_stop_minutes != null
-      ? " Stop czasowy po " + risk.time_stop_minutes + " min" +
-        (risk.time_stop_min_pnl_pct != null ? " (jeśli poniżej +" + risk.time_stop_min_pnl_pct + "%)." : ".")
-      : "";
-
-    const cards = [
-      {
-        en: "Scout", pl: "Scout", accent: "var(--cyan)",
-        body: '<div class="sub">Tokeny w ostatnim cyklu</div>' +
-          '<div class="stats"><div class="stat"><div class="n">' + (last.scouted ?? "—") + '</div><div class="l">unikalnych</div></div>' +
-          '<div class="stat"><div class="n">' + (last.scout_passed ?? "—") + '</div><div class="l">przeszło Scouta</div></div></div>' +
-          srcHtml
-      },
-      {
-        en: "Filter", pl: "Filtr", accent: "var(--orange)",
-        body: '<div class="sub">Bezpieczeństwo i płynność</div>' +
-          '<div class="stats"><div class="stat"><div class="n">' + (last.filter_passed ?? "—") + '</div><div class="l">przeszło w cyklu</div></div>' +
-          '<div class="stat"><div class="n">' + (last.filter_rejected ?? "—") + '</div><div class="l">odrzuconych</div></div></div>' +
-          '<div class="sub" style="margin:12px 0 0">Sesja: <b>' + (sess.filter_passed ?? "—") + "</b> przeszło, <b>" +
-          (sess.filter_rejected ?? "—") + "</b> odrzuconych</div>"
-      },
-      {
-        en: "Analyst", pl: "Analityk", accent: "var(--yellow)",
-        body: '<div class="sub">' + esc(scores.label) +
-          (passScore ? " · próg <b>" + passScore + "</b>" : "") + "</div>" +
-          (scoreRows || '<div class="muted-empty">Brak ocen w tej sesji</div>')
-      },
-      {
-        en: "Executor", pl: "Wykonawca", accent: "var(--green)",
-        body: '<div class="sub">Wejścia paper · <b>$' + money(exec.notional_usd) + "</b> na pozycję</div>" +
-          '<div class="stats"><div class="stat"><div class="n">' + (sess.opens ?? 0) + '</div><div class="l">transakcje w sesji</div></div>' +
-          '<div class="stat"><div class="n">' + esc(wr ? wr.pct.toFixed(0) + "%" : "—") + '</div><div class="l">skuteczność · ' + esc(wrSub) + "</div></div></div>"
-      },
-      {
-        en: "Risk", pl: "Ryzyko", accent: "var(--red)",
-        body: '<div class="risk">' +
-          '<div class="r"><span class="k">Pozycje</span><span class="v">' + posN + " / " + posMax + "</span></div>" +
-          '<div class="bar ' + posBar + '"><i style="width:' + posPct + '%"></i></div>' +
-          '<div class="r"><span class="k">Limit straty</span><span class="v">$' + money(shownLoss) + " / $" + money(lossLim) + "</span></div>" +
-          '<div class="bar ' + lossBar + '"><i style="width:' + lossPct + '%"></i></div>' +
-          '<div class="rules">Stop <b>−' + (risk.stop_pct ?? 12) + "%</b>. " +
-          (tp != null ? "TP <b>+" + tp + "% " + half + "</b>. " : "") +
-          "Trailing <b>" + (risk.trail_pct ?? 13) + "%</b> od szczytu (od +" + (risk.trail_activate_pct ?? 12) + "%)." +
-          tighten + tstop + "</div></div>"
-      },
-      {
-        en: "Logger", pl: "Rejestrator", accent: "#c7c7cc",
-        body: '<div class="sub">Zapis odrzuceń</div>' +
-          '<div class="stats"><div class="stat"><div class="n">' + (sess.rejections ?? 0) + '</div><div class="l">odrzuceń w sesji</div></div>' +
-          '<div class="stat"><div class="n">' + (last.rejections ?? 0) + '</div><div class="l">w tym cyklu</div></div></div>' +
-          ((data.reasons || []).slice(0, 2).map((r) =>
-            '<div class="tokrow"><span class="ts" style="font-weight:550;color:var(--muted)">' +
-            esc(r.label || r.reason) + '</span><span class="sc" style="color:var(--text)">' +
-            esc(String(r.count)) + "</span></div>"
-          ).join("") || "")
-      }
-    ];
-
-    const fp = JSON.stringify(cards);
-    if (fp === lastAgentFp) return;
-    lastAgentFp = fp;
-    $("agentScroll").innerHTML = cards.map((c, i) =>
-      '<article class="acard glass" data-i="' + i + '" style="--accent:' + c.accent + '">' +
-      '<div class="hd"><span class="markdot"></span><h3>' + esc(c.pl) + "</h3>" +
-      '<span class="en">' + esc(c.en) + "</span></div>" + c.body + "</article>"
-    ).join("");
-    $("agentDots").innerHTML = cards.map((_, i) => "<i" + (i === 0 ? ' class="on"' : "") + "></i>").join("");
-    const sc = $("agentScroll");
-    sc.onscroll = () => {
-      const kids = sc.querySelectorAll(".acard");
-      if (!kids.length) return;
-      const x = sc.scrollLeft;
-      let on = 0, best = 1e9;
-      kids.forEach((k, i) => {
-        const d = Math.abs(k.offsetLeft - sc.offsetLeft - x);
-        if (d < best) { best = d; on = i; }
-      });
-      $("agentDots").querySelectorAll("i").forEach((el, i) => el.classList.toggle("on", i === on));
-    };
-    const cyc = data.cycles_count;
-    const clock = data.clock || fmtClock(data.ts_warsaw) || "";
-    $("agentsRight").textContent = (cyc ? ("cykl " + cyc) : "") + (clock ? " · " + clock : "");
-  }
-
   function tradeTitle(a) {
     if (a.title && /^(Kupiono|Sprzedano|Stop|Częściowy TP|Stop czasowy)\b/.test(a.title)) return a.title;
     const ev = a.event || "";
@@ -1412,8 +1166,7 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
     if (ev === "partial_tp") return "TP";
     if (ev === "stop" || ev === "time_stop") return "SL";
     if (ev === "sell" || ev === "out") return "Sprz";
-    if (ev === "score") return "An";
-    return "Cy";
+    return "•";
   }
 
   function updateActivity(data) {
@@ -1422,8 +1175,7 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
     if (fp === lastActFp) return;
     lastActFp = fp;
     const trades = items.filter(isTradeEvent);
-    const other = items.filter((a) => !isTradeEvent(a)).slice(0, 6);
-    const shown = trades.concat(other);
+    const shown = trades;
     $("actRight").textContent = trades.length
       ? (trades.length + " " + plCount(trades.length, "transakcja", "transakcje", "transakcji"))
       : "";
@@ -1442,10 +1194,7 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
       else if (!isBuy && usd != null) moneyTxt = signedMoney(usd);
       if (a.pnl_pct != null && !isBuy) moneyTxt = (moneyTxt ? moneyTxt + " " : "") + signedPct(a.pnl_pct);
       const when = a.clock || fmtClock(a.ts) || "";
-      const agent = a.agent ? a.agent : (isBuy ? "Wykonawca" : (isTradeEvent(a) ? "Ryzyko" : ""));
-      const sub = [a.sub, agent, when ? when + " CET" : ""].filter((x, i, arr) => x && arr.indexOf(x) === i);
-      // avoid duplicating clock in sub if already in a.sub
-      const subTxt = [a.sub, agent].filter(Boolean).join(" · ");
+      const subTxt = a.sub || "";
       const click = a.mint ? ' data-mint="' + esc(a.mint) + '" style="cursor:pointer"' : "";
       return '<div class="arow"' + click + ">" +
         '<div class="av ' + esc(ev) + '">' + esc(tradeAvatar(ev)) + "</div>" +
@@ -1648,7 +1397,6 @@ button { font-family: inherit; color: inherit; background: none; border: 0; curs
     updateWallet();
     updateBanner();
     drawChart(live);
-    agentCards(DATA, live);
     updatePositions(live);
     updateActivity(DATA);
     if (openMint) renderSheet();
