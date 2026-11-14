@@ -67,11 +67,70 @@ tr.enter{animation:rowin .6s both}@keyframes rowin{from{opacity:0;background:#00
 .sk{display:inline-block;height:1em;width:7ch;border-radius:6px;background:linear-gradient(90deg,#0c2216,#16402a,#0c2216);background-size:200% 100%;animation:skel 1.2s infinite;vertical-align:middle}
 @keyframes skel{to{background-position:-200% 0}}
 h2{position:relative}h2::after{content:"";position:absolute;left:0;bottom:-6px;height:1px;width:40px;background:linear-gradient(90deg,var(--acc),transparent)}
+
+/* ===== SOL market ===== */
+.tape{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:12px;background:#020604cc;margin:-4px 0 14px;height:34px;mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.tape .tr{display:flex;width:max-content;animation:tape 38s linear infinite;height:100%;align-items:center}
+.tape:hover .tr{animation-play-state:paused}
+.tape .ti{white-space:nowrap;padding:0 22px;font:600 12.5px ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--mut);border-right:1px solid #0f2a1a}
+.tape .ti b{color:var(--txt);font-weight:700;margin-left:6px}.tape .ti .pos{color:var(--g)}.tape .ti .neg{color:var(--r)}
+@keyframes tape{to{transform:translateX(-50%)}}
+.solc{display:grid;grid-template-columns:minmax(260px,1fr) 2fr;gap:18px;margin-bottom:14px;overflow:hidden}
+.solc::before{content:"";position:absolute;inset:-1px;border-radius:16px;background:conic-gradient(from var(--ang,0deg),transparent 0 70%,#00ff8855 80%,transparent 90%);animation:spin 7s linear infinite;z-index:-1;opacity:.7;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;padding:1px}
+@property --ang{syntax:"<angle>";inherits:false;initial-value:0deg}
+@keyframes spin{to{--ang:360deg}}
+.solhd{display:flex;align-items:center;gap:12px}
+.sollogo{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,#9945ff,#14f195);display:grid;place-items:center;box-shadow:0 0 22px #14f19555;animation:bob 4s ease-in-out infinite;flex:none}
+.sollogo svg{width:24px;height:24px}
+@keyframes bob{50%{transform:translateY(-3px) rotate(-4deg)}}
+.solname{font-weight:700;font-size:15px}.solname small{display:block;color:var(--mut);font-weight:500;font-size:12px}
+.solpx{display:flex;align-items:baseline;gap:12px;margin:14px 0 6px;flex-wrap:wrap}
+.flip{font:800 44px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:-1px;display:inline-flex;text-shadow:0 0 24px #00ff8840;transition:color .5s}
+.flip span{display:inline-block;overflow:hidden;position:relative}
+.flip span.ch{animation:flipin .55s cubic-bezier(.2,.8,.2,1) both}
+@keyframes flipin{from{transform:translateY(-70%) rotateX(80deg);opacity:0;filter:blur(2px)}to{transform:none;opacity:1;filter:none}}
+.flip.up{color:var(--g);text-shadow:0 0 26px #39ff8f88}.flip.dn{color:var(--r);text-shadow:0 0 26px #ff4d5e77}
+.chg{display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border-radius:999px;font:700 13px ui-monospace,monospace;border:1px solid}
+.chg.pos{color:var(--g);background:#39ff8f14;border-color:#39ff8f44}.chg.neg{color:var(--r);background:#ff4d5e14;border-color:#ff4d5e44}
+.chg .ar{display:inline-block;animation:arr 1.6s ease-in-out infinite}.chg.neg .ar{animation-name:arrd}
+@keyframes arr{50%{transform:translateY(-3px)}}@keyframes arrd{50%{transform:translateY(3px)}}
+.rng{margin:14px 0 4px}.rng .lb{display:flex;justify-content:space-between;font-size:11.5px;color:var(--mut);font-family:ui-monospace,monospace}
+.rng .tk{position:relative;height:6px;border-radius:9px;background:linear-gradient(90deg,#ff4d5e55,#e5c74a44,#39ff8f55);margin-top:6px}
+.rng .mk{position:absolute;top:50%;width:14px;height:14px;border-radius:50%;background:#fff;border:3px solid var(--acc);transform:translate(-50%,-50%);box-shadow:0 0 12px var(--acc);transition:left 1.4s cubic-bezier(.2,.8,.2,1)}
+.solnote{margin-top:14px;padding:11px 13px;border-radius:12px;background:#00ff880a;border:1px dashed #1f7a47;font-size:13px;line-height:1.5;color:#cfe8d8}
+.solnote b{color:var(--acc)}
+.chartw{position:relative;min-height:220px}
+.chartw svg{width:100%;height:100%;min-height:220px;display:block}
+.chartw .ln{fill:none;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:var(--len);stroke-dashoffset:var(--len);animation:draw 2s cubic-bezier(.4,0,.2,1) forwards}
+.chartw .ar2{opacity:0;animation:fadein 1.4s .8s forwards}
+.chartw .gl{stroke:#00ff8810;stroke-width:1}
+.chartw .yl{fill:#5f7d6a;font:10.5px ui-monospace,monospace}
+.chartw .end{animation:pulse2 1.6s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse2{from{r:4;opacity:.9}to{r:16;opacity:0}}
+.chartw .xh{pointer-events:none;opacity:0;transition:opacity .15s}.chartw:hover .xh{opacity:1}
+.tip{position:absolute;pointer-events:none;background:#020a05ee;border:1px solid #1f7a47;border-radius:9px;padding:6px 9px;font:600 12px ui-monospace,monospace;color:var(--txt);opacity:0;transition:opacity .15s;white-space:nowrap;transform:translate(-50%,-120%)}
+.chartw:hover .tip{opacity:1}
+.chtop{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;font-size:12px;color:var(--mut)}
+.src{font-size:11px;color:#58705f}
+@media(max-width:820px){.solc{grid-template-columns:1fr}.flip{font-size:36px}.chartw,.chartw svg{min-height:180px}}
+@media(prefers-reduced-motion:reduce){.tape .tr{animation:none!important}.chartw .ln{stroke-dashoffset:0}.chartw .ar2{opacity:1}}
+
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.spark path.l{stroke-dashoffset:0}.spark path.a{opacity:1}}
 </style><meta name="theme-color" content="#000000"></head><body><div class="bgfx" aria-hidden="true"><div class="grid"></div><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div><div class="scan"></div><div class="beam"></div></div><div class="wrap">
 <header><div class="brand"><div class="logo">J</div><div><h1>Jarvis Desk <span style="color:var(--acc2)">LIVE</span></h1><div class="sub">Memecoiny Solany · sygnały z X · kopiowanie portfeli · Phantom</div></div></div>
 <div style="display:flex;gap:10px;flex-wrap:wrap"><span id="mode" class="pill"><span class="dot"></span><span>…</span></span><span class="pill" id="upd">—</span></div></header>
 
+<div class="tape" aria-label="pasek notowań"><div class="tr" id="tape"></div></div>
+<div class="card solc" id="solcard">
+ <div>
+  <div class="solhd"><div class="sollogo"><svg viewBox="0 0 24 24" fill="#fff"><path d="M5 16.5h13.5l-3 3H2zM5 4.5h13.5l-3 3H2zM18.5 10.5H5l-3 3h13.5z" opacity=".95"/></svg></div><div class="solname">Kurs Solany <small>SOL / USD · na żywo</small></div></div>
+  <div class="solpx"><div class="flip" id="solpx"><span class="sk" style="width:5ch;height:40px"></span></div><span class="chg" id="solchg">—</span></div>
+  <div class="src" id="solsrc"></div>
+  <div class="rng"><div class="lb"><span id="sollo">min 24h —</span><span id="solhi">max 24h —</span></div><div class="tk"><i class="mk" id="solmk" style="left:50%"></i></div></div>
+  <div class="solnote" id="solnote">Desk trzyma środki w SOL, więc saldo w dolarach rusza się razem z kursem SOL.</div>
+ </div>
+ <div><div class="chtop"><span>📈 Ostatnie 24 h</span><span id="solspan" class="mono"></span></div><div class="chartw" id="solchart"><svg id="solsvg" viewBox="0 0 600 220" preserveAspectRatio="none"></svg><div class="tip" id="soltip"></div></div></div>
+</div>
 <div class="grid k">
 <div class="card kpi"><div class="l">Saldo (equity)</div><div class="v" id="eq"><span class="sk"></span></div><div class="s" id="eqs"></div><svg class="spark" id="spark" viewBox="0 0 200 34" preserveAspectRatio="none"></svg></div>
 <div class="card kpi"><div class="l">Zysk zrealizowany</div><div class="v" id="rp"><span class="sk"></span></div><div class="s" id="rps"></div></div>
@@ -142,6 +201,41 @@ function render(){
  $('accs').innerHTML=Object.entries(D.accounts.by_category).map(([k,v])=>`<span class="tag" style="border-color:var(--acc)">${CN[k]||k}: ${v}</span>`).join('')+D.accounts.top.map(a=>`<a class="tag" href="https://x.com/${a.h}" target="_blank">@${esc(a.h)}</a>`).join('');
 }
 
+
+const usd4=x=>x==null?'—':'$'+x.toLocaleString('pl-PL',{minimumFractionDigits:2,maximumFractionDigits:2});
+const pct=x=>x==null?'—':(x>0?'+':'')+x.toLocaleString('pl-PL',{minimumFractionDigits:2,maximumFractionDigits:2})+'%';
+const RM=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
+function flipTo(el,str,dir){const old=el.dataset.s||'';el.dataset.s=str;if(old===str)return;let out='';
+ for(let i=0;i<str.length;i++){const ch=str[i];const changed=!RM()&&(old.length!==str.length||old[i]!==ch);out+=`<span${changed?` class="ch" style="animation-delay:${i*35}ms"`:''}>${ch}</span>`}
+ el.innerHTML=out;if(old&&dir){el.classList.remove('up','dn');void el.offsetWidth;el.classList.add(dir);clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('up','dn'),1600)}}
+let SOLK='';
+function solRender(){const m=D.sol_market||{};const px=m.price;if(px==null)return;const el=$('solpx');const prev=+(el.dataset.v||0);el.dataset.v=px;
+ flipTo(el,usd4(px),prev&&px!==prev?(px>prev?'up':'dn'):null);
+ const c=m.change_24h,ce=$('solchg');ce.className='chg '+(c>=0?'pos':'neg');ce.innerHTML=c==null?'24h —':`<span class="ar">${c>=0?'▲':'▼'}</span>${pct(c)} <span style="opacity:.7;font-weight:500">24h</span>`;
+ $('solsrc').textContent='Cena: '+(m.price_src||'Phantom')+(m.change_src?' · zmiana 24h: '+m.change_src:'');
+ if(m.low_24h!=null){$('sollo').textContent='min 24h '+usd4(m.low_24h);$('solhi').textContent='max 24h '+usd4(m.high_24h);const r=(m.high_24h-m.low_24h)||1;$('solmk').style.left=Math.max(0,Math.min(100,(px-m.low_24h)/r*100))+'%'}
+ const sol=D.sol||0,eq=D.equity_usd;if(sol>0){const one=sol*px/100;$('solnote').innerHTML=`Desk trzyma środki w SOL, więc <b>saldo w dolarach rusza się razem z kursem SOL</b>, nawet bez żadnej transakcji. Teraz: ${sol.toFixed(4).replace('.',',')} SOL × ${usd4(px)} ≈ <b>${usd4(sol*px)}</b>. Zmiana kursu SOL o 1% to około <b>±${usd4(one)}</b> salda.`}
+ const ch=m.chart||[];if(ch.length<2)return;const key=ch.length+':'+ch[ch.length-1][1]+':'+ch[0][0];if(key===SOLK)return;const first=!SOLK;SOLK=key;
+ const cw=$('solchart'),W=Math.max(280,Math.round(cw.clientWidth||600)),H=Math.max(180,Math.round(cw.clientHeight||220)),pt=14,pb=18,pl=4,pr=58;$('solsvg').setAttribute('viewBox',`0 0 ${W} ${H}`);const ys=ch.map(p=>p[1]),mn=Math.min(...ys),mx=Math.max(...ys),r=(mx-mn)||1,t0=ch[0][0],t1=ch[ch.length-1][0],tr=(t1-t0)||1;
+ const X=t=>pl+(t-t0)/tr*(W-pl-pr),Y=v=>pt+(1-(v-mn)/r)*(H-pt-pb);const P=ch.map(p=>[X(p[0]),Y(p[1])]);
+ const up=ch[ch.length-1][1]>=ch[0][1],col=up?'#39ff8f':'#ff4d5e';
+ const d='M'+P.map(p=>p[0].toFixed(1)+','+p[1].toFixed(1)).join(' L');let len=0;for(let i=1;i<P.length;i++)len+=Math.hypot(P[i][0]-P[i-1][0],P[i][1]-P[i-1][1]);
+ let grid='';for(let i=0;i<=3;i++){const v=mn+r*i/3,y=Y(v);grid+=`<line class="gl" x1="0" x2="${W-pr+4}" y1="${y}" y2="${y}"/><text class="yl" x="${W-pr+8}" y="${y+3}">${v.toFixed(2)}</text>`}
+ const e=P[P.length-1];const anim=first&&!RM();
+ $('solsvg').innerHTML=`<defs><linearGradient id="sga" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="${col}" stop-opacity=".32"/><stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient><filter id="glw"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>${grid}
+ <path class="${anim?'ar2':''}" d="${d} L${e[0]},${H} L${P[0][0]},${H}Z" fill="url(#sga)"/>
+ <path class="${anim?'ln':''}" d="${d}" stroke="${col}" style="--len:${Math.ceil(len)};fill:none;stroke-width:2.2" filter="url(#glw)"/>
+ <circle class="end" cx="${e[0]}" cy="${e[1]}" r="4" fill="none" stroke="${col}" stroke-width="2"/><circle cx="${e[0]}" cy="${e[1]}" r="4" fill="${col}"/>
+ <g class="xh"><line id="xhl" x1="0" x2="0" y1="${pt}" y2="${H-pb}" stroke="#00ff8866" stroke-dasharray="3 3"/><circle id="xhc" r="4.5" fill="#000" stroke="${col}" stroke-width="2"/></g>`;
+ const fmtT=t=>new Date(t*1000).toLocaleTimeString('pl-PL',{hour:'2-digit',minute:'2-digit'});$('solspan').textContent=fmtT(t0)+' → '+fmtT(t1);
+ const w=$('solchart');w.onmousemove=ev=>{const b=w.getBoundingClientRect(),fx=(ev.clientX-b.left)/b.width*W;let bi=0,bd=1e9;P.forEach((p,i)=>{const dd=Math.abs(p[0]-fx);if(dd<bd){bd=dd;bi=i}});
+  const p=P[bi];$('xhl').setAttribute('x1',p[0]);$('xhl').setAttribute('x2',p[0]);$('xhc').setAttribute('cx',p[0]);$('xhc').setAttribute('cy',p[1]);
+  const tp=$('soltip');tp.style.left=(p[0]/W*b.width)+'px';tp.style.top=(p[1]/H*b.height)+'px';tp.textContent=fmtT(ch[bi][0])+' · '+usd4(ch[bi][1])}}
+function tapeRender(){const m=D.sol_market||{},c=m.change_24h;const it=[
+ ['SOL/USD',usd4(m.price),''],['SOL 24h',pct(c),c>=0?'pos':'neg'],['Saldo',usd(D.equity_usd),''],['Zysk zreal.',sg(D.realized_pnl_usd),cls(D.realized_pnl_usd)],
+ ['Pozycje',String((D.positions||[]).length),''],['Wolne SOL',(D.sol||0).toFixed(4),''],['Konta X',String((D.accounts||{}).count||'—'),''],
+ ['Stop X',(D.risk&&D.risk.x_stop_loss_pct!=null?D.risk.x_stop_loss_pct+'%':'—'),'neg'],['min 24h',usd4(m.low_24h),''],['max 24h',usd4(m.high_24h),'']];
+ const one=it.map(([a,b,k])=>`<span class="ti">${a}<b class="${k}">${b}</b></span>`).join('');const t=$('tape');const html=one+one;if(t.dataset.h!==html){t.dataset.h=html;t.innerHTML=html}}
 const SEEN=new Set();let FIRST=true;
 function animIn(){const sel='#positions tr,#signals tr,#closed tr,#xfeed .it,#act .it,#notes .it,#agents .ag,#copy .wal';let n=0;
  document.querySelectorAll(sel).forEach(el=>{if(el.querySelector('th'))return;const k=el.closest('[id]').id+'|'+el.textContent.replace(/\d+ (s|min|h) temu/g,'').slice(0,160);
@@ -156,6 +250,6 @@ function spark(){const h=(D.equity_history||[]).map(x=>x.e).filter(x=>x!=null);c
  const pts=h.map((v,i)=>[i/(h.length-1)*200,30-(v-mn)/r*26]);const d='M'+pts.map(p=>p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' L');
  const len=pts.reduce((a,p,i)=>i?a+Math.hypot(p[0]-pts[i-1][0],p[1]-pts[i-1][1]):0,0);
  s.innerHTML=`<defs><linearGradient id="sg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#00ff88" stop-opacity=".35"/><stop offset="1" stop-color="#00ff88" stop-opacity="0"/></linearGradient></defs><path class="a" d="${d} L200 34 L0 34Z"/><path class="l" d="${d}" style="--len:${Math.ceil(len)}"/>`}
-async function load(){try{const r=await fetch('data.json?'+Date.now());D=await r.json();render();countTo('eq',D.equity_usd,usd);countTo('rp',D.realized_pnl_usd,sg,cls(D.realized_pnl_usd));countTo('up',D.unrealized_pnl_usd,sg,cls(D.unrealized_pnl_usd));countTo('sol',D.sol||0,v=>v.toFixed(4)+' SOL');spark();animIn()}catch(e){console.error(e)}}
+async function load(){try{const r=await fetch('data.json?'+Date.now());D=await r.json();render();countTo('eq',D.equity_usd,usd);countTo('rp',D.realized_pnl_usd,sg,cls(D.realized_pnl_usd));countTo('up',D.unrealized_pnl_usd,sg,cls(D.unrealized_pnl_usd));countTo('sol',D.sol||0,v=>v.toFixed(4)+' SOL');spark();try{solRender();tapeRender()}catch(e){console.error(e)}animIn()}catch(e){console.error(e)}}
 load();setInterval(load,20000);
 </script></body></html>
