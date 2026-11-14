@@ -31,16 +31,53 @@ table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:9px 8px;
 .sec{margin-top:14px}footer{color:var(--mut);font-size:12px;margin-top:26px;text-align:center}
 ::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-thumb{background:#11331f;border-radius:8px}::-webkit-scrollbar-track{background:transparent}
 @media(max-width:600px){.k{grid-template-columns:1fr 1fr}.kpi .v{font-size:19px}.wrap{padding:16px 12px 40px}}
-</style><meta name="theme-color" content="#000000"></head><body><div class="wrap">
+
+/* ===== motion layer ===== */
+body{overflow-x:hidden}
+.bgfx{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.bgfx .grid{position:absolute;inset:-60px;background-image:linear-gradient(#00ff880d 1px,transparent 1px),linear-gradient(90deg,#00ff880d 1px,transparent 1px);background-size:44px 44px;animation:gridmove 18s linear infinite;mask-image:radial-gradient(ellipse at 50% 20%,#000 30%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse at 50% 20%,#000 30%,transparent 75%)}
+@keyframes gridmove{to{transform:translate(44px,44px)}}
+.bgfx .orb{position:absolute;border-radius:50%;filter:blur(70px);opacity:.35;animation:float 22s ease-in-out infinite}
+.bgfx .o1{width:420px;height:420px;background:#00ff8833;left:-120px;top:-80px}.bgfx .o2{width:360px;height:360px;background:#00b36b2e;right:-100px;top:30%;animation-delay:-8s}.bgfx .o3{width:300px;height:300px;background:#39ff8f22;left:30%;bottom:-120px;animation-delay:-14s}
+@keyframes float{50%{transform:translate(60px,40px) scale(1.12)}}
+.bgfx .scan{position:absolute;inset:0;background:repeating-linear-gradient(0deg,#00ff8806 0 1px,transparent 1px 3px);mix-blend-mode:screen}
+.bgfx .beam{position:absolute;left:0;right:0;height:120px;background:linear-gradient(180deg,transparent,#00ff880a,transparent);animation:beam 9s linear infinite}
+@keyframes beam{from{top:-120px}to{top:100%}}
+.card{background:linear-gradient(180deg,#0a1a10cc,#040906d9)!important;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s,border-color .35s;position:relative}
+.card:hover{transform:translateY(-3px);border-color:#1f7a47;box-shadow:0 0 0 1px #00ff8822,0 12px 40px #00ff8814,0 8px 30px #000a}
+.kpi::before{content:"";position:absolute;inset:0;border-radius:16px;padding:1px;background:linear-gradient(120deg,transparent 30%,#00ff8866,transparent 70%);background-size:250% 100%;animation:sheen 6s linear infinite;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+@keyframes sheen{to{background-position:-250% 0}}
+.kpi .v{transition:color .4s}.kpi .v.flash-up{animation:fup 1.2s}.kpi .v.flash-dn{animation:fdn 1.2s}
+@keyframes fup{30%{color:var(--g);text-shadow:0 0 16px #39ff8f}}@keyframes fdn{30%{color:var(--r);text-shadow:0 0 16px #ff4d5e}}
+.spark{display:block;width:100%;height:34px;margin-top:6px}.spark path.l{fill:none;stroke:var(--acc);stroke-width:1.6;filter:drop-shadow(0 0 4px #00ff88aa);stroke-dasharray:var(--len);stroke-dashoffset:var(--len);animation:draw 1.6s ease forwards}.spark path.a{fill:url(#sg);opacity:0;animation:fadein 1.2s .6s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}@keyframes fadein{to{opacity:1}}
+.live .dot{position:relative}.live .dot::after{content:"";position:absolute;inset:-5px;border-radius:50%;border:2px solid var(--g);animation:ring 1.8s ease-out infinite}
+@keyframes ring{from{transform:scale(.5);opacity:.9}to{transform:scale(1.8);opacity:0}}
+.logo{animation:logoglow 3.5s ease-in-out infinite}@keyframes logoglow{50%{box-shadow:0 0 46px #00ff88aa}}
+.enter{animation:slidein .55s cubic-bezier(.2,.8,.2,1) both}
+@keyframes slidein{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+tr.enter{animation:rowin .6s both}@keyframes rowin{from{opacity:0;background:#00ff8818}to{opacity:1;background:transparent}}
+.bar i{transition:width 1.4s cubic-bezier(.2,.8,.2,1);position:relative;overflow:hidden}.bar i::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,#ffffff40,transparent);animation:shimmer 2.2s infinite}
+@keyframes shimmer{from{transform:translateX(-100%)}to{transform:translateX(100%)}}
+.ag .n{gap:8px}.ag .hb{width:9px;height:9px;border-radius:50%;background:var(--mut);display:inline-block;margin-right:8px;position:relative;flex:none}
+.ag.alive .hb{background:var(--g);box-shadow:0 0 8px var(--g)}.ag.alive .hb::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1.5px solid var(--g);animation:ring 1.6s ease-out infinite}
+.ag.dead .hb{background:var(--r);box-shadow:0 0 8px var(--r)}.ag.dead{border-color:#5a1c24!important}
+.ag.alive .ekg{height:18px;margin-top:6px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='18'%3E%3Cpath d='M0 9h40l4-7 5 14 4-10 3 3h60' fill='none' stroke='%2300ff88' stroke-width='1.4'/%3E%3C/svg%3E") repeat-x;background-size:120px 18px;animation:ekg 2.4s linear infinite;opacity:.55}
+@keyframes ekg{to{background-position:-120px 0}}
+.sk{display:inline-block;height:1em;width:7ch;border-radius:6px;background:linear-gradient(90deg,#0c2216,#16402a,#0c2216);background-size:200% 100%;animation:skel 1.2s infinite;vertical-align:middle}
+@keyframes skel{to{background-position:-200% 0}}
+h2{position:relative}h2::after{content:"";position:absolute;left:0;bottom:-6px;height:1px;width:40px;background:linear-gradient(90deg,var(--acc),transparent)}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.spark path.l{stroke-dashoffset:0}.spark path.a{opacity:1}}
+</style><meta name="theme-color" content="#000000"></head><body><div class="bgfx" aria-hidden="true"><div class="grid"></div><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div><div class="scan"></div><div class="beam"></div></div><div class="wrap">
 <header><div class="brand"><div class="logo">J</div><div><h1>Jarvis Desk <span style="color:var(--acc2)">LIVE</span></h1><div class="sub">Memecoiny Solany · sygnały z X · kopiowanie portfeli · Phantom</div></div></div>
 <div style="display:flex;gap:10px;flex-wrap:wrap"><span id="mode" class="pill"><span class="dot"></span><span>…</span></span><span class="pill" id="upd">—</span></div></header>
 
 <div class="grid k">
-<div class="card kpi"><div class="l">Saldo (equity)</div><div class="v" id="eq">—</div><div class="s" id="eqs"></div></div>
-<div class="card kpi"><div class="l">Zysk zrealizowany</div><div class="v" id="rp">—</div><div class="s" id="rps"></div></div>
-<div class="card kpi"><div class="l">Niezrealizowany</div><div class="v" id="up">—</div><div class="s" id="ups"></div></div>
-<div class="card kpi"><div class="l">Wolne SOL</div><div class="v" id="sol">—</div><div class="s" id="sols"></div></div>
-<div class="card kpi"><div class="l">Kopiowanie portfeli</div><div class="v" id="cp">—</div><div class="bar" style="margin-top:8px"><i id="cpb" style="width:0"></i></div></div>
+<div class="card kpi"><div class="l">Saldo (equity)</div><div class="v" id="eq"><span class="sk"></span></div><div class="s" id="eqs"></div><svg class="spark" id="spark" viewBox="0 0 200 34" preserveAspectRatio="none"></svg></div>
+<div class="card kpi"><div class="l">Zysk zrealizowany</div><div class="v" id="rp"><span class="sk"></span></div><div class="s" id="rps"></div></div>
+<div class="card kpi"><div class="l">Niezrealizowany</div><div class="v" id="up"><span class="sk"></span></div><div class="s" id="ups"></div></div>
+<div class="card kpi"><div class="l">Wolne SOL</div><div class="v" id="sol"><span class="sk"></span></div><div class="s" id="sols"></div></div>
+<div class="card kpi"><div class="l">Kopiowanie portfeli</div><div class="v" id="cp"><span class="sk"></span></div><div class="bar" style="margin-top:8px"><i id="cpb" style="width:0"></i></div></div>
 </div>
 
 <div class="card" id="fund" style="display:none;margin-bottom:14px"><h2>💸 Portfel desku</h2><div class="addr"><span class="mono" id="waddr"></span><button class="copybtn" onclick="navigator.clipboard.writeText(D.wallet)">Kopiuj</button><a id="wlink" target="_blank">Solscan ↗</a></div><div class="sub" style="margin-top:6px">Desk czeka na środki (SOL). Po wpłacie automatycznie przechodzi w tryb LIVE.</div></div>
@@ -79,10 +116,10 @@ const ST={bought:['ok','kupiono'],sold:['ok','sprzedano'],skipped:['neu','pomini
 function render(){
  const m=D.mode, mm={live:['live','LIVE · handel aktywny'],waiting_for_funds:['wait','Czekam na środki'],halted:['halt','Stop: limit straty'],halted_sanity:['halt','Stop bezpieczeństwa'],paused:['wait','Wstrzymany (logowanie Phantom)']}[m]||['wait',m];
  $('mode').className='pill '+mm[0];$('mode').children[1].textContent=mm[1];$('upd').textContent='Aktualizacja '+t(D.generated);
- $('eq').textContent=usd(D.equity_usd);$('eqs').textContent=D.start_equity_usd?('start '+usd(D.start_equity_usd)+' · '+((D.equity_usd/D.start_equity_usd-1)*100).toFixed(1)+'%'):'brak wpłaty';
- $('rp').textContent=sg(D.realized_pnl_usd);$('rp').className='v '+cls(D.realized_pnl_usd);$('rps').textContent=D.trades+' transakcji · '+D.wins+' zyskownych';
- $('up').textContent=sg(D.unrealized_pnl_usd);$('up').className='v '+cls(D.unrealized_pnl_usd);$('ups').textContent=D.positions.length+' otwartych pozycji';
- $('sol').textContent=(D.sol||0).toFixed(4)+' SOL';$('sols').textContent=usd(D.free_usd)+(D.sol_price?' · SOL '+usd(D.sol_price):'');
+ $('eqs').textContent=D.start_equity_usd?('start '+usd(D.start_equity_usd)+' · '+((D.equity_usd/D.start_equity_usd-1)*100).toFixed(1)+'%'):'brak wpłaty';
+ $('rps').textContent=D.trades+' transakcji · '+D.wins+' zyskownych';
+ $('ups').textContent=D.positions.length+' otwartych pozycji';
+ $('sols').textContent=usd(D.free_usd)+(D.sol_price?' · SOL '+usd(D.sol_price):'');
  const c=D.copy;$('cp').textContent=c.unlocked?'AKTYWNE':'Zablokowane';$('cp').className='v '+(c.unlocked?'pos':'');$('cpb').style.width=c.progress_pct+'%';
  $('fund').style.display=m==='waiting_for_funds'?'block':'none';$('waddr').textContent=D.wallet;$('wlink').href='https://solscan.io/account/'+D.wallet;
  $('npos').textContent=D.positions.length;
@@ -97,13 +134,28 @@ function render(){
  <div class="wal"><span>Konta spoza listy</span><b>MC ≤ ${mc(r.unlisted_max_mcap)} + analiza przed zakupem</b></div><div class="wal" style="border:0"><span>Max pozycji z X</span><b>${r.max_open}</b></div>`;
  $('copy').innerHTML=`<div class="sub" style="margin-bottom:8px">${c.unlocked?`Pula kopiowania: <b>${usd(c.pool_usd)}</b> (20% zysku)`:`Odblokowanie przy ${usd(c.unlock_at,0)} zysku zrealizowanego · teraz ${usd(c.realized)} (${c.progress_pct}%)`}</div>`+c.wallets.map(w=>`<div class="wal"><div><b>${esc(w.label)}</b> <span class="badge neu">${w.share_pct}%</span><div class="mono" style="color:var(--mut)"><a href="https://solscan.io/account/${w.address}" target="_blank">${w.address.slice(0,6)}…${w.address.slice(-4)}</a> · ${w.recent.length?'ostatnio: '+w.recent.slice(0,3).map(e=>(e.side==='buy'?'🟢':'🔴')+e.mint.slice(0,4)).join(' '):'brak nowych ruchów'}</div></div><div style="text-align:right">${usd(w.deployed_usd)}<div class="sub">z ${usd(w.alloc_usd)}</div></div></div>`).join('');
  $('notes').innerHTML=D.notes.length?D.notes.map(n=>`<div class="it"><div class="h"><b>$${esc(n.symbol)} · @${esc(n.handle)}</b><span class="sub">${t(n.ts)}</span></div><div class="t">${esc(n.text)}</div></div>`).join(''):'<div class="empty">Analityk pisze notatkę po każdym zakupie z X</div>';
- $('agents').innerHTML=D.agents.map(a=>`<div class="card ag"><div class="n">${esc(a.name)} <span class="badge ${a.age_s==null&&a.ok?'neu':a.ok?'ok':'bad'}">${a.ok?'działa':'problem'}</span></div><div class="d">${esc(a.desc)}</div><div class="m">${a.hb_ts?'ostatni sygnał życia: '+ago(Math.max(0,Math.round(Date.now()/1000-a.hb_ts))):''}${a.status?' · '+esc(String(a.status)):''}${a.restarts?' · restartów: '+a.restarts:''}</div></div>`).join('');
+ $('agents').innerHTML=D.agents.map(a=>`<div class="card ag ${a.ok?'alive':'dead'}"><div class="n"><span style="display:flex;align-items:center"><i class="hb"></i>${esc(a.name)}</span> <span class="badge ${a.age_s==null&&a.ok?'neu':a.ok?'ok':'bad'}">${a.ok?'działa':'problem'}</span></div><div class="d">${esc(a.desc)}</div><div class="m">${a.hb_ts?'ostatni sygnał życia: '+ago(Math.max(0,Math.round(Date.now()/1000-a.hb_ts))):''}${a.status?' · '+esc(String(a.status)):''}${a.restarts?' · restartów: '+a.restarts:''}</div><div class="ekg"></div></div>`).join('');
  $('nacc').textContent=D.accounts.count+' kont';
  $('xfeed').innerHTML=D.x_feed.length?D.x_feed.map(x=>`<div class="it"><div class="h"><a href="${x.post_url}" target="_blank"><b>@${esc(x.handle)}</b></a><span class="sub">${t(x.created_at)}</span></div><div class="t">${esc(x.text)}</div><div class="sub" style="margin-top:4px">${esc(x.status)}${x.mints&&x.mints.length?' · <span class="mono">'+x.mints[0].slice(0,8)+'…</span>':''}</div></div>`).join(''):'<div class="empty">Brak postów</div>';
  $('act').innerHTML=D.activity.map(a=>`<div class="it"><div class="h"><b>${esc(a.c)}</b><span class="sub">${t(a.ts)}</span></div><div class="t">${esc(a.msg)}</div></div>`).join('');
  const CN={celebrity:'celebryci',politician:'politycy',founder:'założyciele',platform:'platformy',exchange:'giełdy',news:'newsy',kol:'KOL'};
  $('accs').innerHTML=Object.entries(D.accounts.by_category).map(([k,v])=>`<span class="tag" style="border-color:var(--acc)">${CN[k]||k}: ${v}</span>`).join('')+D.accounts.top.map(a=>`<a class="tag" href="https://x.com/${a.h}" target="_blank">@${esc(a.h)}</a>`).join('');
 }
-async function load(){try{const r=await fetch('data.json?'+Date.now());D=await r.json();render()}catch(e){console.error(e)}}
+
+const SEEN=new Set();let FIRST=true;
+function animIn(){const sel='#positions tr,#signals tr,#closed tr,#xfeed .it,#act .it,#notes .it,#agents .ag,#copy .wal';let n=0;
+ document.querySelectorAll(sel).forEach(el=>{if(el.querySelector('th'))return;const k=el.closest('[id]').id+'|'+el.textContent.replace(/\d+ (s|min|h) temu/g,'').slice(0,160);
+  if(!SEEN.has(k)){SEEN.add(k);el.classList.add('enter');el.style.animationDelay=(FIRST?Math.min(n++,14)*45:0)+'ms'}});FIRST=false}
+function countTo(id,val,fmt,cls){const el=$(id);if(!el||val==null)return;const from=el.dataset.v!=null?+el.dataset.v:0;el.dataset.v=val;
+ if(cls!==undefined)el.className='v '+cls;
+ if(from!==val&&el.dataset.done){el.classList.remove('flash-up','flash-dn');void el.offsetWidth;el.classList.add(val>from?'flash-up':'flash-dn')}
+ if(matchMedia('(prefers-reduced-motion: reduce)').matches||from===val){el.textContent=fmt(val);el.dataset.done=1;return}
+ const t0=performance.now(),dur=900;const step=n=>{const p=Math.min(1,(n-t0)/dur),e=1-Math.pow(1-p,3);el.textContent=fmt(from+(val-from)*e);if(p<1)requestAnimationFrame(step);else el.dataset.done=1};requestAnimationFrame(step)}
+function spark(){const h=(D.equity_history||[]).map(x=>x.e).filter(x=>x!=null);const s=$('spark');if(!s)return;if(h.length<2){s.innerHTML='';return}
+ const key=h.length+':'+h[h.length-1];if(s.dataset.k===key)return;s.dataset.k=key;const mn=Math.min(...h),mx=Math.max(...h),r=(mx-mn)||1;
+ const pts=h.map((v,i)=>[i/(h.length-1)*200,30-(v-mn)/r*26]);const d='M'+pts.map(p=>p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' L');
+ const len=pts.reduce((a,p,i)=>i?a+Math.hypot(p[0]-pts[i-1][0],p[1]-pts[i-1][1]):0,0);
+ s.innerHTML=`<defs><linearGradient id="sg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#00ff88" stop-opacity=".35"/><stop offset="1" stop-color="#00ff88" stop-opacity="0"/></linearGradient></defs><path class="a" d="${d} L200 34 L0 34Z"/><path class="l" d="${d}" style="--len:${Math.ceil(len)}"/>`}
+async function load(){try{const r=await fetch('data.json?'+Date.now());D=await r.json();render();countTo('eq',D.equity_usd,usd);countTo('rp',D.realized_pnl_usd,sg,cls(D.realized_pnl_usd));countTo('up',D.unrealized_pnl_usd,sg,cls(D.unrealized_pnl_usd));countTo('sol',D.sol||0,v=>v.toFixed(4)+' SOL');spark();animIn()}catch(e){console.error(e)}}
 load();setInterval(load,20000);
 </script></body></html>

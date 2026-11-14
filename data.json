@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T15:01:04+01:00",
+ "generated": "2026-11-14T15:02:12+01:00",
  "mode": "live",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
- "equity_usd": 22.276,
+ "equity_usd": 22.032,
  "start_equity_usd": 22.3022,
  "sol": 0.295078384,
- "sol_price": 75.49191459,
- "free_usd": 22.276032162283222,
+ "sol_price": 74.66484138,
+ "free_usd": 22.031980736026732,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
  "trades": 0,
@@ -610,7 +610,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": "2026-11-14T15:00:28+01:00"
+    "last_poll": "2026-11-14T15:02:04+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -669,7 +669,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T15:00:30+01:00"
+    "last_poll": "2026-11-14T15:02:06+01:00"
    }
   ]
  },
@@ -678,8 +678,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 2,
-   "hb_ts": 1794664862.5094295,
+   "age_s": 0,
+   "hb_ts": 1794664932.5170794,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -688,8 +688,8 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: 140 kluczowych kont w każdym przebiegu, pozostałe 205 rotacyjnie (co ≤30 min) + wyszukiwanie otwarte",
-   "age_s": 1204,
-   "hb_ts": 1794663661.000042,
+   "age_s": 1272,
+   "hb_ts": 1794663661.000016,
    "ok": true,
    "status": "przebiegów: 26",
    "restarts": 0
@@ -698,8 +698,8 @@
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 4,
-   "hb_ts": 1794664860.7534375,
+   "age_s": 3,
+   "hb_ts": 1794664929.8900251,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -726,8 +726,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 33,
-   "hb_ts": 1794664831.3141203,
+   "age_s": 5,
+   "hb_ts": 1794664927.8311431,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -736,8 +736,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 2,
-   "hb_ts": 1794664862.9100833,
+   "age_s": 10,
+   "hb_ts": 1794664923.0346,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -746,11 +746,11 @@
    "key": "publisher",
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
-   "age_s": 90,
-   "hb_ts": 1794664774.6996105,
+   "age_s": 67,
+   "hb_ts": 1794664865.7309263,
    "ok": true,
    "status": "published",
-   "restarts": 0
+   "restarts": 1
   }
  ],
  "accounts": {
@@ -2494,6 +2494,17 @@
  },
  "activity": [
   {
+   "ts": "2026-11-14T15:02:12+01:00",
+   "c": "watchdog",
+   "msg": "started publisher",
+   "pid": 713881
+  },
+  {
+   "ts": "2026-11-14T15:02:12+01:00",
+   "c": "watchdog",
+   "msg": "restart publisher: proces zakończony (kod -15)"
+  },
+  {
    "ts": "2026-11-14T14:58:02+01:00",
    "c": "trader",
    "msg": "trader started",
@@ -2699,16 +2710,12 @@
    "ts": "2026-11-14T14:28:14+01:00",
    "c": "xbridge",
    "msg": "ingest open: 3 posts, 0 signals"
-  },
+  }
+ ],
+ "equity_history": [
   {
-   "ts": "2026-11-14T14:28:14+01:00",
-   "c": "xbridge",
-   "msg": "ingest A3: 9 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T14:28:13+01:00",
-   "c": "xbridge",
-   "msg": "ingest A2: 3 posts, 0 signals"
+   "t": 1794664897,
+   "e": 22.2422
   }
  ]
 }
