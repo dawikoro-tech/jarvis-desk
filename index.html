@@ -227,7 +227,7 @@ function solRender(){const m=D.sol_market||{};const px=m.price;if(px==null)retur
  <path class="${anim?'ln':''}" d="${d}" stroke="${col}" style="--len:${Math.ceil(len)};fill:none;stroke-width:2.2" filter="url(#glw)"/>
  <circle class="end" cx="${e[0]}" cy="${e[1]}" r="4" fill="none" stroke="${col}" stroke-width="2"/><circle cx="${e[0]}" cy="${e[1]}" r="4" fill="${col}"/>
  <g class="xh"><line id="xhl" x1="0" x2="0" y1="${pt}" y2="${H-pb}" stroke="#00ff8866" stroke-dasharray="3 3"/><circle id="xhc" r="4.5" fill="#000" stroke="${col}" stroke-width="2"/></g>`;
- const fmtT=t=>new Date(t*1000).toLocaleTimeString('pl-PL',{hour:'2-digit',minute:'2-digit'});$('solspan').textContent=fmtT(t0)+' → '+fmtT(t1);
+ const fmtT=t=>new Date(t*1000).toLocaleTimeString('pl-PL',{hour:'2-digit',minute:'2-digit'});$('solspan').textContent=(new Date(t0*1000).toDateString()!==new Date(t1*1000).toDateString()?'wczoraj ':'')+fmtT(t0)+' → teraz '+fmtT(t1);
  const w=$('solchart');w.onmousemove=ev=>{const b=w.getBoundingClientRect(),fx=(ev.clientX-b.left)/b.width*W;let bi=0,bd=1e9;P.forEach((p,i)=>{const dd=Math.abs(p[0]-fx);if(dd<bd){bd=dd;bi=i}});
   const p=P[bi];$('xhl').setAttribute('x1',p[0]);$('xhl').setAttribute('x2',p[0]);$('xhc').setAttribute('cx',p[0]);$('xhc').setAttribute('cy',p[1]);
   const tp=$('soltip');tp.style.left=(p[0]/W*b.width)+'px';tp.style.top=(p[1]/H*b.height)+'px';tp.textContent=fmtT(ch[bi][0])+' · '+usd4(ch[bi][1])}}
