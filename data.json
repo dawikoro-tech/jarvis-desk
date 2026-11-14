@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-14T14:21:09+01:00",
+ "generated": "2026-11-14T14:22:40+01:00",
  "mode": "waiting_for_funds",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
  "equity_usd": 0.0,
  "start_equity_usd": null,
  "sol": 0.0,
- "sol_price": 75.44535102,
+ "sol_price": 75.33053651,
  "free_usd": 0.0,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
@@ -400,7 +400,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": "2026-11-14T14:20:22+01:00"
+    "last_poll": "2026-11-14T14:21:59+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -418,6 +418,16 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [
+     {
+      "ts": "2026-11-14T14:21:13+01:00",
+      "block_time": 1794662456,
+      "sig": "3xedfZw2MpFYJvT41XWcz4bk71LqwF3vhqvHP7kNPWUuNrcKhN8PKkpTaRsKZSLJt4TwMTEQ9qAD3WSR3zx8YLVP",
+      "mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+      "pre": 0.579979,
+      "post": 0.59387,
+      "side": "buy",
+      "fraction": null
+     },
      {
       "ts": "2026-11-14T14:17:11+01:00",
       "block_time": 1794662194,
@@ -439,7 +449,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T14:20:25+01:00"
+    "last_poll": "2026-11-14T14:22:01+01:00"
    }
   ]
  },
@@ -448,8 +458,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 9,
-   "hb_ts": 1794662461.0749984,
+   "age_s": 10,
+   "hb_ts": 1794662551.082803,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -458,8 +468,8 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min sprawdza posty 134 kont + wyszukiwanie otwarte",
-   "age_s": 482,
-   "hb_ts": 1794661988.0003471,
+   "age_s": 573,
+   "hb_ts": 1794661988.0002918,
    "ok": true,
    "status": "przebiegów: 6",
    "restarts": 0
@@ -468,8 +478,8 @@
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 1,
-   "hb_ts": 1794662468.8746514,
+   "age_s": 3,
+   "hb_ts": 1794662557.492052,
    "ok": true,
    "status": "ok",
    "restarts": 3
@@ -496,8 +506,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 44,
-   "hb_ts": 1794662426.1359735,
+   "age_s": 38,
+   "hb_ts": 1794662522.8759851,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -506,8 +516,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 7,
-   "hb_ts": 1794662462.8500118,
+   "age_s": 8,
+   "hb_ts": 1794662552.9895048,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -517,7 +527,7 @@
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
    "age_s": 90,
-   "hb_ts": 1794662379.7096913,
+   "hb_ts": 1794662470.8783813,
    "ok": true,
    "status": "published",
    "restarts": 3
