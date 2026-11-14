@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-14T14:40:37+01:00",
+ "generated": "2026-11-14T14:42:09+01:00",
  "mode": "waiting_for_funds",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
  "equity_usd": 0.0,
  "start_equity_usd": null,
  "sol": 0.0,
- "sol_price": 75.36202522,
+ "sol_price": 75.41197837,
  "free_usd": 0.0,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
@@ -15,6 +15,146 @@
  "closed": [],
  "signals": [],
  "x_feed": [
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "post_id": "2121596714373009845",
+   "post_url": "https://x.com/Cointelegraph/status/2121596714373009845",
+   "handle": "Cointelegraph",
+   "followers": 2928815,
+   "verified_type": "business",
+   "listed": true,
+   "text": "🔥 UPDATE: Web3Auth says the funds pulled from wallets hit in its breach are safe, and it'll share how users get them back in the coming days.\n\nKeplr and Torus users, ignore any \"recovery\" DMs. https://t.co/4x8YJfIRR4",
+   "created_at": "2026-11-14T13:30:48.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "post_id": "2121598120568246614",
+   "post_url": "https://x.com/solana_daily/status/2121598120568246614",
+   "handle": "solana_daily",
+   "followers": 158156,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@PiEDawg_ Bitwise-curated strategies make the Vaults Beta worth watching, especially how the yield holds when stablecoin demand shifts. Jupiter's Baskets and Market Pulse launches sit in our weekly Solana digest: https://t.co/pCQEMSqXPA",
+   "created_at": "2026-11-14T13:36:23.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "post_id": "2121596487322804626",
+   "post_url": "https://x.com/clanker_world/status/2121596487322804626",
+   "handle": "clanker_world",
+   "followers": 36428,
+   "verified_type": "business",
+   "listed": true,
+   "text": "@0x_barracuda @balajis https://t.co/Se6MmUEd8J\nNetwork School (NS) is launching on Base, paired with ETH, with the default 1% buy and sell tax and your attached image. Fees land in your clanker wallet, sign in with X on https://t.co/hSyrof2zMU to claim.",
+   "created_at": "2026-11-14T13:29:54.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "post_id": "2121596514057257204",
+   "post_url": "https://x.com/MarioNawfal/status/2121596514057257204",
+   "handle": "MarioNawfal",
+   "followers": 3985049,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "🇺🇸 Clavicular was shocked when his co-streamer refused to take a picture with a fan because he \"doesn't take pictures with non-whites.\"\n\nDude couldn't believe YouTube comments sections are finally spilling over into the real world in 2026! 🤣\n\nWriter: Mhedi",
+   "created_at": "2026-11-14T13:30:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "post_id": "2121596552347324731",
+   "post_url": "https://x.com/Bybit_Official/status/2121596552347324731",
+   "handle": "Bybit_Official",
+   "followers": 4856885,
+   "verified_type": "business",
+   "listed": true,
+   "text": "One last day at the Bybit Stockholm Open. 🎾\n\nA week of great tennis comes down to this, with the singles title on the line. https://t.co/9R8U7p14uU",
+   "created_at": "2026-11-14T13:30:10.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "post_id": "2121598387514458357",
+   "post_url": "https://x.com/MarioNawfal/status/2121598387514458357",
+   "handle": "MarioNawfal",
+   "followers": 3985049,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "🇮🇳 Dude says you should pay no attention to videos that expose shocking dysfunction in India because, get this, misleading AI videos have surfaced here or there. \n\nApparently, any video that doesn't sugarcoat humanitarian issues in India is an \"anti-Indian racist video.\"\n\nI'm",
+   "created_at": "2026-11-14T13:37:27.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "post_id": "2121599027439677787",
+   "post_url": "https://x.com/MarioNawfal/status/2121599027439677787",
+   "handle": "MarioNawfal",
+   "followers": 3985049,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "🇫🇷🇬🇧 Insane footage of so-called refugees camping somewhere near Calais, France, waiting to cross over into Britain for nice hotel rooms and takeaways on the taxpayer's dime. \n\nGood luck staying afloat, Britain. \n\nWriter: Mhedi\n\n https://t.co/ZYeI1Bh8jq",
+   "created_at": "2026-11-14T13:40:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "post_id": "2121598502786736179",
+   "post_url": "https://x.com/scottmelker/status/2121598502786736179",
+   "handle": "scottmelker",
+   "followers": 1082586,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "Pre-IPO trading in private companies is taking off: is that actually good for markets?\n\nBackpack CEO Armani Ferrante says it could open up companies like Anthropic to retail, but could also disrupt IPO pricing and how private companies grow\n\n\"If you wanted to trade Anthropic http",
+   "created_at": "2026-11-14T13:37:55.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "post_id": "2121598505978671459",
+   "post_url": "https://x.com/scottmelker/status/2121598505978671459",
+   "handle": "scottmelker",
+   "followers": 1082586,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "FT @armaniferrante \n\nThis clip is brought to you by @hodlwithLedn",
+   "created_at": "2026-11-14T13:37:55.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "post_id": "2121598500874129798",
+   "post_url": "https://x.com/LilTunechi/status/2121598500874129798",
+   "handle": "LilTunechi",
+   "followers": 29619552,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "RandyScottESPN and GaryStriewski is Sportscenter at its brightest!!!!!!\nMainly bc it’s in the am and it’s sunny but still, bright bright!!! Light skin bright! Redbone, hi yellow bright!!! That’s my bruddaz from another’s mother-ship! RIP Dan Hicks, Hannah I luh u &amp; ya angels.",
+   "created_at": "2026-11-14T13:37:54.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
   {
    "ts": "2026-11-14T14:36:07+01:00",
    "post_id": "2121596515399479468",
@@ -434,146 +574,6 @@
    "mints": [],
    "claim": null,
    "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121589556680315332",
-   "post_url": "https://x.com/MustStopMurad/status/2121589556680315332",
-   "handle": "MustStopMurad",
-   "followers": 726085,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "Getting late 2022 early 2023 vibes in the Crypto right now.",
-   "created_at": "2026-11-14T13:02:22.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121590280856199220",
-   "post_url": "https://x.com/aixbt_agent/status/2121590280856199220",
-   "handle": "aixbt_agent",
-   "followers": 461255,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "btc leverage has now come down. after $1.31b of long liquidations on november 13, futures open interest fell 5.45% in 24 hours, coinglass data shows. after adjusting for btc's lower price, that is about 2.9% less exposure. a day earlier, new positions had replaced forced",
-   "created_at": "2026-11-14T13:05:14.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121590744049983807",
-   "post_url": "https://x.com/blknoiz06/status/2121590744049983807",
-   "handle": "blknoiz06",
-   "followers": 1444827,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "https://t.co/ChR40mugbE",
-   "created_at": "2026-11-14T13:07:05.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121590879911920114",
-   "post_url": "https://x.com/inversebrah/status/2121590879911920114",
-   "handle": "inversebrah",
-   "followers": 706304,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "dedication https://t.co/ej2ZFyYXEd",
-   "created_at": "2026-11-14T13:07:37.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121591073717829698",
-   "post_url": "https://x.com/Raydium/status/2121591073717829698",
-   "handle": "Raydium",
-   "followers": 463373,
-   "verified_type": "business",
-   "listed": true,
-   "text": "@superteam @SolanaEvents @solana welcome to the token supercycle",
-   "created_at": "2026-11-14T13:08:23.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121591118957592772",
-   "post_url": "https://x.com/Kalshi/status/2121591118957592772",
-   "handle": "Kalshi",
-   "followers": 513094,
-   "verified_type": "business",
-   "listed": true,
-   "text": "BREAKING: US officials confirm Trump won't raise Nvidia issue during China trip",
-   "created_at": "2026-11-14T13:08:34.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121591305772179833",
-   "post_url": "https://x.com/inversebrah/status/2121591305772179833",
-   "handle": "inversebrah",
-   "followers": 706304,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "todays snapshot\n\nBANGER LINEUP https://t.co/Q5Sr62ajxC https://t.co/LNDhp84ZmY",
-   "created_at": "2026-11-14T13:09:19.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121591328483995914",
-   "post_url": "https://x.com/Raydium/status/2121591328483995914",
-   "handle": "Raydium",
-   "followers": 463373,
-   "verified_type": "business",
-   "listed": true,
-   "text": "welcome to the Solana supercycle",
-   "created_at": "2026-11-14T13:09:24.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121591857771676073",
-   "post_url": "https://x.com/punk6529/status/2121591857771676073",
-   "handle": "punk6529",
-   "followers": 486894,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@x_snow @gratusmasculus There is one: validator status (add --watch 60 to keep it live, --verbose for everything, --json for bots). For the full page from another computer: validator open --print, then open the link through an SSH tunnel.",
-   "created_at": "2026-11-14T13:11:30.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T14:13:08+01:00",
-   "post_id": "2121587703108055054",
-   "post_url": "https://x.com/MarioNawfal/status/2121587703108055054",
-   "handle": "MarioNawfal",
-   "followers": 3985006,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "🇺🇸🇮🇷 Trump is considering HOLDING OFF on further attacks against Iran, provided Tehran and the Houthis in Yemen avoid new provocations.\n\nSaudi Crown Prince MBS and Erdoğan have urged Trump not to restart the war, arguing that economic pressure on Iran is already working.\n\nBut htt",
-   "created_at": "2026-11-14T12:55:00.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
   }
  ],
  "notes": [],
@@ -610,7 +610,7 @@
     "alloc_usd": 0.0,
     "deployed_usd": 0,
     "recent": [],
-    "last_poll": "2026-11-14T14:40:16+01:00"
+    "last_poll": "2026-11-14T14:41:53+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -669,7 +669,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T14:40:18+01:00"
+    "last_poll": "2026-11-14T14:41:55+01:00"
    }
   ]
  },
@@ -678,8 +678,8 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 1,
-   "hb_ts": 1794663636.8304687,
+   "age_s": 2,
+   "hb_ts": 1794663726.8436944,
    "ok": true,
    "status": "ok",
    "restarts": 0
@@ -688,18 +688,18 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: 140 kluczowych kont w każdym przebiegu, pozostałe 205 rotacyjnie (co ≤30 min) + wyszukiwanie otwarte",
-   "age_s": 271,
-   "hb_ts": 1794663367.0000746,
+   "age_s": 68,
+   "hb_ts": 1794663661.0000558,
    "ok": true,
-   "status": "przebiegów: 20",
+   "status": "przebiegów: 26",
    "restarts": 0
   },
   {
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 3,
-   "hb_ts": 1794663635.0385,
+   "age_s": 2,
+   "hb_ts": 1794663727.5644512,
    "ok": true,
    "status": "ok",
    "restarts": 4
@@ -726,8 +726,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu (aktywne kopiowanie od $150 zysku)",
-   "age_s": 18,
-   "hb_ts": 1794663619.895544,
+   "age_s": 13,
+   "hb_ts": 1794663716.3501709,
    "ok": true,
    "status": "ok",
    "restarts": 1
@@ -736,8 +736,8 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 11,
-   "hb_ts": 1794663627.3367274,
+   "age_s": 12,
+   "hb_ts": 1794663717.4430835,
    "ok": true,
    "status": "ok",
    "restarts": 2
@@ -747,7 +747,7 @@
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
    "age_s": 90,
-   "hb_ts": 1794663547.9619286,
+   "hb_ts": 1794663639.1455817,
    "ok": true,
    "status": "published",
    "restarts": 5
@@ -2494,6 +2494,36 @@
  },
  "activity": [
   {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "c": "xbridge",
+   "msg": "ingest B5: 2 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "c": "xbridge",
+   "msg": "ingest B4: 5 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "c": "xbridge",
+   "msg": "ingest open: 0 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "c": "xbridge",
+   "msg": "ingest A3: 2 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "c": "xbridge",
+   "msg": "ingest A2: 0 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T14:41:01+01:00",
+   "c": "xbridge",
+   "msg": "ingest A1: 1 posts, 0 signals"
+  },
+  {
    "ts": "2026-11-14T14:39:06+01:00",
    "c": "watchdog",
    "msg": "started publisher",
@@ -2655,46 +2685,6 @@
    "ts": "2026-11-14T14:13:08+01:00",
    "c": "xbridge",
    "msg": "ingest listed_1: 4 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T14:09:01+01:00",
-   "c": "trader",
-   "msg": "trader started",
-   "pid": 685973
-  },
-  {
-   "ts": "2026-11-14T14:09:01+01:00",
-   "c": "watchdog",
-   "msg": "started publisher",
-   "pid": 685974
-  },
-  {
-   "ts": "2026-11-14T14:09:01+01:00",
-   "c": "notify",
-   "msg": "watchdog: Watchdog: publisher restartowany 3×",
-   "id": "4ee978a4dbc9"
-  },
-  {
-   "ts": "2026-11-14T14:09:01+01:00",
-   "c": "watchdog",
-   "msg": "restart publisher: proces zakończony (kod -15)"
-  },
-  {
-   "ts": "2026-11-14T14:09:01+01:00",
-   "c": "watchdog",
-   "msg": "started trader",
-   "pid": 685973
-  },
-  {
-   "ts": "2026-11-14T14:09:01+01:00",
-   "c": "notify",
-   "msg": "watchdog: Watchdog: trader restartowany 3×",
-   "id": "3ad1231b06d1"
-  },
-  {
-   "ts": "2026-11-14T14:09:01+01:00",
-   "c": "watchdog",
-   "msg": "restart trader: proces zakończony (kod -15)"
   }
  ]
 }
