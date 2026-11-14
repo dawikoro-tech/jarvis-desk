@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T17:01:01+01:00",
+ "generated": "2026-11-14T17:03:59+01:00",
  "mode": "live",
  "wallet": "Gyt2TBaQTGskoZ2PfUNcVTC3brSRvmgTQEexvgZ4MP34",
- "equity_usd": 21.746,
+ "equity_usd": 21.7148,
  "start_equity_usd": 22.3022,
  "sol": 0.295078384,
- "sol_price": 73.69569863,
- "free_usd": 21.746007659491415,
+ "sol_price": 73.58982833,
+ "free_usd": 21.71476762245382,
  "realized_pnl_usd": 0.0,
  "unrealized_pnl_usd": 0,
  "trades": 0,
@@ -15,6 +15,118 @@
  "closed": [],
  "signals": [],
  "x_feed": [
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "post_id": "2121633477514989935",
+   "post_url": "https://x.com/Crypto_McKenna/status/2121633477514989935",
+   "handle": "Crypto_McKenna",
+   "followers": 106004,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@btc_charlie @Etherean007 DM for battle net",
+   "created_at": "2026-11-14T15:56:53.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "post_id": "2121633674034663430",
+   "post_url": "https://x.com/DefiIgnas/status/2121633674034663430",
+   "handle": "DefiIgnas",
+   "followers": 163902,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@TimHaldorsson sad one lol https://t.co/iHkPWhwRAT",
+   "created_at": "2026-11-14T15:57:40.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "post_id": "2121633708801454367",
+   "post_url": "https://x.com/Jeremybtc/status/2121633708801454367",
+   "handle": "Jeremybtc",
+   "followers": 280366,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@Laff38 For a rainy day?",
+   "created_at": "2026-11-14T15:57:48.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "post_id": "2121633756519842033",
+   "post_url": "https://x.com/CryptoTony__/status/2121633756519842033",
+   "handle": "CryptoTony__",
+   "followers": 568717,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "How is everyone's weekend so far ?",
+   "created_at": "2026-11-14T15:58:00.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "post_id": "2121634138092601398",
+   "post_url": "https://x.com/frankdegods/status/2121634138092601398",
+   "handle": "frankdegods",
+   "followers": 541626,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@dwunkdwunk these are for computers?",
+   "created_at": "2026-11-14T15:59:31.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "post_id": "2121634441340621106",
+   "post_url": "https://x.com/blknoiz06/status/2121634441340621106",
+   "handle": "blknoiz06",
+   "followers": 1444865,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@robustus @tulipking @torvaman_ terrible incentives in what way",
+   "created_at": "2026-11-14T16:00:43.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "post_id": "2121634733880971625",
+   "post_url": "https://x.com/blknoiz06/status/2121634733880971625",
+   "handle": "blknoiz06",
+   "followers": 1444865,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@tulipking @torvaman_ that sounds generally correct to me",
+   "created_at": "2026-11-14T16:01:53.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "post_id": "2121634862008566055",
+   "post_url": "https://x.com/frankdegods/status/2121634862008566055",
+   "handle": "frankdegods",
+   "followers": 541626,
+   "verified_type": "blue",
+   "listed": true,
+   "text": "@TheDunkCentral STOP THE COUNT",
+   "created_at": "2026-11-14T16:02:23.000Z",
+   "mints": [],
+   "claim": null,
+   "status": "obserwowany"
+  },
   {
    "ts": "2026-11-14T16:56:51+01:00",
    "post_id": "2121632291084697680",
@@ -464,118 +576,6 @@
    "mints": [],
    "claim": null,
    "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T16:56:50+01:00",
-   "post_id": "2121631995058942232",
-   "post_url": "https://x.com/CryptosR_Us/status/2121631995058942232",
-   "handle": "CryptosR_Us",
-   "followers": 299751,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "ADAM BACK: \"Bitcoin to top a Million by the end of the cycle, which is later in 2028.\"\n\nThe @Blockstream CEO believes $BTC is only in the early innings of a new bull market.\n\nHe argues that while Bitcoin's price isn't much higher than its previous cycle peak of $69,000, the https",
-   "created_at": "2026-11-14T15:51:00.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T16:56:50+01:00",
-   "post_id": "2121632063522816371",
-   "post_url": "https://x.com/CryptoWendyO/status/2121632063522816371",
-   "handle": "CryptoWendyO",
-   "followers": 467158,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@THECrypt0CHAD Glass half full!",
-   "created_at": "2026-11-14T15:51:16.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T16:56:50+01:00",
-   "post_id": "2121632102605373870",
-   "post_url": "https://x.com/CryptoWendyO/status/2121632102605373870",
-   "handle": "CryptoWendyO",
-   "followers": 467158,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@tding35x Zero friend zero",
-   "created_at": "2026-11-14T15:51:25.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T16:56:50+01:00",
-   "post_id": "2121632197929259073",
-   "post_url": "https://x.com/CryptoWendyO/status/2121632197929259073",
-   "handle": "CryptoWendyO",
-   "followers": 467158,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@DigitalAssetGuy Heck yeah",
-   "created_at": "2026-11-14T15:51:48.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T16:56:50+01:00",
-   "post_id": "2121632232964239777",
-   "post_url": "https://x.com/MoonOverlord/status/2121632232964239777",
-   "handle": "MoonOverlord",
-   "followers": 300463,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "the nice thing about crypto is the 2 week period where you can make a lot of money\n\nthe bad thing about crypto is losing your money for 3 years straight after that 2 weeks",
-   "created_at": "2026-11-14T15:51:57.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T16:56:50+01:00",
-   "post_id": "2121633354114326757",
-   "post_url": "https://x.com/Jeremybtc/status/2121633354114326757",
-   "handle": "Jeremybtc",
-   "followers": 280368,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "THE U.S. GOVERNMENT IS SITTING ON $20.24 BILLION IN CRYPTO\n\nWallets tracked by Arkham belonging to the US Government hold roughly 306,795 $BTC and 17,432 $ETH\n\nBitcoin accounts for $20.15 BILLION, alongside smaller holdings in $ETH, wrapped $BNB and stablecoins\n\nPeople are saying",
-   "created_at": "2026-11-14T15:56:24.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
-  },
-  {
-   "ts": "2026-11-14T16:56:50+01:00",
-   "post_id": "2121628437396005330",
-   "post_url": "https://x.com/blknoiz06/status/2121628437396005330",
-   "handle": "blknoiz06",
-   "followers": 1444864,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@Amine_H1 i think many of you have gotten confused because i also talk about memes and sometimes they go down, but i dont scam people, any onchain coins i talk about that go down i am also losing money on\n\ni got followers from sharing trades, originally ta &amp; fa on cex alts in",
-   "created_at": "2026-11-14T15:36:52.000Z",
-   "mints": [],
-   "claim": "negated",
-   "status": "deklaracja bez adresu tokena (bez zakupu)"
-  },
-  {
-   "ts": "2026-11-14T16:56:50+01:00",
-   "post_id": "2121628987537650169",
-   "post_url": "https://x.com/Darkfarms1/status/2121628987537650169",
-   "handle": "Darkfarms1",
-   "followers": 176690,
-   "verified_type": "blue",
-   "listed": true,
-   "text": "@batzdu Gm",
-   "created_at": "2026-11-14T15:39:03.000Z",
-   "mints": [],
-   "claim": null,
-   "status": "obserwowany"
   }
  ],
  "notes": [],
@@ -614,7 +614,7 @@
     "fixed_usd": 10.0,
     "fixed_since": 1794667115,
     "recent": [],
-    "last_poll": "2026-11-14T16:58:24+01:00"
+    "last_poll": "2026-11-14T17:03:50+01:00"
    },
    {
     "address": "nAWy4pMBkTsVhK6JWGvVm5VKsyxns3sFz4iYGi38qNc",
@@ -695,7 +695,7 @@
       "fraction": null
      }
     ],
-    "last_poll": "2026-11-14T16:58:26+01:00"
+    "last_poll": "2026-11-14T17:03:53+01:00"
    }
   ]
  },
@@ -704,9 +704,9 @@
    "key": "watchdog",
    "name": "Watchdog",
    "desc": "Pilnuje procesów, restartuje zawieszone (heartbeat + timeout cyklu 90 s)",
-   "age_s": 131,
-   "hb_ts": 1794671930.8844428,
-   "ok": false,
+   "age_s": 1,
+   "hb_ts": 1794672238.414572,
+   "ok": true,
    "status": "ok",
    "restarts": 0
   },
@@ -714,21 +714,21 @@
    "key": "xwatch",
    "name": "Obserwator X",
    "desc": "Co ~10 min: wszystkie 181 obserwowane konta w każdym przebiegu (bez rotacji) + wyszukiwanie otwarte",
-   "age_s": 251,
-   "hb_ts": 1794671811.0000737,
+   "age_s": 73,
+   "hb_ts": 1794672167.0001476,
    "ok": true,
-   "status": "przebiegów: 69",
+   "status": "przebiegów: 74",
    "restarts": 0
   },
   {
    "key": "trader",
    "name": "Egzekutor",
    "desc": "Kupuje i sprzedaje przez Phantom, pilnuje celów i stop-lossów",
-   "age_s": 128,
-   "hb_ts": 1794671933.8273904,
-   "ok": false,
+   "age_s": 2,
+   "hb_ts": 1794672237.7087615,
+   "ok": true,
    "status": "ok",
-   "restarts": 5
+   "restarts": 7
   },
   {
    "key": "analyst",
@@ -752,8 +752,8 @@
    "key": "copywatch",
    "name": "Copy-Watcher",
    "desc": "Śledzi 3 portfele na łańcuchu co ~25 s: @unipcs aktywny ($10 na każdą nową pozycję), pozostałe 2 od $150 zysku",
-   "age_s": 154,
-   "hb_ts": 1794671907.7211945,
+   "age_s": 6,
+   "hb_ts": 1794672234.1770964,
    "ok": true,
    "status": "ok",
    "restarts": 2
@@ -762,18 +762,18 @@
    "key": "scout",
    "name": "Scout",
    "desc": "Szuka nowych tokenów DexScreener powiązanych z kontami z listy",
-   "age_s": 151,
-   "hb_ts": 1794671911.2884946,
+   "age_s": 1,
+   "hb_ts": 1794672238.5951626,
    "ok": true,
    "status": "ok",
-   "restarts": 3
+   "restarts": 4
   },
   {
    "key": "publisher",
    "name": "Publisher",
    "desc": "Aktualizuje tę stronę",
-   "age_s": 189,
-   "hb_ts": 1794671872.8115826,
+   "age_s": 177,
+   "hb_ts": 1794672063.1994011,
    "ok": true,
    "status": "published",
    "restarts": 5
@@ -1697,6 +1697,82 @@
  },
  "activity": [
   {
+   "ts": "2026-11-14T17:03:08+01:00",
+   "c": "trader",
+   "msg": "trader started",
+   "pid": 761593
+  },
+  {
+   "ts": "2026-11-14T17:03:08+01:00",
+   "c": "watchdog",
+   "msg": "started trader",
+   "pid": 761593
+  },
+  {
+   "ts": "2026-11-14T17:03:08+01:00",
+   "c": "watchdog",
+   "msg": "restart trader: brak heartbeatu od 125 s (zawieszony)"
+  },
+  {
+   "ts": "2026-11-14T17:02:47+01:00",
+   "c": "xbridge",
+   "msg": "ingest open: 3 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "c": "xbridge",
+   "msg": "ingest A4: 0 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "c": "xbridge",
+   "msg": "ingest A3: 2 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "c": "xbridge",
+   "msg": "ingest A2: 2 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T17:02:46+01:00",
+   "c": "xbridge",
+   "msg": "ingest A1: 4 posts, 0 signals"
+  },
+  {
+   "ts": "2026-11-14T17:01:01+01:00",
+   "c": "trader",
+   "msg": "trader started",
+   "pid": 760976
+  },
+  {
+   "ts": "2026-11-14T17:01:01+01:00",
+   "c": "scout",
+   "msg": "scout started",
+   "pid": 760977
+  },
+  {
+   "ts": "2026-11-14T17:01:01+01:00",
+   "c": "watchdog",
+   "msg": "started scout",
+   "pid": 760977
+  },
+  {
+   "ts": "2026-11-14T17:01:01+01:00",
+   "c": "watchdog",
+   "msg": "restart scout: brak heartbeatu od 150 s (zawieszony)"
+  },
+  {
+   "ts": "2026-11-14T17:01:01+01:00",
+   "c": "watchdog",
+   "msg": "started trader",
+   "pid": 760976
+  },
+  {
+   "ts": "2026-11-14T17:01:01+01:00",
+   "c": "watchdog",
+   "msg": "restart trader: brak heartbeatu od 128 s (zawieszony)"
+  },
+  {
    "ts": "2026-11-14T16:56:51+01:00",
    "c": "xbridge",
    "msg": "ingest open: 7 posts, 0 signals"
@@ -1809,46 +1885,6 @@
    "ts": "2026-11-14T16:13:44+01:00",
    "c": "xbridge",
    "msg": "ingest open: 3 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T16:13:39+01:00",
-   "c": "xbridge",
-   "msg": "ingest A4: 1 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T16:13:35+01:00",
-   "c": "xbridge",
-   "msg": "ingest A3: 6 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T16:13:31+01:00",
-   "c": "xbridge",
-   "msg": "ingest A2: 8 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T16:13:27+01:00",
-   "c": "xbridge",
-   "msg": "ingest A1: 3 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T16:02:28+01:00",
-   "c": "xbridge",
-   "msg": "ingest open: 4 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T16:02:23+01:00",
-   "c": "xbridge",
-   "msg": "ingest A4: 3 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T16:02:19+01:00",
-   "c": "xbridge",
-   "msg": "ingest A3: 7 posts, 0 signals"
-  },
-  {
-   "ts": "2026-11-14T16:02:14+01:00",
-   "c": "xbridge",
-   "msg": "ingest A2: 6 posts, 0 signals"
   }
  ],
  "equity_history": [
@@ -2095,12 +2131,16 @@
   {
    "t": 1794672062,
    "e": 21.746
+  },
+  {
+   "t": 1794672240,
+   "e": 21.7148
   }
  ],
  "sol_market": {
-  "price": 73.69569863,
+  "price": 73.58982833,
   "price_src": "Phantom",
-  "change_24h": -7.745916227819048,
+  "change_24h": -7.443792135765196,
   "change_src": "CoinGecko",
   "high_24h": 80.3813,
   "low_24h": 73.4515,
@@ -3263,8 +3303,12 @@
     73.6957
    ],
    [
-    1794672062,
-    73.6957
+    1794672240,
+    73.5898
+   ],
+   [
+    1794672240,
+    73.5898
    ]
   ],
   "chart_src": "CoinGecko + desk"
